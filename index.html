@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Trắc Nghiệm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bài Trắc Nghiệm</h1>
+        
+        <div id="setup-section">
+            <p>Nhấn nút bên dưới để bắt đầu bài trắc nghiệm. Dữ liệu sẽ tự động lấy từ file <b>cauhoi.txt</b> trong thư mục.</p>
+            <button id="start-btn" class="option-btn" style="background-color: var(--primary-color); color: white; border-radius: 8px; font-weight: bold; padding: 12px 24px; text-align: center;">Bắt Đầu</button>
+            
+            <div style="margin-top: 30px; text-align: left; background: #fff8e1; border-left: 4px solid #ffc107; padding: 10px; font-size: 0.9em;">
+                <strong>Lưu ý định dạng file txt:</strong><br>
+                Câu 1: Câu hỏi của bạn ở đây?<br>
+                A. Lựa chọn thứ nhất<br>
+                B. Lựa chọn thứ hai<br>
+                C. Lựa chọn thứ ba<br>
+                D. Lựa chọn thứ tư<br>
+                Đáp án: A
+            </div>
+        </div>
+
+        <div id="quiz-section" class="hidden">
+            <div class="score-tracker">
+                Câu đúng: <span id="correct-score">0</span> / <span id="total-questions">0</span>
+            </div>
+            
+            <div class="question-container">
+                <h2 id="question-text">Đang tải câu hỏi...</h2>
+                <div class="options-container" id="options-container">
+                    <!-- Buttons will be generated here -->
+                </div>
+            </div>
+
+            <button id="next-btn" class="hidden">Câu Tiếp Theo</button>
+        </div>
+
+        <div id="result-section" class="hidden">
+            <h2>Kết thúc bài trắc nghiệm!</h2>
+            <p>Số câu trả lời đúng:</p>
+            <h3 id="final-score">0 / 0</h3>
+            <button id="restart-btn">Làm Lại</button>
+            <button id="new-file-btn" style="margin-left: 10px; background-color: #7f8c8d;">Chọn File Khác</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
