@@ -6,6 +6,7 @@ const resultSection = document.getElementById('result-section');
 const questionText = document.getElementById('question-text');
 const optionsContainer = document.getElementById('options-container');
 const nextBtn = document.getElementById('next-btn');
+const abortBtn = document.getElementById('abort-btn');
 const restartBtn = document.getElementById('restart-btn');
 const newFileBtn = document.getElementById('new-file-btn');
 
@@ -14,6 +15,8 @@ const totalScoreEl = document.getElementById('total-questions');
 const finalScoreEl = document.getElementById('final-score');
 
 let questions = [];
+let currentRoundQuestions = [];
+let nextRoundQuestions = [];
 let currentQuestionIndex = 0;
 let correctCount = 0;
 let hasAnsweredCurrent = false;
@@ -111,9 +114,11 @@ function startQuiz() {
     resultSection.classList.add('hidden');
     quizSection.classList.remove('hidden');
     
-    // Trộn ngẫu nhiên danh sách câu hỏi
-    shuffleArray(questions);
+    // Bắt đầu vòng đầu tiên với tất cả câu hỏi
+    currentRoundQuestions = [...questions];
+    shuffleArray(currentRoundQuestions);
     
+    nextRoundQuestions = [];
     currentQuestionIndex = 0;
     correctCount = 0;
     
@@ -131,7 +136,7 @@ function loadQuestion() {
     nextBtn.classList.add('hidden');
     optionsContainer.innerHTML = '';
     
-    const q = questions[currentQuestionIndex];
+    const q = currentRoundQuestions[currentQuestionIndex];
     // Nếu câu hỏi bắt đầu bằng "Câu X:" thì loại bỏ phần đó đi cho đẹp, hoặc giữ lại tùy ý
     let displayQuestion = q.text;
     if (displayQuestion.match(/^Câu \d+:\s*/i)) {
@@ -194,6 +199,9 @@ function selectAnswer(selectedBtn, selectedId, correctId) {
         updateScore();
     } else {
         selectedBtn.classList.add('incorrect');
+        // Đưa câu sai vào mảng để làm lại vòng sau
+        nextRoundQuestions.push(currentRoundQuestions[currentQuestionIndex]);
+        
         // Nếu chọn sai, tìm và highlight đáp án đúng dựa vào dataset.id
         allBtns.forEach(btn => {
             if (btn.dataset.id === correctId) {
@@ -204,8 +212,12 @@ function selectAnswer(selectedBtn, selectedId, correctId) {
 
     // Hiển thị nút qua câu tiếp
     nextBtn.classList.remove('hidden');
-    if (currentQuestionIndex === questions.length - 1) {
-        nextBtn.textContent = "Xem Kết Quả";
+    if (currentQuestionIndex === currentRoundQuestions.length - 1) {
+        if (nextRoundQuestions.length > 0) {
+            nextBtn.textContent = "Làm lại các câu sai";
+        } else {
+            nextBtn.textContent = "Xem Kết Quả";
+        }
     } else {
         nextBtn.textContent = "Câu Tiếp Theo";
     }
@@ -213,11 +225,21 @@ function selectAnswer(selectedBtn, selectedId, correctId) {
 
 // Xử lý nút Next
 nextBtn.addEventListener('click', () => {
-    if (currentQuestionIndex < questions.length - 1) {
+    if (currentQuestionIndex < currentRoundQuestions.length - 1) {
         currentQuestionIndex++;
         loadQuestion();
     } else {
-        showResults();
+        // Hết vòng hiện tại
+        if (nextRoundQuestions.length > 0) {
+            // Chuyển sang vòng tiếp theo với các câu sai
+            currentRoundQuestions = [...nextRoundQuestions];
+            shuffleArray(currentRoundQuestions);
+            nextRoundQuestions = [];
+            currentQuestionIndex = 0;
+            loadQuestion();
+        } else {
+            showResults();
+        }
     }
 });
 
@@ -230,6 +252,16 @@ function showResults() {
 // Xử lý nút Làm Lại (giữ bộ câu hỏi cũ)
 restartBtn.addEventListener('click', () => {
     startQuiz();
+});
+
+// Xử lý nút Bỏ bài (Trở về Màn Hình Chính)
+abortBtn.addEventListener('click', () => {
+    // Hỏi để xác nhận (tuỳ chọn)
+    if (confirm("Bạn có chắc chắn muốn bỏ dở bài trắc nghiệm và quay lại màn hình chính không?")) {
+        questions = [];
+        quizSection.classList.add('hidden');
+        setupSection.classList.remove('hidden');
+    }
 });
 
 // Xử lý nút Trở lại (đổi tên từ Chọn File Khác)

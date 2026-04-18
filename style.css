@@ -114,7 +114,7 @@ h1 {
     color: #c0392b !important;
 }
 
-#next-btn, #restart-btn, #new-file-btn {
+#next-btn, #restart-btn, #new-file-btn, #abort-btn {
     background-color: var(--primary-color);
     color: white;
     border: none;
@@ -129,6 +129,10 @@ h1 {
 
 #next-btn:hover, #restart-btn:hover {
     background-color: var(--btn-hover);
+}
+
+#abort-btn:hover {
+    background-color: #c0392b !important;
 }
 
 #setup-section p {
