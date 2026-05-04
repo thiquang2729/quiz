@@ -1,47 +1,149 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html class="light" lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>App Trắc Nghiệm</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@500;600;700;800&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "inverse-primary": "#bcc2ff", "secondary-fixed": "#dfe0ff", "on-tertiary-fixed": "#3c0800", "inverse-surface": "#2f303a", "surface-container-low": "#f4f2ff", "on-surface-variant": "#444656", "on-error": "#ffffff", "inverse-on-surface": "#f1effd", "on-tertiary-fixed-variant": "#891e00", secondary: "#4f58a0", "primary-fixed": "#dfe0ff", "secondary-fixed-dim": "#bcc2ff", "on-background": "#1a1b24", "on-error-container": "#93000a", "error-container": "#ffdad6", "on-primary-container": "#f4f2ff", surface: "#fbf8ff", background: "#fbf8ff", "primary-fixed-dim": "#bcc2ff", "on-surface": "#1a1b24", "surface-container-lowest": "#ffffff", "primary-container": "#475bfd", "surface-container": "#eeecfa", "secondary-container": "#a8b0ff", "on-primary-fixed-variant": "#0826d5", "tertiary-fixed": "#ffdbd2", "surface-container-highest": "#e2e1ef", "on-secondary-fixed": "#050f5b", "surface-variant": "#e2e1ef", outline: "#757687", error: "#ba1a1a", "on-secondary-fixed-variant": "#374087", tertiary: "#a42803", "on-tertiary-container": "#fff0ed", "tertiary-fixed-dim": "#ffb4a1", "on-primary": "#ffffff", "on-tertiary": "#ffffff", "on-primary-fixed": "#000a63", "surface-bright": "#fbf8ff", primary: "#283ee4", "on-secondary": "#ffffff", "outline-variant": "#c5c5d8", "surface-dim": "#dad9e6", "tertiary-container": "#c6411c", "surface-container-high": "#e8e7f5", "on-secondary-container": "#384187", "surface-tint": "#3247ec"
+                    },
+                    borderRadius: {DEFAULT: "0.5rem", lg: "0.5rem", xl: "1rem", full: "9999px"},
+                    spacing: {"section-gap": "4rem", "container-max": "720px", "inline-padding": "1.25rem", "element-gap": "1.5rem"},
+                    fontFamily: {h1: ["Manrope"], "body-md": ["Inter"], "label-caps": ["Inter"], h2: ["Manrope"], "body-lg": ["Inter"]},
+                    fontSize: {
+                        h1: ["40px", {lineHeight: "1.2", letterSpacing: "-0.02em", fontWeight: "600"}], 
+                        "body-md": ["16px", {lineHeight: "1.6", fontWeight: "400"}], 
+                        "label-caps": ["12px", {lineHeight: "1.2", letterSpacing: "0.05em", fontWeight: "600"}], 
+                        h2: ["28px", {lineHeight: "1.3", letterSpacing: "-0.01em", fontWeight: "500"}], 
+                        "body-lg": ["20px", {lineHeight: "1.6", fontWeight: "400"}]
+                    }
+                }
+            }
+        };
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .progress-bar-glow {
+            box-shadow: 0 0 10px rgba(40, 62, 228, 0.4);
+        }
+        body {
+            background-color: #fbf8ff;
+        }
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-4px); }
+            75% { transform: translateX(4px); }
+        }
+        @keyframes pulse-glow {
+            0% { box-shadow: 0 0 0 0 rgba(40, 62, 228, 0.4); }
+            70% { box-shadow: 0 0 0 10px rgba(40, 62, 228, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(40, 62, 228, 0); }
+        }
+        .animate-shake {
+            animation: shake 0.3s cubic-bezier(.36,.07,.19,.97) both;
+        }
+        .animate-pulse-glow {
+            animation: pulse-glow 2s infinite;
+        }
+    </style>
 </head>
-<body>
-    <div class="container">
-        <h1>Bài Trắc Nghiệm</h1>
-        
-        <div id="setup-section">
-            <p>Quiz Tin học</p>
-            <button id="start-btn" class="option-btn" style="background-color: var(--primary-color); color: white; border-radius: 8px; font-weight: bold; padding: 12px 24px; text-align: center;">Bắt Đầu</button>
-        </div>
+<body class="font-body-md text-on-surface">
 
-        <div id="quiz-section" class="hidden">
-            <div class="score-tracker">
-                Câu đúng: <span id="correct-score">0</span> / <span id="total-questions">0</span>
-            </div>
-            
-            <div class="question-container">
-                <h2 id="question-text">Đang tải câu hỏi...</h2>
-                <div class="options-container" id="options-container">
-                    <!-- Buttons will be generated here -->
+<div class="fixed top-0 left-0 w-full h-1 bg-surface-container-highest z-[60]">
+    <div id="progress-bar" class="h-full bg-primary w-[0%] progress-bar-glow transition-all duration-700"></div>
+</div>
+
+<header class="bg-white border-b border-slate-100 flex justify-between items-center max-w-[720px] mx-auto px-6 h-16 w-full sticky top-0 z-50">
+    <div class="text-lg font-semibold text-primary tracking-widest uppercase font-manrope">Quiz App</div>
+    <div class="flex items-center gap-2">
+        <span class="font-manrope text-sm tracking-tight text-primary font-bold">Progress</span>
+        <span id="header-progress-text" class="text-slate-400 font-manrope text-sm tracking-tight">0 / 0</span>
+    </div>
+</header>
+
+<main class="max-w-[720px] mx-auto px-inline-padding pt-section-gap pb-32">
+    <!-- SETUP SECTION -->
+    <div id="setup-section" class="flex flex-col items-center justify-center text-center mt-10">
+        <h1 class="font-h1 text-h1 text-on-surface mb-element-gap">Bắt Đầu Trắc Nghiệm</h1>
+        <p class="font-body-lg text-body-lg text-on-surface-variant opacity-80 mb-10">Bạn đã sẵn sàng để kiểm tra kiến thức?</p>
+        
+        <button id="start-btn" class="w-full sm:w-auto p-4 mb-4 text-center border-2 border-primary bg-primary text-white rounded-xl hover:bg-primary-container hover:text-white hover:shadow-md transition-all duration-200 font-bold text-lg">
+            Bắt Đầu Ngay
+        </button>
+        <button id="resume-btn" class="hidden w-full sm:w-auto p-4 text-center border-2 border-secondary bg-surface-container-low text-secondary rounded-xl hover:bg-secondary hover:text-white hover:shadow-md transition-all duration-200 font-bold text-lg">
+            Tiếp Tục Bài Đang Làm
+        </button>
+    </div>
+
+    <!-- QUIZ SECTION -->
+    <div id="quiz-section" class="hidden">
+        <div class="mb-section-gap">
+            <div class="flex items-center justify-between gap-3 mb-element-gap">
+                <span class="px-3 py-1 bg-surface-container rounded-full text-label-caps font-label-caps uppercase text-on-surface-variant">Câu hỏi hiện tại</span>
+                <div class="flex gap-2">
+                    <span class="text-label-caps font-label-caps text-outline uppercase">Đúng: <span id="correct-score">0</span></span>
+                    <span class="text-label-caps font-label-caps text-outline uppercase">/ <span id="total-questions">0</span></span>
                 </div>
             </div>
-
-            <div style="margin-top: 20px; display: flex; gap: 10px;">
-                <button id="next-btn" class="hidden" style="flex: 1;">Câu Tiếp Theo</button>
-                <button id="abort-btn" style="flex: 1; background-color: #e74c3c;">Về Màn Hình Chính</button>
+            
+            <h1 id="question-text" class="font-h1 text-h2 text-on-surface mb-element-gap">Đang tải câu hỏi...</h1>
+            <div id="image-container" class="mb-element-gap flex justify-center">
+                <!-- question image will be inserted here -->
             </div>
         </div>
-
-        <div id="result-section" class="hidden">
-            <h2>Kết thúc bài trắc nghiệm!</h2>
-            <p>Số câu trả lời đúng:</p>
-            <h3 id="final-score">0 / 0</h3>
-            <button id="restart-btn">Làm Lại</button>
-            <button id="new-file-btn" style="margin-left: 10px; background-color: #7f8c8d;">Chọn File Khác</button>
+        
+        <div id="options-container" class="grid gap-4 w-full">
+            <!-- Buttons will be generated here -->
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <!-- RESULT SECTION -->
+    <div id="result-section" class="hidden flex flex-col items-center justify-center text-center mt-10">
+        <h1 class="font-h1 text-h1 text-on-surface mb-element-gap">Kết Thúc Bài Làm</h1>
+        <p class="font-body-lg text-body-lg text-on-surface-variant opacity-80 mb-2">Số câu trả lời đúng của bạn:</p>
+        <div class="w-32 h-32 rounded-full border-4 border-primary flex items-center justify-center mb-10 mx-auto">
+            <h3 id="final-score" class="font-h1 text-h1 text-primary">0/0</h3>
+        </div>
+        
+        <button id="restart-btn" class="w-full sm:w-auto p-4 mb-4 text-center border-2 border-primary bg-primary text-white rounded-xl hover:bg-primary-container hover:text-white hover:shadow-md transition-all duration-200 font-bold text-lg">
+            Làm Lại Lần Nữa
+        </button>
+        <button id="new-file-btn" class="w-full sm:w-auto p-4 text-center border border-outline-variant bg-surface-container-lowest text-on-surface rounded-xl hover:border-primary hover:shadow-md transition-all duration-200 font-bold text-lg">
+            Về Màn Hình Chính
+        </button>
+    </div>
+</main>
+
+<footer class="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[720px] bg-white border-t border-slate-100 z-50 flex justify-around items-center px-8 h-20">
+    <button id="abort-btn" class="flex flex-col items-center justify-center text-slate-400 py-3 hover:bg-slate-50 transition-all hover:scale-95 duration-150 group">
+        <span class="material-symbols-outlined mb-1 group-hover:text-error transition-colors">home</span>
+        <span class="font-manrope text-xs font-medium uppercase tracking-widest group-hover:text-error">Về Menu</span>
+    </button>
+    
+    <div class="h-8 w-[1px] bg-slate-100"></div>
+    
+    <button id="save-progress-btn" class="hidden flex flex-col items-center justify-center text-secondary py-3 hover:bg-slate-50 transition-all hover:scale-95 duration-150 group">
+        <span class="material-symbols-outlined mb-1 group-hover:text-primary transition-colors">save</span>
+        <span class="font-manrope text-xs font-medium uppercase tracking-widest group-hover:text-primary">Lưu Lại</span>
+    </button>
+    
+    <div class="h-8 w-[1px] bg-slate-100"></div>
+
+    <button id="next-btn" class="hidden flex flex-col items-center justify-center text-primary py-3 hover:bg-slate-50 transition-all hover:scale-95 duration-150 font-bold group">
+        <span class="material-symbols-outlined mb-1">arrow_forward</span>
+        <span class="font-manrope text-xs font-medium uppercase tracking-widest" id="next-btn-text">Tiếp Theo</span>
+    </button>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>

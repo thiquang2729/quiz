@@ -1,4 +1,4 @@
-Hãy đọc file PDF này và trích xuất toàn bộ câu hỏi trắc nghiệm ra định dạng văn bản (text) chính xác cực kỳ nghiêm ngặt theo đúng mẫu dưới đây.
+Hãy đọc file word này và trích xuất toàn bộ câu hỏi trắc nghiệm ra định dạng văn bản (text) chính xác cực kỳ nghiêm ngặt theo đúng mẫu dưới đây. trong đó đáp án đúng được bôi đen
 Tuyệt đối không tự ý thay đổi chữ "Câu X:" hay "Đáp án:". Các đáp án bị sai chính tả hãy giữ nguyên, chỉ format lại đúng quy định sau:
 
 Câu 1: [Thêm nội dung câu hỏi ghi ở đây]
