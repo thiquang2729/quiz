@@ -175,7 +175,7 @@ function loadQuestion() {
     q.options.forEach((opt, index) => {
         // Tái tạo cấu trúc card đáp án bằng Tailwind CSS
         const btn = document.createElement('button');
-        btn.className = "group w-full p-6 text-left border border-outline-variant bg-surface-container-lowest rounded-xl hover:border-primary hover:shadow-md transition-all duration-200 flex justify-between items-center option-btn";
+        btn.className = "group w-full p-4 text-left border border-outline-variant bg-surface-container-lowest rounded-xl hover:border-primary hover:shadow-md transition-all duration-200 flex justify-between items-center option-btn";
         btn.dataset.id = opt.id;
         
         // Mặc định letter là A, B, C, D hiển thị tuần tự theo index trộn
