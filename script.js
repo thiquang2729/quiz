@@ -184,7 +184,7 @@ function loadQuestion() {
         btn.innerHTML = `
             <div class="flex items-center gap-4">
                 <span class="option-letter w-8 h-8 flex items-center justify-center rounded-full border border-outline-variant group-hover:border-primary group-hover:text-primary font-semibold text-sm transition-colors duration-200">${letterDisplay}</span>
-                <span class="option-text font-body-lg text-body-lg">${opt.text}</span>
+                <span class="option-text font-body-lg text-[16px] sm:text-body-lg">${opt.text}</span>
             </div>
             <span class="status-icon material-symbols-outlined hidden" style="font-variation-settings: 'FILL' 1;"></span>
         `;
