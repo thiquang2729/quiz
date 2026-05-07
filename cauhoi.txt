@@ -1,1305 +1,3198 @@
-Câu 1: Để giải quyết nạn dốt ngay sau Cách mạng Tháng Tám năm 1945, Chủ tịch Hồ Chí Minh đã kí sắc lệnh thành lập tổ chức nào?
-A. Nha Bình dân học vụ
-B. Bộ Giáo dục và Đào tạo
-C. Cơ quan Giáo dục quốc gia
-D. Sở Giáo dục
+Câu 1: Mục tiêu chính của Thị giác máy tính (Computer Vision) là gì?
+A. Biến đổi hình ảnh số để cải thiện chất lượng
+B. Hướng tới việc hiểu nội dung của hình ảnh, giống như cách con người nhìn và hiểu thế giới xung quanh
+C. Tạo ra hình ảnh 3D từ các ký hiệu
+D. Chỉnh sửa màu sắc và nén file ảnh
+Đáp án: B
+
+
+Câu 2: Mục tiêu chính của Xử lý ảnh (Image Processing) là gì?
+A. Gán nhãn cho hình ảnh dựa trên nội dung
+B. Tập trung vào việc biến đổi hình ảnh số để cải thiện chất lượng hình ảnh, trích xuất thông tin
+C. Nhận dạng các đối tượng có trong hình ảnh
+D. Mô phỏng lại thị giác của con người trên máy tính
+Đáp án: B
+
+
+Câu 3: Theo sơ đồ mối quan hệ, Xử lý ảnh (Image Processing) là quá trình chuyển đổi từ gì sang gì?
+A. Pixel to Symbol
+B. Symbol to Pixel
+C. Pixel to Pixel
+D. Symbol to Symbol
+Đáp án: C
+
+
+Câu 4: Theo sơ đồ mối quan hệ, Thị giác máy tính (Computer Vision) là quá trình chuyển đổi từ gì sang gì?
+A. Pixel to Symbol
+B. Symbol to Pixel
+C. Pixel to Pixel
+D. Vector to Pixel
 Đáp án: A
 
-Câu 2: "Bất kì đàn ông, đàn bà, bất kì người già người trẻ, không chia tôn giáo đảng phái, dân tộc. Hễ là người Việt Nam thì phải đứng lên đánh thực dân Pháp để cứu Tổ quốc". Đoạn văn trên phản ánh nội dung nào trong đường lối kháng chiến chống Pháp của Đảng?
-A. Kháng chiến trường kỳ
-B. Tự lực cánh sinh
-C. Kháng chiến toàn diện
-D. Kháng chiến toàn dân
+
+Câu 5: Tác vụ nào sau đây KHÔNG thuộc lĩnh vực Xử lý ảnh?
+A. Tăng cường độ tương phản
+B. Cắt xén, xoay ảnh
+C. Khử nhiễu hình ảnh
+D. Nhận dạng và theo dõi vật thể
 Đáp án: D
 
-Câu 3: “Vận mệnh dân tộc như ngàn cân treo sợi tóc” chỉ nhận định của Đảng về giai đoạn nào?
-A. 1958-1962
-B. 1954-1960
-C. 1945-1946
-D. 1954-1975
+
+Câu 6: Tác vụ nào sau đây thuộc lĩnh vực Thị giác máy tính?
+A. Nén ảnh
+B. Tái tạo 3D
+C. Cân bằng màu sắc
+D. Làm mờ ảnh
+Đáp án: B
+
+
+Câu 7: Tác vụ "Phân loại hình ảnh" trong thị giác máy tính có nghĩa là gì?
+A. Gán nhãn cho hình ảnh dựa trên nội dung của nó (ví dụ: ảnh phong cảnh, ảnh chân dung)
+B. Nhận diện vị trí chính xác của từng pixel
+C. Tăng độ phân giải cho bức ảnh
+D. Xóa các đối tượng không mong muốn khỏi ảnh
+Đáp án: A
+
+
+Câu 8: Khử nhiễu (Noise reduction) và Tăng cường độ tương phản (Contrast enhancement) là các kỹ thuật điển hình của lĩnh vực nào?
+A. Đồ họa máy tính
+B. Xử lý ngôn ngữ tự nhiên
+C. Xử lý ảnh
+D. Dữ liệu lớn
 Đáp án: C
 
-Câu 4: Câu nói: "Chúng ta thà hy sinh tất cả, chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ" là những câu được trích ở tài liệu nào?
-A. Tuyên ngôn Độc lập
-B. Kháng chiến nhất định thắng lợi
-C. Lời kêu gọi toàn quốc kháng chiến
-D. Toàn dân kháng chiến
+
+Câu 9: Dự án nào ra đời vào năm 1966 được đánh giá là một trong những nỗ lực đầu tiên đánh dấu sự ra đời của thị giác máy tính?
+A. ImageNet Project
+B. AlexNet Vision
+C. Summer Vision Project
+D. Deep Learning Vision
 Đáp án: C
 
-Câu 5: Trật tự thế giới nào được xác lập sau Chiến tranh thế giới thứ hai?
-A. Đa cực
-B. 1 cực
-C. Toàn cầu hóa
-D. 2 cực (Trật tự hai cực Yalta)
+
+Câu 10: Ai là người khởi xướng dự án Summer Vision Project (1966)?
+A. Yan LeCun
+B. Seymour Papert và Marvin Minsky
+C. Alan Turing
+D. Geoffrey Hinton
+Đáp án: B
+
+
+Câu 11: Các thuật toán cơ bản cho xử lý ảnh như biến đổi Fourier, lọc, và phân đoạn bắt đầu được phát triển mạnh mẽ vào thời kỳ nào?
+A. Những năm 1950-1960
+B. Những năm 1970-1980
+C. Những năm 1990-2000
+D. Từ năm 2010 trở đi
+Đáp án: B
+
+
+Câu 12: Ai là người giới thiệu Mạng thần kinh tích chập (CNN) vào những năm 1980?
+A. Marvin Minsky
+B. Andrew Ng
+C. Yan LeCun
+D. Seymour Papert
+Đáp án: C
+
+
+Câu 13: Sự kiện nào vào năm 2012 đã chứng minh sức mạnh áp đảo của học sâu (Deep Learning) trong lĩnh vực thị giác máy tính?
+A. Thuật toán SIFT được công bố
+B. Mạng thần kinh tích chập AlexNet giành chiến thắng áp đảo trong cuộc thi ImageNet
+C. Chiếc xe tự lái đầu tiên ra đời
+D. Dự án Summer Vision Project hoàn thành
+Đáp án: B
+
+
+Câu 14: Trong lĩnh vực xe tự lái, công nghệ thị giác máy tính được sử dụng để làm gì?
+A. Cân bằng nhiệt độ trong xe
+B. Nhận biết biển báo giao thông, vạch kẻ đường, người đi bộ và xe cộ khác
+C. Chẩn đoán hỏng hóc động cơ
+D. Tính toán tiêu hao nhiên liệu
+Đáp án: B
+
+
+Câu 15: Ứng dụng "Tìm kiếm hình ảnh tương tự, gợi ý sản phẩm" phổ biến trong lĩnh vực nào?
+A. Y tế
+B. Thương mại điện tử
+C. Robot công nghiệp
+D. Giám sát an ninh
+Đáp án: B
+
+
+Câu 16: Trong lĩnh vực y tế, thị giác máy tính mang lại lợi ích gì?
+A. Tính toán chi phí viện phí
+B. Hỗ trợ tạo hồ sơ bệnh án dạng văn bản
+C. Phân tích hình ảnh y tế (X-quang, MRI) hỗ trợ chẩn đoán bệnh và phẫu thuật robot
+D. Đếm số lượng bệnh nhân ra vào
+Đáp án: C
+
+
+Câu 17: Tính năng "Mở khóa điện thoại, xác thực danh tính" là ứng dụng của công nghệ nào?
+A. Tái tạo 3D
+B. Phân tích cảm xúc
+C. Nhận diện khuôn mặt
+D. Xử lý ảnh y tế
+Đáp án: C
+
+
+Câu 18: Ứng dụng Real-time AR (Thực tế tăng cường thời gian thực) sử dụng computer vision để làm gì?
+A. Phân tích biểu cảm khuôn mặt
+B. Quét môi trường xung quanh và chồng các đối tượng ảo lên hình ảnh thực tế để thử quần áo ảo, thiết kế nội thất
+C. Kiểm tra chất lượng của sản phẩm trong nhà máy
+D. Nén video trực tiếp
+Đáp án: B
+
+
+Câu 19: Robot công nghiệp sử dụng thị giác máy tính với mục đích chính là gì?
+A. Nhận biết và lắp ráp các bộ phận, kiểm soát chất lượng sản phẩm
+B. Giao tiếp với con người bằng giọng nói
+C. Phân tích tâm lý của công nhân
+D. Tái tạo bản đồ địa hình ngoài trời
+Đáp án: A
+
+
+Câu 20: Việc đánh giá sự hài lòng của khách hàng thông qua biểu cảm khuôn mặt và cử chỉ thuộc ứng dụng nào?
+A. Thương mại điện tử
+B. Phân tích cảm xúc
+C. Xe tự lái
+D. Giám sát an ninh
+Đáp án: B
+
+
+Câu 21: Đâu là một nhược điểm của hệ thống thị giác máy tính về mặt tài nguyên?
+A. Năng suất lao động thấp
+B. Chi phí bản quyền phần mềm và đầu tư phần cứng cao
+C. Không thể làm việc liên tục
+D. Sai số đo lường lớn hơn con người
+Đáp án: B
+
+
+Câu 22: Để huấn luyện thành công các mô hình thị giác máy tính, điều kiện bắt buộc về mặt dữ liệu là gì?
+A. Chỉ cần vài chục bức ảnh bất kỳ
+B. Cần một lượng lớn dữ liệu hình ảnh được đánh nhãn chính xác
+C. Chỉ cần dữ liệu dạng văn bản
+D. Không cần dữ liệu huấn luyện
+Đáp án: B
+
+
+Câu 23: Yếu tố môi trường nào dễ gây ảnh hưởng tiêu cực đến hiệu quả của hệ thống thị giác máy tính?
+A. Nhiệt độ phòng
+B. Sóng wifi
+C. Ánh sáng và bóng đổ
+D. Tiếng ồn
+Đáp án: C
+
+
+Câu 24: Nhược điểm của thị giác máy tính liên quan đến việc hiểu tình huống là gì?
+A. Không phân biệt được màu sắc
+B. Không hiểu ngữ cảnh và các tình huống phức tạp
+C. Không có khả năng nhận diện khuôn mặt
+D. Không thể lưu trữ dữ liệu
+Đáp án: B
+
+
+Câu 25: Xu hướng "Thị giác máy tính giải thích được" hướng tới mục tiêu gì?
+A. Làm cho các hệ thống hoạt động mà không cần camera
+B. Thiết kế các mô hình minh bạch hơn, giúp người dùng hiểu lý do đằng sau các quyết định của máy
+C. Giảm dung lượng file ảnh xuống thấp nhất
+D. Tạo ra các video 3D
+Đáp án: B
+
+
+Câu 26: Lợi ích chính của công nghệ "Học liên kết" (Federated learning) trong thị giác máy tính là gì?
+A. Tăng gấp đôi độ phân giải ảnh
+B. Cho phép huấn luyện mô hình trên nhiều thiết bị mà không cần chia sẻ dữ liệu, đảm bảo bảo mật
+C. Loại bỏ hoàn toàn sự cần thiết của CPU
+D. Dịch văn bản trong hình ảnh sang ngôn ngữ khác
+Đáp án: B
+
+
+Câu 27: Xu hướng "Thị giác máy tính tại cạnh mạng" (Edge computing) giúp giải quyết vấn đề kỹ thuật nào?
+A. Tăng dung lượng lưu trữ trên đám mây
+B. Xử lý ảnh trực tiếp trên thiết bị đầu cuối giúp giảm độ trễ và cho phép hoạt động ngoại tuyến
+C. Thay thế hoàn toàn camera bằng cảm biến nhiệt
+D. Tạo hình ảnh âm bản
+Đáp án: B
+
+
+Câu 28: Sự ra đời của các công nghệ cảm biến như LiDAR đã thúc đẩy xu hướng nào trong thị giác máy tính?
+A. Thị giác máy tính 3D
+B. Thị giác máy tính lượng tử
+C. Chống mờ ảnh cơ học
+D. Phân tích văn bản
+Đáp án: A
+
+
+Câu 29: Rủi ro về quyền riêng tư phát sinh chủ yếu từ ứng dụng nào của thị giác máy tính?
+A. Nén hình ảnh JPEG
+B. Hệ thống nhận diện khuôn mặt và phân tích hành vi
+C. Làm mịn ảnh bằng Gaussian
+D. Kiểm tra chất lượng bảng mạch
+Đáp án: B
+
+
+Câu 30: Khái niệm "Điểm ảnh" (pixel) được định nghĩa là gì?
+A. Tỷ lệ khung hình của màn hình
+B. Khoảng cách giữa hai camera
+C. Đơn vị nhỏ nhất của một ảnh số, mang giá trị biểu diễn cường độ sáng tại điểm đó
+D. Dải màu của máy in
+Đáp án: C
+
+
+Câu 31: Độ phân giải của hình ảnh thể hiện điều gì?
+A. Kích thước file ảnh tính bằng Megabyte
+B. Số lượng pixel theo chiều ngang và chiều dọc của một ảnh
+C. Khả năng nén của bức ảnh
+D. Khoảng cách từ camera đến đối tượng
+Đáp án: B
+
+
+Câu 32: Ảnh số có thể được định nghĩa bằng hàm toán học nào?
+A. Hàm 1 chiều f(x)
+B. Hàm 3 chiều f(x, y, z)
+C. Hàm 2 chiều f(x, y), trong đó độ lớn f là độ sáng hoặc độ xám
+D. Hàm tuyến tính bậc nhất y = ax + b
+Đáp án: C
+
+
+Câu 33: Các pixel của "ảnh nhị phân" chỉ có thể nhận những giá trị nào?
+A. Từ 0 đến 255
+B. -1 và 1
+C. 0 hoặc 1
+D. 0, 128 và 255
+Đáp án: C
+
+
+Câu 34: Trong "ảnh xám" (grayscale), giá trị 0 và 255 biểu diễn cường độ như thế nào?
+A. 0 là đỏ nhất, 255 là xanh nhất
+B. 0 là sáng nhất, 255 là tối nhất
+C. 0 là mức cường độ đen nhất, 255 là mức cường độ sáng nhất
+D. Cả 0 và 255 đều là màu xám trung tính
+Đáp án: C
+
+
+Câu 35: Mô hình màu RGB dựa trên 3 màu cơ bản nào?
+A. Đỏ (Red), Vàng (Yellow), Xanh dương (Blue)
+B. Đỏ (Red), Lục (Green), Lam (Blue)
+C. Cyan, Magenta, Yellow
+D. Trắng (White), Xám (Gray), Đen (Black)
+Đáp án: B
+
+
+Câu 36: Một bức ảnh màu 24 bit (mỗi kênh màu RGB mã hóa 8 bit) có thể hiển thị tối đa khoảng bao nhiêu màu?
+A. 256 màu
+B. 65.000 màu
+C. 1 triệu màu
+D. 16,5 triệu màu
 Đáp án: D
 
-Câu 6: Khó khăn nào sau tháng 8/1945 sẽ đe dọa trực tiếp đến thành quả của Cách mạng Tháng Tám năm 1945?
-A. Ngoại xâm, nội phản
-B. Chính quyền non trẻ
-C. Nạn dốt
-D. Nạn đói
-Đáp án: A
 
-Câu 7: Trong cuộc bầu cử toàn quốc đầu tiên (1/1946), nhân dân cả nước đã bầu ra bao nhiêu đại biểu vào Quốc hội khóa I?
-A. 333
-B. 334
-C. 146
-D. 335
-Đáp án: A
-
-Câu 8: Thất bại nào đã buộc Pháp phải ngồi vào bàn đàm phán để thương lượng với ta tại Hiệp định Giơnevơ (Thụy Sỹ)?
-A. Tất cả đáp án đều đúng
-B. Chiến dịch Hồ Chí Minh
-C. Chiến dịch Điện Biên Phủ
-D. Chiến dịch Việt Bắc
+Câu 37: Công thức chuẩn để chuyển đổi từ không gian màu RGB sang ảnh xám (Grayscale) là gì?
+A. Độ sáng = R + G + B
+B. Độ sáng = (R + G + B) / 3
+C. Độ sáng = 0.2989R + 0.5870G + 0.1140B
+D. Độ sáng = 0.5R + 0.5G
 Đáp án: C
 
-Câu 9: Vì sao cuộc kháng chiến toàn quốc chống thực dân Pháp bùng nổ ngày 19/12/1946?
-A. Quân đội Pháp đã mở rộng đánh chiếm Hà Nội, ta không có sự lựa chọn nào khác
-B. Lúc này viện quân Pháp vừa mới đến Hải Phòng, chưa kịp củng cố lực lượng
-C. Sự nhân nhượng đã đến giới hạn, dân tộc ta không thể lùi thêm được nữa
-D. Đó là thời điểm ta đã hoàn tất mọi công tác chuẩn bị cho kháng chiến
-Đáp án: C
 
-Câu 10: Theo thỏa thuận của Hội nghị Potsdam, lực lượng nào sẽ vào Việt Nam để tước khí giới của quân Nhật ở Bắc vĩ tuyến 16?
-A. Anh
-B. Nhật
-C. Tưởng (Quân đội Tưởng Giới Thạch)
-D. Pháp
-Đáp án: C
-
-Câu 11: Văn kiện "Lời kêu gọi toàn quốc kháng chiến" do Chủ tịch Hồ Chí Minh soạn thảo ra đời khi nào?
-A. 19/08/1945
-B. 06/03/1946
-C. 19/12/1946
-D. 23/09/1945
-Đáp án: C
-
-Câu 12: Pháp gửi tối hậu thư cuối cùng đòi ta tước vũ khí của tự vệ Hà Nội vào thời gian nào?
-A. Tháng 8/1945
-B. Tháng 7/1954
-C. Tháng 12/1946 (Ngày 18/12/1946)
-D. Tháng 9/1945
-Đáp án: C
-
-Câu 13: Vì sao Đảng lại xác định phương châm của đường lối kháng chiến chống thực dân Pháp là “kháng chiến lâu dài”?
-A. Vì ta cần chờ đợi yếu tố thiên thời, địa lợi, nhân hòa
-B. Vì chúng ta không có đủ quân đội để đánh Pháp nên cần thêm thời gian
-C. Vì tương quan lực lượng giữa ta và Pháp có sự chênh lệch lớn, không có lợi cho ta
-D. Để phân tán quân chủ lực của Pháp, chờ thời cơ kẻ thù suy yếu
-Đáp án: C
-
-Câu 14: Để củng cố chính quyền non trẻ sau Cách mạng Tháng Tám, Đảng và Chính phủ đã thực hiện biện pháp nào dưới đây?
-A. Xây dựng lực lượng vũ trang nhân dân
-B. Thành lập các đoàn thể quần chúng
-C. Tổ chức cuộc Tổng tuyển cử bầu Quốc hội khóa I
-D. Ban hành Hiến pháp mới
-Đáp án: C
-
-Câu 15: Theo thỏa thuận của Hội nghị Potsdam, quân Đồng minh ồ ạt kéo vào Đông Dương với danh nghĩa nào?
-A. Tước khí giới của quân đội Nhật
-B. Giúp Pháp quay trở lại xâm lược Việt Nam lần thứ 2
-C. Bình ổn Việt Nam sau chiến tranh
-D. Lực lượng dân chủ hòa bình
-Đáp án: A
-
-Câu 16: Sau Cách mạng Tháng Tám 1945, Việt Nam phải đương đầu với mấy thứ giặc?
-A. 4
-B. 1
-C. 3 (Giặc đói, giặc dốt và giặc ngoại xâm)
-D. 2
-Đáp án: C
-
-Câu 17: Trước việc Pháp gửi tối hậu thư đòi ta tước vũ khí của tự vệ Hà Nội (tháng 12-1946), Đảng đã chọn giải pháp nào?
-A. Hòa với Pháp
-B. Đáp ứng tối hậu thư của Pháp
-C. Phát động cuộc kháng chiến chống Pháp
-D. Dàn xếp với Pháp
-Đáp án: C
-
-Câu 18: Ngày Nam Bộ bắt đầu kháng chiến chống thực dân Pháp quay trở lại xâm lược là ngày nào?
-A. 2/9/1945
-B. 23/9/1945
-C. 19/12/1946
-D. 6/1/1946
+Câu 38: Ba thuộc tính của mô hình màu HSV bao gồm những gì?
+A. Red, Green, Blue
+B. Hue (Sắc độ), Saturation (Độ bão hòa), Value (Độ sáng)
+C. High, Standard, Variable
+D. Hue, Scale, Vector
 Đáp án: B
 
-Câu 19: Tại sao sau Cách mạng Tháng Tám năm 1945, nước ta lại rơi vào tình thế "ngàn cân treo sợi tóc"?
-A. Vì nạn đói, nạn dốt hoành hành
-B. Vì ngân khố quốc gia trống rỗng
-C. Vì các đảng phái phản động ra sức chống phá
-D. Vì cùng lúc phải đối phó với nhiều khó khăn, đặc biệt là thù trong giặc ngoài
+
+Câu 39: Mô hình màu nào sau đây thường được sử dụng chuyên biệt trong ngành in ấn?
+A. RGB
+B. HSV
+C. CMYK
+D. HSL
+Đáp án: C
+
+
+Câu 40: Sự khác biệt giữa thuật toán làm mờ "Trung bình" và "Gaussian" là gì?
+A. Gaussian dùng cho ảnh màu, Trung bình dùng cho ảnh xám
+B. Trung bình cộng tất cả pixel lân cận, còn Gaussian sử dụng hàm Gaussian để tính trọng số cho các pixel lân cận
+C. Trung bình dùng để tăng độ sắc nét, Gaussian dùng để phát hiện cạnh
+D. Không có sự khác biệt
+Đáp án: B
+
+
+Câu 41: Toán tử Sobel và Canny được phân loại vào nhóm thuật toán nào?
+A. Biến đổi hình học
+B. Tăng cường cạnh (Phát hiện điểm chuyển tiếp đột ngột)
+C. Làm mờ ảnh
+D. Cân bằng Histogram
+Đáp án: B
+
+
+Câu 42: Biến đổi Fourier dùng để phân tích hình ảnh thành các thành phần nào nhằm loại bỏ nhiễu hoặc nén dữ liệu?
+A. Thành phần không gian
+B. Thành phần màu sắc
+C. Thành phần tần số
+D. Thành phần cường độ sáng
+Đáp án: C
+
+
+Câu 43: Biểu đồ Histogram trong xử lý ảnh dùng để mô tả điều gì?
+A. Hình dáng của đối tượng
+B. Đường biên của hình ảnh
+C. Phân bố cường độ sáng của các pixel trong hình ảnh
+D. Tọa độ của các điểm ảnh
+Đáp án: C
+
+
+Câu 44: Thư viện mã nguồn mở nào rất phổ biến và cung cấp các thuật toán hỗ trợ cả Xử lý ảnh cơ bản, Xử lý video và Nhận dạng đối tượng?
+A. Pandas
+B. OpenCV
+C. Matplotlib
+D. Requests
+Đáp án: B
+
+
+Câu 45: Nhược điểm của thư viện OpenCV là gì?
+A. Không hỗ trợ ngôn ngữ Python
+B. Tốc độ xử lý quá chậm
+C. Giao diện lập trình có thể hơi phức tạp đối với người mới bắt đầu
+D. Phải trả phí bản quyền đắt đỏ
+Đáp án: C
+
+
+Câu 46: Thư viện nào có giao diện trực quan, dễ học, chuyên dùng để mở/lưu/thao tác pixel đơn giản và thường làm bổ trợ cho OpenCV?
+A. Pillow
+B. TensorFlow
+C. PyTorch
+D. Scikit-image
+Đáp án: A
+
+
+Câu 47: Thư viện scikit-image thường được ứng dụng tốt nhất trong lĩnh vực nào?
+A. Thiết kế giao diện web
+B. Tạo ảnh 3D
+C. Các ứng dụng khoa học và y tế (xây dựng trên NumPy và SciPy)
+D. Chỉnh sửa video thời gian thực
+Đáp án: C
+
+
+Câu 48: Framework học sâu nào có API cấp cao giúp việc xây dựng và huấn luyện mô hình trở nên dễ dàng hơn?
+A. Pillow
+B. Scikit-image
+C. Keras (xây dựng trên TensorFlow)
+D. Matplotlib
+Đáp án: C
+
+
+Câu 49: Thư viện nào chuyên cung cấp các tập dữ liệu, mô hình và công cụ xử lý ảnh dành riêng cho PyTorch?
+A. Torchvision
+B. OpenCV
+C. Keras
+D. NumPy
+Đáp án: A
+
+
+Câu 50: Dựa vào nội dung bài thực hành chương 1, để thực hiện "vẽ hình cơ bản (đường thẳng, hình tròn) và thêm văn bản" ta có thể sử dụng các thư viện nào?
+A. NumPy và SciPy
+B. OpenCV và Pillow
+C. TensorFlow và Keras
+D. PyTorch và Torchvision
+Đáp án: B
+
+
+Câu 1: Quá trình số hóa ảnh bao gồm hai bước chính nào?
+A. Lấy mẫu và Phân ngưỡng
+B. Lấy mẫu và Lượng tử hóa
+C. Lượng tử hóa và Phân đoạn
+D. Cắt xén và Biến đổi
+Đáp án: B
+
+
+Câu 2: Trong quá trình số hóa ảnh, "lấy mẫu" (sampling) được định nghĩa là gì?
+A. Ánh xạ cường độ sáng thành mức rời rạc
+B. Tính toán trung bình cộng các pixel
+C. Đo giá trị trong các khoảng không gian
+D. Lọc nhiễu hình ảnh
+Đáp án: C
+
+
+Câu 3: Ảnh số thông thường được lượng tử hóa thành bao nhiêu mức xám (tương ứng với 8 bits)?
+A. 32 mức xám
+B. 64 mức xám
+C. 128 mức xám
+D. 256 mức xám
 Đáp án: D
 
-Câu 20: Đâu là văn kiện phản ánh đầy đủ nhất đường lối kháng chiến chống Pháp của Đảng ta?
-A. Lời kêu gọi toàn quốc kháng chiến
-B. Chỉ thị Toàn dân kháng chiến
-C. Tác phẩm "Kháng chiến nhất định thắng lợi" (Trường Chinh)
-D. Cương lĩnh chính trị đầu tiên
+
+Câu 4: Phương pháp biến đổi ảnh số bằng cách áp dụng một hàm toán học lên từng điểm ảnh riêng lẻ được gọi là gì?
+A. Lọc không gian
+B. Toán tử điểm ảnh
+C. Biến đổi Fourier
+D. Phân đoạn ảnh
+Đáp án: B
+
+
+Câu 5: Trong biến đổi tuyến tính, để tăng độ sáng của một bức ảnh, ta áp dụng công thức nào?
+A. Nhân giá trị mỗi pixel với một hằng số
+B. Trừ giá trị mỗi pixel đi giá trị lớn nhất
+C. Cộng thêm một giá trị cố định vào mỗi pixel
+D. Áp dụng hàm logarit cho mỗi pixel
 Đáp án: C
 
-Câu 21: Năm 1946, trong chuyến thăm tới Pháp của Chủ tịch Hồ Chí Minh, ai đã cùng Bác Hồ về nước tham gia kháng chiến?
-A. Phạm Văn Đồng
-B. Võ Nguyên Giáp
-C. Trần Phú
-D. Trần Đại Nghĩa
+
+Câu 6: Phép biến đổi chuyển ảnh xám thành ảnh nhị phân (đen trắng) bằng cách so sánh với một giá trị nhất định được gọi là:
+A. Phân ngưỡng
+B. Đảo ngược âm bản
+C. Hiệu chỉnh Gamma
+D. Làm mờ
+Đáp án: A
+
+
+Câu 7: Kỹ thuật biến các tông màu sáng trong hình ảnh gốc thành tối và ngược lại được gọi là gì?
+A. Cân bằng Histogram
+B. Lọc Laplacian
+C. Ảnh âm bản (Image Negative)
+D. Biến đổi Gamma
+Đáp án: C
+
+
+Câu 8: Trong kỹ thuật kết hợp hình ảnh (Combine image), phương pháp sử dụng một lớp để che đi một phần của hình ảnh và thay thế bằng phần của hình ảnh khác gọi là gì?
+A. Overlay
+B. Masking (tạo mặt nạ)
+C. Stitching
+D. Blending
+Đáp án: B
+
+
+Câu 9: Phép trừ ảnh thường được sử dụng nhằm mục đích chính nào dưới đây?
+A. Làm mịn hình ảnh
+B. Tăng cường màu sắc
+C. Nén dữ liệu ảnh
+D. Phát hiện những thay đổi, chuyển động giữa hai hình ảnh
 Đáp án: D
 
-Câu 22: Nguyên nhân có tính chất quyết định nhất đưa tới thắng lợi của cuộc kháng chiến chống Pháp là gì?
-A. Có hậu phương vững chắc miền Bắc
-B. Sự giúp đỡ của các nước xã hội chủ nghĩa
-C. Sự lãnh đạo đúng đắn và sáng suốt của Đảng
-D. Nhân dân ta có truyền thống yêu nước nồng nàn
-Đáp án: C
 
-Câu 23: Sắp xếp thứ tự của các văn bản theo thời gian ra đời (trước đến sau):
-A. Cương lĩnh -> Giơnevơ -> Tạm ước -> Pari
-B. Cương lĩnh -> Bản Tạm ước -> Hiệp định Giơnevơ -> Hiệp định Pari
-C. Hiệp định Giơnevơ -> Hiệp định Sơ bộ -> Pari -> Cương lĩnh
-D. Cương lĩnh -> Giơnevơ -> Pari -> Tạm ước
+Câu 10: Trong bài toán trừ nền video, phương pháp nào tạo ra một mô hình nền liên tục cập nhật để thích ứng với thay đổi ánh sáng?
+A. Trừ nền đơn giản
+B. Trừ nền thích ứng
+C. Cân bằng Histogram
+D. Lọc trung vị
 Đáp án: B
 
-Câu 24: Tháng 09/1945, khi quay trở lại xâm lược Việt Nam, thực dân Pháp đã thực hiện chiến lược gì?
-A. Tranh thủ sự ủng hộ của quốc tế
-B. Trường kỳ kháng chiến
-C. Đánh nhanh, thắng nhanh
-D. Đánh chắc, tiến chắc
+
+Câu 11: Thuật toán MOG2 (Mô hình hỗn hợp Gaussian) được ứng dụng phổ biến trong kỹ thuật nào?
+A. Phát hiện góc
+B. Biến đổi Gamma
+C. Trừ nền trong video
+D. Lọc trung bình
 Đáp án: C
 
-Câu 25: Để giải quyết nạn đói TRƯỚC MẮT ngay sau Cách mạng tháng Tám 1945, Chủ tịch Hồ Chí Minh đã làm gì?
-A. Giảm sưu thuế, phá kho thóc Nhật
-B. Kêu gọi nhân dân cả nước “nhường cơm sẻ áo” (Hũ gạo cứu đói)
-C. Kêu gọi sự cứu trợ của nhân dân thế giới
-D. Chia lại ruộng đất công, tăng gia sản xuất
-Đáp án: B
 
-Câu 26: Phong trào mà Đảng ta đã vận động nhân dân để chống lại nạn mù chữ sau năm 1945 là?
-A. Bình dân học vụ
-B. Cải cách giáo dục
-C. Văn hóa mới
-D. Khoa học - Dân tộc - Đại chúng
+Câu 12: Biến đổi Gamma được sử dụng chủ yếu để làm gì trong xử lý ảnh?
+A. Đảo ngược màu ảnh
+B. Thay đổi kích thước ảnh
+C. Điều chỉnh độ tương phản bằng một hàm phi tuyến
+D. Loại bỏ nhiễu hạt tiêu
+Đáp án: C
+
+
+Câu 13: Khi áp dụng biến đổi Gamma với γ<1, hình ảnh sẽ thay đổi như thế nào?
+A. Tăng độ tương phản vùng sáng, làm tối các vùng tối
+B. Tăng độ tương phản vùng tối, làm sáng các vùng sáng
+C. Hình ảnh không bị thay đổi
+D. Đảo ngược hoàn toàn các tông màu
 Đáp án: A
 
-Câu 27: Điền từ còn thiếu vào chỗ trống đường lối kháng chiến: "Toàn dân, toàn diện, ........., tự lực cánh sinh..."
-A. Sự ủng hộ của các nước XHCN
-B. Chớp thời cơ
-C. Trường kỳ
-D. Mọi mặt
-Đáp án: C
 
-Câu 28: Địa điểm mở đầu cho cuộc kháng chiến chống thực dân Pháp bùng nổ trên phạm vi cả nước năm 1946?
-A. Đà Nẵng
-B. Huế
-C. Hà Nội
-D. Sài Gòn
-Đáp án: C
+Câu 14: Biểu đồ Histogram trong xử lý ảnh biểu diễn thông tin gì?
+A. Độ sắc nét của hình ảnh
+B. Phân phối tần suất của các mức xám hoặc màu
+C. Số lượng cạnh trong hình ảnh
+D. Tọa độ các điểm đặc trưng
+Đáp án: B
 
-Câu 29: Nội dung nào sau đây KHÔNG thuộc Hiệp định Sơ bộ (6/3/1946)?
-A. Pháp công nhận Việt Nam là quốc gia tự do
-B. Việt Nam đồng ý cho 15.000 quân Pháp ra Bắc thay quân Tưởng
-C. Chính phủ Pháp công nhận Việt Nam là một quốc gia độc lập, có chủ quyền
-D. Hai bên đình chỉ xung đột ở miền Nam
-Đáp án: C
 
-Câu 30: Địa điểm nào được coi là căn cứ địa cách mạng của cả nước trong kháng chiến chống Pháp?
-A. Miền Bắc xã hội chủ nghĩa
-B. Điện Biên Phủ
-C. Tây Bắc
-D. Việt Bắc
+Câu 15: Một hình ảnh có độ tương phản thấp (low-contrast) sẽ có biểu đồ Histogram như thế nào?
+A. San đều các cột ở mọi giá trị
+B. Tập trung các cột vào bên trái
+C. Tập trung các cột vào bên phải
+D. Các cột tập trung xít nhau và ở giữa
 Đáp án: D
 
-Câu 31: Sự kiện nào đánh dấu bước ngoặt quyết định kết thúc thắng lợi cuộc kháng chiến chống thực dân Pháp (1945 - 1954)?
-A. Chiến dịch Biên giới 1950
-B. Chiến dịch Điện Biên Phủ 1954
-C. Việc ký kết Hiệp định Giơnevơ năm 1954
-D. Chiến dịch Việt Bắc 1947
+
+Câu 16: Kỹ thuật "Cân bằng histogram" giúp cải thiện chất lượng ảnh bằng cách nào?
+A. Ánh xạ các mức xám để tăng cường độ tương phản
+B. Cắt xén các viền của hình ảnh
+C. Thêm nhiễu Gaussian vào ảnh
+D. Xóa bỏ các tần số thấp
+Đáp án: A
+
+
+Câu 17: Toán tử láng giềng "4-kết nối" của một pixel bao gồm các pixel nằm ở vị trí nào?
+A. Chỉ các đường chéo
+B. Trên, dưới, trái, phải
+C. Xung quanh theo vòng tròn bán kính 2
+D. Tất cả 8 pixel xung quanh
 Đáp án: B
 
-Câu 32: Chiến dịch nào sau đây đã làm phá sản hoàn toàn kế hoạch Nava của thực dân Pháp?
-A. Chiến dịch Việt Bắc 1947
-B. Chiến dịch Biên giới 1950
-C. Chiến dịch Điện Biên Phủ 1954
-D. Chiến dịch Thượng Lào 1953
+
+Câu 18: Spatial Filtering (Lọc không gian) sử dụng một ma trận để tính toán giá trị pixel mới, ma trận đó gọi là gì?
+A. Histogram
+B. Descriptor
+C. Kernel hoặc Mask
+D. Interval
 Đáp án: C
 
-Câu 33: Nguyên nhân chủ yếu Chính phủ ta quyết định tạm thời hòa hoãn với quân Tưởng sau tháng 8/1945?
-A. Do ta cần tập trung lực lượng kháng chiến chống Pháp ở Nam Bộ
-B. Do ta cần sự ủng hộ của Trung Quốc
-C. Do quân Tưởng chỉ đòi quyền lợi kinh tế
-D. Do quân Tưởng vào với danh nghĩa quân Đồng minh
+
+Câu 19: Trong các phép lọc tuyến tính, phép lọc nào thay thế pixel bằng trung bình cộng của các pixel lân cận, giúp làm mờ ảnh nhưng dễ làm mất chi tiết?
+A. Lọc Gaussian
+B. Lọc Laplacian
+C. Lọc trung bình
+D. Lọc Bilateral
+Đáp án: C
+
+
+Câu 20: Lọc Gaussian khác biệt với lọc trung bình ở điểm nào?
+A. Sử dụng ma trận có trọng số phân phối Gaussian, giữ lại cạnh tốt hơn
+B. Dùng để đảo ngược màu ảnh
+C. Chỉ tính toán trên các pixel đường chéo
+D. Tăng cường độ tương phản phi tuyến
 Đáp án: A
 
-Câu 34: Một trong những nội dung của đường lối kháng chiến chống thực dân Pháp đề ra tháng 12/1946 là?
-A. Kháng chiến toàn diện
-B. Quyết chiến quyết thắng
-C. Dựa vào lực lượng vũ trang
-D. Kháng chiến hoàn toàn
-Đáp án: A
 
-Câu 35: Thuận lợi cơ bản của nước Việt Nam Dân chủ Cộng hòa sau tháng 08/1945 là:
-A. Đảng trở thành đảng cầm quyền, thiết lập ngoại giao với các nước XHCN
-B. Nhân dân giành được quyền làm chủ, gắn bó và ủng hộ chế độ mới
-C. Tất cả các ý đều đúng
-D. Được Liên Xô và các nước XHCN tích cực giúp đỡ
-Đáp án: B
-
-Câu 36: Sau Cách mạng tháng Tám 1945, khó khăn nào là lớn nhất đưa vận mệnh dân tộc vào tình thế nguy hiểm?
-A. Nạn đói hoành hành
-B. Hơn 90% dân số mù chữ
-C. Ngân quỹ quốc gia trống rỗng
-D. Các thế lực đế quốc và phản động bao vây, chống phá (Giặc ngoại xâm)
+Câu 21: Phép lọc phi tuyến tính nào đặc biệt hiệu quả trong việc loại bỏ "nhiễu muối tiêu" (Salt & Pepper noise)?
+A. Lọc Laplacian
+B. Lọc trung bình
+C. Lọc Gaussian
+D. Lọc trung vị (Median filter)
 Đáp án: D
 
-Câu 37: Để giải quyết nạn mù chữ sau Cách mạng tháng Tám, Chủ tịch Hồ Chí Minh đã ký sắc lệnh thành lập cơ quan nào?
-A. Nha Giáo dục phổ thông
-B. Nha Bình dân học vụ
-C. Hội truyền bá chữ quốc ngữ
-D. Bộ Giáo dục
+
+Câu 22: Kernel của lọc Laplacian thường được thiết kế để tính toán đại lượng nào?
+A. Đạo hàm bậc nhất
+B. Đạo hàm bậc hai của cường độ xám
+C. Tích phân bề mặt
+D. Giá trị trung vị
 Đáp án: B
 
-Câu 38: Lực lượng nào dọn đường cho Pháp quay lại xâm lược nước ta lần thứ 2?
-A. Mỹ
-B. Nhật
-C. Anh
-D. Tưởng
+
+Câu 23: Gradient trong xử lý ảnh biểu diễn điều gì?
+A. Mức độ sáng trung bình của ảnh
+B. Độ phân giải của ảnh
+C. Hướng và độ dốc (mức độ thay đổi) của cường độ pixel
+D. Số lượng màu sắc có trong ảnh
 Đáp án: C
 
-Câu 39: Phương châm tác chiến của ta trong chiến dịch Điện Biên Phủ năm 1954 là gì?
-A. Đánh thần tốc, chắc thắng
-B. Đánh chắc, tiến chắc
-C. Đánh thần tốc, táo bạo
-D. Đánh nhanh, thắng nhanh
-Đáp án: B
 
-Câu 40: Kế thừa truyền thống "lấy ít địch nhiều, lấy nhỏ thắng lớn" thể hiện rõ nhất qua nội dung nào?
-A. Kháng chiến trường kì
-B. Tự lực cánh sinh
-C. Kháng chiến toàn dân
-D. Kháng chiến toàn diện
+Câu 24: Toán tử nào sau đây sử dụng hai kernel (ngang và dọc) để tính đạo hàm bậc nhất nhằm phát hiện cạnh?
+A. Sobel
+B. Laplacian
+C. Gaussian
+D. Median
 Đáp án: A
 
-Câu 41: Ý nghĩa của Hội nghị lần thứ tám Ban Chấp hành Trung ương Đảng (tháng 05/1941)?
-A. Đánh dấu bước đầu chuyển hướng chỉ đạo chiến lược cách mạng của Đảng.
-B. Mở ra một giai đoạn mới: tập trung giải quyết hoàn thành nhiệm vụ dân chủ.
-C. Đánh dấu một giai đoạn phát triển mới, đấu tranh chính trị giành chính quyền.
-D. Đánh dấu sự hoàn chỉnh chủ trương chuyển hướng chỉ đạo cách mạng của Đảng.
+
+Câu 25: Biến đổi Fourier hoạt động như một "cầu nối" chuyển đổi tín hiệu từ miền nào sang miền nào?
+A. Miền tần số sang miền cường độ
+B. Miền thời gian/không gian sang miền tần số
+C. Miền RGB sang miền CMYK
+D. Miền tương tự sang miền số
+Đáp án: B
+
+
+Câu 26: Trong phân tích cấu trúc tần số của ảnh bằng Fourier, các "thành phần tần số cao" tương ứng với vùng nào trên ảnh?
+A. Các chi tiết lớn, vùng sáng tối
+B. Các mảng màu đồng nhất
+C. Các chi tiết nhỏ, cạnh, nhiễu
+D. Phông nền của ảnh
+Đáp án: C
+
+
+Câu 27: Để làm mờ ảnh và loại bỏ nhiễu trong miền tần số, ta sử dụng phương pháp lọc nào?
+A. Lọc thông cao
+B. Lọc thông thấp
+C. Lọc trung vị
+D. Lọc Bilateral
+Đáp án: B
+
+
+Câu 28: Thuật toán nén ảnh JPEG sử dụng biến thể nào của biến đổi Fourier?
+A. CFT
+B. SIFT
+C. Biến đổi cosin rời rạc (DCT)
+D. Haar Wavelet
+Đáp án: C
+
+
+Câu 29: Sự khác biệt cơ bản nhất giữa biến đổi Wavelet và biến đổi Fourier truyền thống là gì?
+A. Fourier phân tích cả không gian và tần số, Wavelet chỉ phân tích tần số
+B. Wavelet cho phép local hóa (phân tích) trong cả thời gian/không gian và tần số
+C. Fourier chỉ dùng cho ảnh màu, Wavelet dùng cho ảnh xám
+D. Wavelet tính toán chậm hơn Fourier gấp nhiều lần
+Đáp án: B
+
+
+Câu 30: Biến đổi Wavelet đặc biệt phù hợp để phân tích loại tín hiệu nào?
+A. Tín hiệu tuần hoàn tuyệt đối
+B. Tín hiệu không dừng (đặc trưng thay đổi theo thời gian)
+C. Tín hiệu một chiều duy nhất
+D. Tín hiệu không có nhiễu
+Đáp án: B
+
+
+Câu 31: Trong biến đổi Wavelet rời rạc 2D (2D-DWT), hình ảnh được lọc qua bộ lọc thông thấp (LL) sẽ biểu diễn thông tin gì?
+A. Chi tiết nhỏ theo hướng ngang
+B. Chi tiết cạnh chéo
+C. Thông tin ở mức thô (xấp xỉ)
+D. Thông tin nhiễu tần số cao
+Đáp án: C
+
+
+Câu 32: Haar, Daubechies, và Mexican hat là tên của các yếu tố nào trong xử lý ảnh?
+A. Các toán tử phát hiện cạnh
+B. Các loại mô hình không gian màu
+C. Các loại (họ) Wavelet
+D. Các mạng nơ-ron học sâu
+Đáp án: C
+
+
+Câu 33: Phép tịnh tiến, phép quay, và phép tỉ lệ thuộc nhóm biến đổi nào trong xử lý ảnh?
+A. Biến đổi hình học
+B. Biến đổi Fourier
+C. Phân đoạn ảnh
+D. Xử lý hình thái học
+Đáp án: A
+
+
+Câu 34: Khi thực hiện biến đổi hình học (như xoay), điểm ảnh mới không trùng khớp với điểm ảnh gốc, ta cần dùng phương pháp nào để tính giá trị màu?
+A. Cắt ngưỡng (Thresholding)
+B. Nội suy (Interpolation)
+C. Phân cụm K-means
+D. Gradient xấp xỉ
+Đáp án: B
+
+
+Câu 35: Phương pháp nội suy "Nearest Neighbor" hoạt động theo nguyên tắc nào?
+A. Tính trung bình của 4 điểm lân cận
+B. Nội suy bậc ba cho kết quả mịn màng
+C. Gán cho điểm ảnh mới giá trị của điểm ảnh gần nhất trong ảnh gốc
+D. Nội suy tuyến tính
+Đáp án: C
+
+
+Câu 36: Xử lý hình thái học (Morphology) thường được áp dụng chủ yếu trên loại ảnh nào?
+A. Ảnh màu RGB
+B. Ảnh toàn cảnh (Panorama)
+C. Ảnh quang phổ
+D. Ảnh nhị phân hoặc ảnh xám
 Đáp án: D
 
-Câu 42: “Tôi thà làm dân một nước tự do còn hơn làm vua một nước nô lệ” câu nói trên là của nhân vật nào?
-A. Khải Định
-B. Hồ Chí Minh
-C. Bảo Đại
-D. Hàm Nghi
+
+Câu 37: Trong xử lý hình thái học, phép toán nào làm thu nhỏ đối tượng, loại bỏ các điểm lẻ tẻ?
+A. Phép giãn nở (Dilation)
+B. Phép đóng (Closing)
+C. Phép xói mòn (Erosion)
+D. Phép Gradient
 Đáp án: C
 
-Câu 43: Ngày 30/08/1945 ghi dấu sự kiện lịch sử nào trong Cách mạng tháng Tám 1945?
-A. Tổng khởi nghĩa giành chính quyền tại Sài Gòn thành công
-B. Khởi nghĩa giành chính quyền diễn ra tại Hà Nội
-C. Cách mạng tháng Tám thành công trên phạm vi cả nước
-D. Vua Bảo Đại tuyên bố thoái vị
+
+Câu 38: Để lấp đầy các lỗ hổng nhỏ và làm dày đường viền của đối tượng, ta nên dùng phép toán hình thái học nào?
+A. Phép giãn nở (Dilation)
+B. Phép xói mòn (Erosion)
+C. Phép Top-hat
+D. Phép Black-hat
+Đáp án: A
+
+
+Câu 39: Phép Mở (Opening) trong hình thái học là sự kết hợp của hai phép toán cơ bản nào theo thứ tự?
+A. Giãn nở sau đó Xói mòn
+B. Xói mòn sau đó Giãn nở
+C. Trừ nền sau đó Giãn nở
+D. Xói mòn sau đó Top-hat
+Đáp án: B
+
+
+Câu 40: Tác dụng chính của phép Mở (Opening) là gì?
+A. Lấp đầy các lỗ hổng bên trong đối tượng
+B. Phóng to đối tượng
+C. Loại bỏ các đối tượng nhỏ, làm mịn đường viền bên ngoài
+D. Tạo ảnh âm bản
+Đáp án: C
+
+
+Câu 41: Phép Đóng (Closing) trong hình thái học là sự kết hợp của hai phép toán cơ bản nào theo thứ tự?
+A. Xói mòn sau đó Giãn nở
+B. Giãn nở sau đó Xói mòn
+C. Giãn nở sau đó Lọc Gaussian
+D. Xói mòn sau đó Lọc Trung vị
+Đáp án: B
+
+
+Câu 42: Hình khối được định nghĩa sẵn, là ma trận nhị phân nhỏ quyết định hình dạng và kích thước của các phép toán hình thái học gọi là gì?
+A. Histogram
+B. Convolution
+C. Điểm cực trị
+D. Phần tử cấu trúc (Structuring element)
 Đáp án: D
 
-Câu 44: Ngày 25/08/1945, Tổng khởi nghĩa Tháng Tám giành được thắng lợi tại địa phương nào?
-A. Đà Nẵng
-B. Huế
-C. Hà Nội
-D. Sài Gòn
+
+Câu 43: Phép toán hình thái học "Top-hat" thường được ứng dụng để làm gì?
+A. Tìm các lỗ hổng nhỏ trên nền tối
+B. Tìm các đối tượng sáng nhỏ trên nền sáng
+C. Tính toán độ dốc của hình dạng
+D. Phóng to đối tượng
+Đáp án: B
+
+
+Câu 44: Trong thư viện OpenCV, hàm nào cung cấp công cụ tổng hợp để thực hiện các phép hình thái học phức tạp (như Mở, Đóng, Top-hat)?
+A. cv2.morphologyEx()
+B. cv2.erode()
+C. cv2.dilate()
+D. cv2.getRotationMatrix2D()
+Đáp án: A
+
+
+Câu 45: Ma trận tịnh tiến, ma trận quay, ma trận tỉ lệ được sử dụng trong nhóm thuật toán nào?
+A. Lọc không gian
+B. Biến đổi hình học
+C. Cân bằng Histogram
+D. Trích xuất đặc trưng
+Đáp án: B
+
+
+Câu 46: Trong Python OpenCV, hàm cv2.calcHist() được sử dụng để làm gì?
+A. Tính toán ma trận Hessian
+B. Lọc nhiễu Gaussian
+C. Tính toán Histogram của ảnh
+D. Trừ nền video
+Đáp án: C
+
+
+Câu 47: Hạn chế của cân bằng Histogram (Histogram equalization) là gì?
+A. Quá phức tạp để lập trình
+B. Yêu cầu biết trước đối tượng trong ảnh
+C. Có thể làm tăng nhiễu trong hình ảnh và không phù hợp với ảnh có chi tiết nhỏ
+D. Chỉ áp dụng được cho ảnh 3D
+Đáp án: C
+
+
+Câu 48: Để phát hiện các cạnh dựa trên độ thay đổi đột ngột của cường độ pixel (dùng đạo hàm bậc nhất), ta thường dùng toán tử nào?
+A. Gaussian và Mean
+B. Sobel và Prewitt
+C. Top-hat và Black-hat
+D. SIFT và SURF
+Đáp án: B
+
+
+Câu 49: Kỹ thuật "Morphing" trong ghép ảnh (Combine image) có nghĩa là gì?
+A. Trộn màu sắc mượt mà
+B. Tạo ảnh toàn cảnh
+C. Chuyển đổi dần dần từ một hình ảnh này sang hình ảnh khác (biến hình)
+D. Xóa phông nền
+Đáp án: C
+
+
+Câu 50: Theo định nghĩa trong xử lý ảnh, Láng giềng "8-kết nối" (8-connected) của một pixel bao gồm những điểm nào?
+A. 4 điểm trên, dưới, trái, phải
+B. Các pixel trên cùng một hàng
+C. Bao gồm cả các pixel ở các đường chéo xung quanh pixel đang xét
+D. Tất cả pixel trong một bán kính k bất kỳ
+Đáp án: C
+
+
+Câu 1: Quá trình số hóa ảnh (Digitization) chuyển đổi một ảnh liên tục thành dạng số rời rạc thông qua 2 bước chính nào?
+A. Phân ngưỡng và Lấy mẫu
+B. Lấy mẫu và Lượng tử hóa
+C. Lọc nhiễu và Lượng tử hóa
+D. Lấy mẫu và Cân bằng Histogram
+Đáp án: B
+
+
+Câu 2: Trong quá trình số hóa ảnh, bước "Lấy mẫu" (sampling) được thực hiện để làm gì?
+A. Đo giá trị trong các khoảng không gian.
+B. Ánh xạ cường độ thành mức rời rạc.
+C. Phân chia ảnh thành các vùng nhỏ.
+D. Biến đổi ảnh sang miền tần số.
+Đáp án: A
+
+
+Câu 3: Ảnh số thông thường được lượng tử hóa thành bao nhiêu mức xám (tương đương 8 bits/pixel)?
+A. 64 mức xám
+B. 128 mức xám
+C. 256 mức xám
+D. 512 mức xám
+Đáp án: C
+
+
+Câu 4: Toán tử điểm ảnh (Pixel Operator) hoạt động theo nguyên tắc nào?
+A. Tính toán dựa trên một vùng pixel rộng lớn.
+B. Áp dụng một hàm toán học lên từng điểm ảnh riêng lẻ.
+C. Phân tích tần số của toàn bộ bức ảnh.
+D. Tìm các đặc trưng hình học của đối tượng.
+Đáp án: B
+
+
+Câu 5: Để tăng độ sáng cho một hình ảnh bằng toán tử tuyến tính, ta áp dụng phép toán nào?
+A. Nhân giá trị mỗi pixel với một hằng số.
+B. Trừ giá trị mỗi pixel đi giá trị lớn nhất.
+C. Cộng thêm một giá trị cố định vào mỗi pixel.
+D. Sử dụng hàm logarit.
+Đáp án: C
+
+
+Câu 6: Phương pháp thay đổi độ tương phản bằng biến đổi tuyến tính thực hiện bằng cách nào?
+A. Nhân giá trị mỗi pixel với một hằng số.
+B. Cộng thêm hằng số vào mỗi pixel.
+C. Thay thế pixel bằng giá trị trung bình lân cận.
+D. Áp dụng phép lọc trung vị.
+Đáp án: A
+
+
+Câu 7: Thuật toán nào biến các tông màu sáng trong hình ảnh gốc thành tối và ngược lại?
+A. Phân ngưỡng (Thresholding)
+B. Ảnh âm bản (Image Negative).
+C. Cân bằng Histogram.
+D. Lọc Laplacian.
+Đáp án: B
+
+
+Câu 8: Công thức toán học của biến đổi ảnh âm bản là gì?
+A. pixel_mới = pixel_cũ + 255
+B. pixel_mới = 255 - pixel_cũ.
+C. pixel_mới = pixel_cũ * 255
+D. pixel_mới = log(1 + pixel_cũ)
+Đáp án: B
+
+
+Câu 9: Phân ngưỡng toàn cục (Global Thresholding) sử dụng phương pháp nào?
+A. Tính toán các ngưỡng khác nhau cho từng vùng.
+B. Sử dụng một ngưỡng duy nhất cho toàn bộ hình ảnh.
+C. Tìm các cạnh trước khi phân ngưỡng.
+D. Dùng mạng học sâu để xác định ngưỡng.
+Đáp án: B
+
+
+Câu 10: Otsu's thresholding là thuật toán dùng để làm gì?
+A. Tạo mặt nạ ảnh.
+B. Nhận dạng khuôn mặt.
+C. Tự động tìm ngưỡng tốt nhất để phân chia ảnh thành hai vùng.
+D. Giảm nhiễu hạt tiêu.
+Đáp án: C
+
+
+Câu 11: Kỹ thuật Masking trong ghép ảnh (Combine image) có tác dụng gì?
+A. Trộn màu sắc hai ảnh để tạo hiệu ứng chuyển tiếp.
+B. Đặt ảnh này lên ảnh khác trong suốt.
+C. Sử dụng một lớp mặt nạ để che đi một phần ảnh này và thay bằng phần của ảnh khác.
+D. Kết hợp nhiều ảnh tạo ảnh toàn cảnh.
+Đáp án: C
+
+
+Câu 12: Chuyển đổi dần dần từ một hình ảnh này sang hình ảnh khác trong ghép ảnh gọi là kỹ thuật gì?
+A. Stitching.
+B. Overlay.
+C. Morphing (biến hình).
+D. Blending.
+Đáp án: C
+
+
+Câu 13: Mục đích chính của "Phép trừ ảnh" là gì?
+A. Cải thiện độ tương phản.
+B. Làm mịn hình ảnh.
+C. Phát hiện những thay đổi, khác biệt giữa hai hình ảnh.
+D. Nén dữ liệu ảnh.
+Đáp án: C
+
+
+Câu 14: Kỹ thuật "Trừ nền trong video" được ứng dụng rộng rãi nhất trong lĩnh vực nào?
+A. Chụp ảnh chân dung.
+B. Nén video.
+C. Hệ thống giám sát, phát hiện chuyển động.
+D. Ghép ảnh Panorama.
+Đáp án: C
+
+
+Câu 15: Trong kỹ thuật trừ nền video, phương pháp nào tạo ra một mô hình nền liên tục cập nhật để thích ứng với thay đổi ánh sáng?
+A. Trừ nền đơn giản.
+B. Trừ nền thích ứng.
+C. Lọc Gaussian.
+D. Biến đổi Gamma.
+Đáp án: B
+
+
+Câu 16: Thuật toán MOG2 dùng trong trừ nền video dựa trên nguyên lý nào?
+A. Tính toán sự dịch chuyển pixel (Optical Flow).
+B. K-nearest neighbors.
+C. Mô hình hỗn hợp Gaussian để mô hình hóa phân bố màu sắc nền.
+D. Mẫu màu ViBe.
+Đáp án: C
+
+
+Câu 17: Biến đổi Gamma là một phép toán phi tuyến dùng để làm gì?
+A. Chỉnh sửa hình dạng vật thể.
+B. Điều chỉnh độ tương phản thông qua thay đổi mối quan hệ giá trị đầu vào/ra.
+C. Tách vật thể ra khỏi nền.
+D. Tăng độ phân giải.
+Đáp án: B
+
+
+Câu 18: Theo công thức V_out=V_ingamma, nếu thiết lập Gamma < 1 thì hình ảnh sẽ thay đổi như thế nào?
+A. Không có thay đổi nào.
+B. Tăng độ tương phản vùng tối, làm sáng vùng sáng.
+C. Đảo ngược hoàn toàn các màu sắc.
+D. Tăng độ tương phản ở vùng sáng, làm tối các vùng tối.
 Đáp án: D
 
-Câu 45: Đội Việt Nam tuyên truyền giải phóng quân do ai làm đội trưởng, lúc mới thành lập có bao nhiêu người?
-A. Do đồng chí Phạm Hùng làm đội trưởng có 35 người
-B. Do đồng chí Hoàng Sâm làm đội trưởng có 34 người
-C. Do đồng chí Trường Chinh làm đội trưởng có 34 người
-D. Do đồng chí Võ Nguyên Giáp làm đội trưởng có 36 người
+
+Câu 19: Nếu thiết lập Gamma > 1, hiệu ứng đạt được trên hình ảnh là gì?
+A. Tăng độ tương phản vùng sáng, làm tối các vùng tối.
+B. Tăng độ tương phản ở vùng tối, làm sáng các vùng sáng.
+C. Ảnh trở thành ảnh đen trắng (nhị phân).
+D. Xóa phông nền của ảnh.
 Đáp án: B
 
-Câu 46: Bốn tỉnh giành được chính quyền ở tỉnh lị sớm nhất trong cả nước là:
-A. Hà Nội, Bắc Giang, Huế, Sài Gòn.
-B. Hà Nội, Sài Gòn, Hà Tĩnh, Quảng Nam.
-C. Bắc Giang, Hải Dương, Hà Tĩnh, Quảng Nam.
-D. Bắc Giang, Hải Dương, Hà Nội, Huế.
+
+Câu 20: Histogram trong xử lý ảnh là biểu đồ thống kê biểu diễn điều gì?
+A. Kích thước chiều rộng và chiều cao của ảnh.
+B. Số lượng đối tượng có trong bức ảnh.
+C. Phân phối tần suất của các mức xám hoặc màu trong hình ảnh.
+D. Các đường viền của đối tượng.
 Đáp án: C
 
-Câu 47: Phong trào "Phá kho thóc Nhật" (1945) thu hút đông đảo nhân dân Việt Nam tham gia vì?
-A. Giải quyết triệt để mâu thuẫn chủ yếu trong xã hội
-B. Đáp ứng yêu cầu độc lập dân tộc và ruộng đất dân cày
-C. Đáp ứng đầy đủ yêu cầu của mọi giai cấp trong xã hội
-D. Đáp ứng được yêu cầu cấp bách của quần chúng nhân dân
+
+Câu 21: Một bức ảnh thiếu sáng (dark image) sẽ có biểu đồ histogram như thế nào?
+A. Các cột tập trung vào bên phải.
+B. Các cột dàn đều trên mọi giá trị.
+C. Các cột tập trung vào bên trái.
+D. Các cột tập trung xít nhau ở giữa.
+Đáp án: C
+
+
+Câu 22: Hình ảnh có độ tương phản thấp (low-contrast) sẽ có biểu đồ histogram hiển thị ra sao?
+A. Các cột tập trung vào bên trái.
+B. Các cột tập trung vào bên phải.
+C. Các cột san đều với các giá trị.
+D. Các cột tập trung xít nhau và ở giữa.
 Đáp án: D
 
-Câu 48: Tổ chức nào được coi là tiền thân của Quân đội nhân dân Việt Nam?
-A. Việt Nam giải phóng quân
-B. Đội cứu quốc quân
-C. Đội du kích Ba Tơ
-D. Việt Nam tuyên truyền giải phóng quân
+
+Câu 23: Mục đích của kỹ thuật "Cân bằng histogram" (Histogram Equalization) là gì?
+A. Làm mờ hình ảnh để loại bỏ nhiễu.
+B. Chuyển đổi ảnh màu sang ảnh xám.
+C. Phân phối lại các mức xám để tăng cường độ tương phản, làm ảnh rõ nét hơn.
+D. Nén dung lượng bức ảnh.
+Đáp án: C
+
+
+Câu 24: Nhược điểm của kỹ thuật cân bằng histogram là gì?
+A. Tốn quá nhiều thời gian xử lý.
+B. Yêu cầu có GPU mạnh.
+C. Có thể làm tăng nhiễu trong hình ảnh và không phù hợp với ảnh có nhiều chi tiết nhỏ.
+D. Chỉ hoạt động trên ảnh đen trắng tuyệt đối.
+Đáp án: C
+
+
+Câu 25: Trong thư viện OpenCV (Python), hàm nào được dùng để tính toán Histogram?
+A. cv2.equalizeHist().
+B. cv2.calcHist().
+C. cv2.plotHist().
+D. cv2.getHist().
+Đáp án: B
+
+
+Câu 26: Khái niệm "Láng giềng 4-kết nối" của một pixel bao gồm các pixel nằm ở vị trí nào?
+A. 4 góc đường chéo.
+B. 8 pixel xung quanh.
+C. Các pixel trên, dưới, trái, phải của pixel đang xét.
+D. Các pixel nằm trong bán kính 2.
+Đáp án: C
+
+
+Câu 27: Toán tử láng giềng sử dụng thông tin từ đâu để thực hiện biến đổi hình ảnh?
+A. Từ biểu đồ histogram.
+B. Từ chính pixel đó và tập hợp các pixel lân cận xung quanh nó.
+C. Từ một bức ảnh khác.
+D. Từ tọa độ không gian 3D.
+Đáp án: B
+
+
+Câu 28: Kỹ thuật Spatial Filtering (Lọc không gian) sử dụng ma trận tính toán nào để trượt qua từng pixel?
+A. Ma trận hiệp phương sai.
+B. Ma trận Hessian.
+C. Kernel hoặc Mask.
+D. Ma trận Jacobian.
+Đáp án: C
+
+
+Câu 29: Lọc trung bình (Mean filter) thuộc nhóm lọc nào và có tác dụng gì?
+A. Lọc phi tuyến, dùng để phát hiện cạnh.
+B. Lọc tuyến tính, giúp làm mờ ảnh và loại bỏ nhiễu.
+C. Lọc thông cao, giúp tăng độ tương phản.
+D. Lọc hình thái học, dùng lấp đầy lỗ hổng.
+Đáp án: B
+
+
+Câu 30: Sự khác biệt cơ bản giữa Lọc trung bình và Lọc Gaussian là gì?
+A. Lọc trung bình dùng cho ảnh màu, lọc Gaussian dùng cho ảnh xám.
+B. Lọc Gaussian thay thế pixel bằng trung vị vùng lân cận.
+C. Lọc Gaussian dùng kernel có phân phối Gaussian, các pixel gần tâm có trọng số lớn hơn, giữ lại cạnh tốt hơn.
+D. Lọc trung bình phức tạp và tính toán chậm hơn Gaussian.
+Đáp án: C
+
+
+Câu 31: Bộ lọc phi tuyến tính nào rất hiệu quả trong việc loại bỏ loại nhiễu "muối tiêu" (Salt & Pepper)?
+A. Lọc trung bình.
+B. Lọc Gaussian.
+C. Lọc Laplacian.
+D. Lọc trung vị (Median filter).
 Đáp án: D
 
-Câu 49: "Dù phải đốt cháy cả dãy Trường Sơn cũng phải kiên quyết dành cho được độc lập" là câu nói của ai?
-A. Hồ Chí Minh
-B. Bảo Đại
-C. Võ Nguyên Giáp
-D. Tôn Đức Thắng
+
+Câu 32: Để làm mờ ảnh nhưng vẫn giữ lại sắc nét cho các đường viền/cạnh (bảo toàn cạnh), ta nên dùng loại lọc phi tuyến nào?
+A. Lọc Min/Max.
+B. Lọc Bilateral.
+C. Lọc trung bình.
+D. Lọc trung vị.
+Đáp án: B
+
+
+Câu 33: Kernel Laplacian thường được thiết kế để tính toán đại lượng toán học nào nhằm phát hiện cạnh?
+A. Tích phân bề mặt.
+B. Đạo hàm bậc nhất.
+C. Đạo hàm bậc hai.
+D. Giá trị trung vị.
+Đáp án: C
+
+
+Câu 34: Kernel của Lọc Laplacian 3x3 cơ bản thường có đặc điểm gì?
+A. Tất cả các giá trị đều bằng 1/9.
+B. Các giá trị giảm dần từ tâm ra ngoài theo hình chuông.
+C. Có giá trị dương ở tâm và các giá trị âm ở xung quanh (hoặc ngược lại).
+D. Chỉ chứa các giá trị 0 và 1.
+Đáp án: C
+
+
+Câu 35: Khái niệm "Gradient" trong xử lý ảnh biểu diễn điều gì?
+A. Màu sắc trung bình của bức ảnh.
+B. Tần số xuất hiện của một mức xám.
+C. Độ dốc của cường độ pixel (mức độ và hướng thay đổi cường độ sáng).
+D. Kích thước vật lý của pixel.
+Đáp án: C
+
+
+Câu 36: Biên (Edge) trong xử lý ảnh thường tương ứng với vùng nào?
+A. Các vùng có màu sắc đồng nhất tuyệt đối.
+B. Các điểm có giá trị gradient bằng 0.
+C. Vùng có sự thay đổi đột ngột về màu sắc, cường độ, hoặc kết cấu (gradient lớn).
+D. Phông nền (background) của ảnh.
+Đáp án: C
+
+
+Câu 37: Toán tử nào sử dụng hai kernel (ngang và dọc) để tính đạo hàm bậc nhất, phục vụ việc phát hiện cạnh?
+A. Sobel.
+B. Laplacian.
+C. Mean.
+D. Median.
 Đáp án: A
 
-Câu 50: Từ năm 1940 đến trước ngày 9/3/1945, kẻ thù của cách mạng Việt Nam là ai?
-A. Phát xít Nhật
-B. Chiến tranh thế giới thứ II
-C. Thực dân Pháp và tay sai
-D. Pháp và Nhật
+
+Câu 38: Toán tử Prewitt khác toán tử Sobel ở điểm nào?
+A. Prewitt tính đạo hàm bậc hai thay vì bậc nhất.
+B. Prewitt không phát hiện được cạnh dọc.
+C. Prewitt cũng dùng 2 kernel nhưng có các hệ số đơn giản hơn so với Sobel.
+D. Prewitt là bộ lọc phi tuyến tính.
+Đáp án: C
+
+
+Câu 39: Trong OpenCV, hàm nào được sử dụng để áp dụng bộ lọc Gaussian?
+A. cv2.meanBlur().
+B. cv2.GaussianBlur().
+C. cv2.laplacian().
+D. cv2.filter2D().
+Đáp án: B
+
+
+Câu 40: Nhược điểm chung của các phép lọc tuyến tính (như lọc trung bình, Gaussian) là gì?
+A. Quá phức tạp và chậm chạp.
+B. Làm tăng độ nhiễu của ảnh.
+C. Có thể làm mất đi một số chi tiết, độ sắc nét của ảnh.
+D. Chỉ áp dụng được cho ảnh màu.
+Đáp án: C
+
+
+Câu 41: Phương pháp "Optical Flow" (Luồng quang học) dùng để làm gì trong kỹ thuật trừ nền?
+A. Tạo mặt nạ ảnh.
+B. Xóa các vật thể đứng yên.
+C. Tính toán sự dịch chuyển của các pixel giữa hai frame liên tiếp để phát hiện chuyển động.
+D. Cân bằng ánh sáng động.
+Đáp án: C
+
+
+Câu 42: "ViBe" và "KNN" là các thuật toán thường được ứng dụng trong tác vụ nào?
+A. Tăng cường độ tương phản.
+B. Trừ nền trong video (Background Subtraction).
+C. Nén ảnh JPEG.
+D. Tính toán cân bằng Histogram.
+Đáp án: B
+
+
+Câu 43: Việc "Cân bằng Histogram" không phù hợp với loại hình ảnh nào?
+A. Hình ảnh phong cảnh rộng.
+B. Hình ảnh thiếu sáng.
+C. Hình ảnh có quá nhiều chi tiết nhỏ, vì có thể làm tăng nhiễu.
+D. Hình ảnh đen trắng.
+Đáp án: C
+
+
+Câu 44: Biến đổi logarit thường được sử dụng trong toán tử điểm ảnh nhằm mục đích gì?
+A. Đảo ngược âm bản.
+B. Phân ngưỡng hình ảnh.
+C. Nén dải động của hình ảnh, hữu ích cho ảnh có độ tương phản cao.
+D. Lọc nhiễu muối tiêu.
+Đáp án: C
+
+
+Câu 45: Ứng dụng "Nhận dạng khuôn mặt" bằng Haar cascades thuộc nhóm thuật toán nào?
+A. Trích xuất đặc trưng.
+B. Nhận dạng vật thể.
+C. Lọc không gian.
+D. Biến đổi hình học.
+Đáp án: B
+
+
+Câu 46: Trong thuật toán Lọc trung bình (Mean filter), giá trị pixel trung tâm sẽ được thay thế bằng gì?
+A. Giá trị nhỏ nhất trong vùng lân cận.
+B. Giá trị lớn nhất trong vùng lân cận.
+C. Trung vị của các pixel lân cận.
+D. Giá trị trung bình của tất cả điểm ảnh nằm trong mặt nạ.
 Đáp án: D
 
-Câu 51: Trong cuốn sách ”Good Luck – Bí mật của May Mắn”, "Cây Bốn Lá" đã mọc lên ở đâu?
-A. Hoàng tử lòng đất
-B. Khu rừng Mê hoặc
-C. Vương quốc của các chàng hiệp sĩ
-D. Khu rừng Huyền bí
-Đáp án: B
 
-Câu 52: Cột mốc 108 biên giới Việt - Trung gắn liền với sự kiện lịch sử nào diễn ra vào năm 1941?
-A. Chiến tranh thế giới thứ 2 bùng nổ, quân Nhật tiến vào Đông Dương
-B. Tất cả các đáp án đều đúng
-C. Bác Hồ trở về Tổ quốc sau 30 năm bôn ba
-D. Đảng Cộng sản Việt Nam tổ chức Hội nghị lần thứ tám Ban Chấp hành Trung ương
+Câu 47: Kỹ thuật "Blending" trong ghép ảnh dùng để làm gì?
+A. Cắt bỏ hoàn toàn nền.
+B. Đặt ảnh này cạnh ảnh kia.
+C. Trộn màu sắc của hai hình ảnh để tạo ra một hiệu ứng chuyển tiếp mượt mà.
+D. Tìm sự khác biệt giữa hai ảnh.
 Đáp án: C
 
-Câu 53: Ngày kỉ niệm "Cách mạng Tháng Tám năm 1945" hằng năm là ngày nào?
-A. 19/08
-B. 02/09
-C. 05/09
-D. 30/08
-Đáp án: A
 
-Câu 54: Cách mạng Tháng Tám chứng tỏ: Một cuộc cách mạng giải phóng dân tộc do Đảng Cộng sản lãnh đạo hoàn toàn có khả năng thắng lợi ở một nước thuộc địa trước khi giai cấp công nhân ở chính quốc lên nắm chính quyền?
-A. Đúng
-B. Sai
-Đáp án: A
-
-Câu 55: “Đồng bào rầm rập kéo tới quảng trường Nhà hát lớn dự mít tinh... Bài hát Tiến quân ca lần đầu tiên vang lên”. Đây là không khí từ cuộc mít tinh chuyển thành khởi nghĩa giành chính quyền ở địa điểm nào?
-A. Sài Gòn
-B. Hà Nội
-C. Huế
-D. Cao Bằng
+Câu 48: Phương pháp "Region-based segmentation" thực hiện việc gì?
+A. Phân đoạn dựa trên các cạnh của đối tượng.
+B. Phân đoạn ảnh dựa trên các vùng liên thông có cùng tính chất.
+C. Phân cụm các pixel ngẫu nhiên.
+D. Sử dụng 1 ngưỡng toàn cục để chia cắt.
 Đáp án: B
 
-Câu 56: Địa danh nào được xem là: "hình ảnh thu nhỏ của nước Việt Nam" trước Cách mạng Tháng Tám năm 1945?
-A. Bắc Sơn - Võ Nhai
-B. Khu giải phóng Việt Bắc
-C. Hà Nội
-D. Cao - Bắc - Lạng
+
+Câu 49: Trong xử lý ảnh, để phát hiện chuyển động của xe cộ trên đường trong một video camera tĩnh, thuật toán nào là phù hợp nhất?
+A. Lọc Laplacian.
+B. Trừ nền trong video (Background Subtraction).
+C. Cân bằng Histogram.
+D. Biến đổi Gamma.
 Đáp án: B
 
-Câu 57: Để đoàn kết, tập hợp lực lượng cách mạng nhằm mục tiêu giải phóng dân tộc giai đoạn 1939 – 1945, BCH Trung ương Đảng đã quyết định thành lập...
-A. Tất cả các đáp án đều đúng
-B. Mặt trận Việt Minh
-C. Mặt trận Tổ quốc Việt Nam
-D. Việt Nam tuyên truyền giải phóng quân
-Đáp án: B
 
-Câu 58: Trong Cách mạng Tháng Tám 1945, nhân dân ta giành chính quyền từ tay ai?
-A. Nhật và Pháp
-B. Phát xít Nhật
-C. Quân đội Anh
-D. Thực dân Pháp
-Đáp án: B
-
-Câu 59: Thời cơ "ngàn năm có một" của Cách mạng Tháng Tám năm 1945 tồn tại trong khoảng thời gian nào?
-A. Từ khi Mỹ ném 2 quả bom xuống Nhật cho đến trước khi Pháp quay lại xâm lược
-B. Từ khi quân Nhật đầu hàng vô điều kiện cho đến trước khi quân Đồng minh vào Việt Nam
-C. Từ khi Mỹ ném 2 quả bom nguyên tử đến khi Nhật đầu hàng Đồng minh vô điều kiện
-D. Từ khi Nhật đầu hàng cho đến trước khi quân Pháp quay trở lại xâm lược lần 2
-Đáp án: B
-
-Câu 60: Bài hát "Tiến quân ca" do nhạc sĩ nào sáng tác?
-A. Nam Cao.
-B. Phạm Tuyên.
-C. Văn Cao.
-D. Phong Nhã.
+Câu 50: Theo công thức cân bằng Histogram T(r)=(L−1)×∫0r​p(x)dx, thì p(x) đại diện cho giá trị nào?
+A. Kích thước ảnh.
+B. Ngưỡng phân đoạn.
+C. Xác suất xuất hiện của mức xám x.
+D. Đạo hàm bậc 2.
 Đáp án: C
 
-Câu 61: Nhận xét nào sau đây là KHÔNG ĐÚNG về cuộc Cách mạng tháng Tám năm 1945 ở Việt Nam?
-A. Đây là cuộc cách mạng diễn ra với sự kết hợp lực lượng chính trị và lực lượng vũ trang.
-B. Đây là cuộc cách mạng diễn ra nhanh chóng, ít đổ máu, bằng phương pháp hòa bình.
-C. Đây là cuộc cách mạng đi từ khởi nghĩa từng phần tiến lên tổng khởi nghĩa.
-D. Đây là cuộc cách mạng kết hợp khởi nghĩa ở cả nông thôn và thành thị.
+
+Câu 1: Biến đổi Fourier đóng vai trò là "cầu nối" giúp chuyển đổi tín hiệu giữa hai miền nào?
+A. Miền thời gian và miền không gian
+B. Miền không gian và miền cường độ
+C. Miền thời gian (hoặc không gian) và miền tần số
+D. Miền tần số và miền mức xám
+Đáp án: C
+
+
+Câu 2: Trong biến đổi Fourier, biên độ của mỗi thành phần tần số cho biết điều gì?
+A. Sự dịch chuyển pha của thành phần đó
+B. Mức độ đóng góp của tần số đó vào tín hiệu
+C. Vị trí chính xác của đối tượng trong không gian
+D. Độ phân giải của hình ảnh
 Đáp án: B
 
-Câu 62: Tháng 8 năm 1945, điều kiện khách quan bên ngoài rất thuận lợi để nhân dân ta giành chính quyền nhanh chóng, ít đổ máu là:
-A. Phát xít Nhật đầu hàng vô điều kiện, quân Nhật ở Đông Dương cũng bị tê liệt
-B. Mỹ ném 2 quả bom nguyên tử xuống nước Nhật.
-C. Sự thắng lợi của Hồng quân Liên Xô ở mặt trận Xô - Đức.
-D. Sự lãnh đạo của Đảng với đường lối đúng đắn.
-Đáp án: A
 
-Câu 63: Ai là người chủ trì Hội nghị lần thứ 8 Ban Chấp hành Trung ương Đảng (tháng 05/1941)?
-A. Đồng chí Nguyễn Văn Cừ
-B. Đồng chí Trần Phú
-C. Đồng chí Lê Hồng Phong
-D. Đồng chí Nguyễn Ái Quốc
+Câu 3: Thuật toán nào luôn được ưu tiên sử dụng khi cần tính toán Biến đổi Fourier rời rạc (DFT) một cách nhanh chóng và hiệu quả?
+A. DCT (Biến đổi cosin rời rạc)
+B. CFT (Biến đổi Fourier liên tục)
+C. DWT (Biến đổi Wavelet rời rạc)
+D. FFT (Biến đổi Fourier nhanh)
 Đáp án: D
 
-Câu 64: Nguyên nhân chủ quan chính dẫn đến thắng lợi của Cách mạng Tháng Tám năm 1945 ở Việt Nam?
-A. Sự giúp đỡ của các nước xã hội chủ nghĩa anh em
-B. Quần chúng nhân dân đi theo Đảng giành chính quyền
-C. Phát xít Nhật Bản đầu hàng Đồng minh không điều kiện
-D. Đường lối đúng đắn, sáng tạo của Đảng Cộng sản Đông Dương
+
+Câu 4: Hạn chế của Biến đổi Fourier Rời rạc (DFT) là gì?
+A. Quá trình tính toán tích phân quá phức tạp
+B. Không áp dụng được cho tín hiệu số
+C. Có hiện tượng Aliasing và giới hạn độ phân giải
+D. Chỉ phân tích được đặc điểm cục bộ của tín hiệu
+Đáp án: C
+
+
+Câu 5: Trong phân tích cấu trúc tần số của ảnh bằng Fourier, các "thành phần tần số thấp" tương ứng với gì?
+A. Các chi tiết nhỏ, cạnh, nhiễu
+B. Các chi tiết lớn, vùng sáng tối đồng nhất trong ảnh
+C. Phân phối màu sắc của ảnh
+D. Mức độ nén của ảnh JPEG
+Đáp án: B
+
+
+Câu 6: Lọc thông thấp (Low-pass filter) trong miền tần số được sử dụng để làm gì?
+A. Làm mờ ảnh và loại bỏ nhiễu
+B. Tăng cường cạnh và chi tiết
+C. Đảo ngược âm bản của ảnh
+D. Xoay hình ảnh một góc 90 độ
+Đáp án: A
+
+
+Câu 7: Lọc thông cao (High-pass filter) trong miền tần số có tác dụng gì?
+A. Nén dung lượng ảnh
+B. Loại bỏ nhiễu hạt tiêu
+C. Tăng cường cạnh, chi tiết
+D. Làm mịn vùng ảnh có màu đồng nhất
+Đáp án: C
+
+
+Câu 8: Định dạng nén ảnh JPEG sử dụng biến thể nào của biến đổi Fourier?
+A. SIFT
+B. SURF
+C. Biến đổi cosin rời rạc (DCT)
+D. FFT
+Đáp án: C
+
+
+Câu 9: Khi thực hiện biến đổi Fourier 2D cho một ma trận ảnh, quá trình này được áp dụng như thế nào?
+A. Chỉ áp dụng cho các điểm ảnh nằm trên đường chéo
+B. Áp dụng cho từng hàng và từng cột của ma trận ảnh
+C. Áp dụng ngẫu nhiên cho các block 8x8
+D. Áp dụng một lần cho tâm của ma trận
+Đáp án: B
+
+
+Câu 10: Điểm khác biệt lớn nhất của biến đổi Wavelet so với biến đổi Fourier truyền thống là gì?
+A. Fourier phân tích cục bộ, Wavelet phân tích toàn cục
+B. Fourier tính toán nhanh hơn Wavelet trong mọi trường hợp
+C. Wavelet phân tích tín hiệu thành các sóng nhỏ có tần số và thời lượng khác nhau, cho phép local hóa cả thời gian và tần số
+D. Wavelet chỉ sử dụng một cửa sổ có độ dài cố định
+Đáp án: C
+
+
+Câu 11: Đặc điểm cửa sổ phân tích của biến đổi Wavelet là gì?
+A. Có độ dài cố định không đổi
+B. Chỉ sử dụng cửa sổ hình chữ nhật
+C. Có độ dài thay đổi theo tần số
+D. Không sử dụng cửa sổ phân tích
+Đáp án: C
+
+
+Câu 12: Biến đổi Wavelet đặc biệt phù hợp để phân tích loại tín hiệu nào?
+A. Tín hiệu dừng tuyệt đối
+B. Tín hiệu tuần hoàn chu kỳ đơn giản
+C. Tín hiệu một chiều (1D) thuần túy
+D. Tín hiệu không dừng (tín hiệu có đặc trưng thay đổi theo thời gian)
 Đáp án: D
 
-Câu 65: Địa danh được xem là thủ đô của Khu giải phóng Việt Bắc (thành lập năm 1945)?
-A. Yên Thế - Bắc Giang
-B. Đình Cả - Thái Nguyên
-C. Pác Bó - Cao Bằng
-D. Tân Trào - Tuyên Quang
+
+Câu 13: Biến đổi Wavelet được thiết kế để có được độ phân giải tần số tốt cho thành phần nào?
+A. Thành phần nhiễu
+B. Các thành phần tần số cao
+C. Các thành phần tần số thấp
+D. Các vùng ảnh bị cắt xén
+Đáp án: C
+
+
+Câu 14: Haar, Daubechies, và Mexican hat là tên gọi của những thành phần nào?
+A. Các thuật toán lọc nhiễu Gaussian
+B. Các loại (họ) wavelet phổ biến
+C. Các ma trận biến đổi hình học
+D. Các phép toán hình thái học
+Đáp án: B
+
+
+Câu 15: Haar wavelet có hình dạng đặc trưng nào?
+A. Hình chữ nhật
+B. Hình chiếc mũ
+C. Hình chuông Gaussian
+D. Hình sin liên tục
+Đáp án: A
+
+
+Câu 16: Trong Biến đổi Wavelet rời rạc 2D (2D-DWT), hình ảnh được lọc qua bộ lọc "thông thấp - thông thấp" (LL) sẽ biểu diễn thông tin gì?
+A. Chi tiết sắc nét theo hướng dọc
+B. Chi tiết sắc nét theo hướng chéo
+C. Thông tin nhiễu của ảnh
+D. Thông tin ở mức thô (ảnh xấp xỉ)
 Đáp án: D
 
-Câu 66: Tổng khởi nghĩa đã nhanh chóng thành công trong cả nước, chỉ trong vòng 15 ngày từ:
-A. Từ ngày 13 - 27/8/1945.
-B. Từ ngày 14 - 28/8/1945.
-C. Từ ngày 16/8 - 02/09/1945.
-D. Từ ngày 15 - 29/8/1945.
-Đáp án: B
 
-Câu 67: Trong cuốn sách ”Good Luck – Bí mật của May Mắn”, ai đã tìm thấy "Cây Bốn Lá"?
-A. Hiệp sĩ áo trắng (Sid)
-B. Khu rừng Mê Hoặc
-C. Bà chúa Hồ
-D. Hiệp sĩ áo đen (Nott)
-Đáp án: A
-
-Câu 68: Các đại biểu tán thành quyết định Tổng khởi nghĩa, thông qua 10 sắc lệnh của Việt Minh, lập Ủy ban Dân tộc giải phóng Việt Nam do Chủ tịch Hồ Chí Minh đứng đầu là tại:
-A. Hội nghị toàn quốc của Đảng họp ở Tân Trào (14/8/1945)
-B. Đại hội Quốc dân ở Tân Trào (16/8/1945)
-C. Hội nghị Quân sự Bắc Kì (4/1945)
-D. Hội nghị mở rộng Ban Thường vụ Trung ương (9/3/1945)
-Đáp án: B
-
-Câu 69: "Nước Việt Nam có quyền hưởng tự do và độc lập và sự thật đã thành một nước tự do, độc lập..." trích trong văn bản nào?
-A. Bản Tuyên ngôn Độc lập (9/1945)
-B. Cương lĩnh xây dựng đất nước (1991)
-C. Cương lĩnh chính trị đầu tiên (2/1930)
-D. Lời kêu gọi toàn quốc kháng chiến (12/1946)
-Đáp án: A
-
-Câu 70: Ngày 23/08/1945, Tổng khởi nghĩa Tháng Tám giành được thắng lợi tại địa phương nào?
-A. Sài Gòn
-B. Huế
-C. Đà Nẵng
-D. Hà Nội
-Đáp án: B
-
-Câu 71: Chủ tịch Hồ Chí Minh đã thay mặt Chính phủ lâm thời đọc Bản Tuyên ngôn độc lập vào thời gian nào?
-A. 8h ngày 2/9/1945
-B. 14h ngày 2/9/1945
-C. 15h ngày 2/9/1945
-D. 9h ngày 2/9/1945
-Đáp án: B
-
-Câu 72: Tổng khởi nghĩa giành chính quyền là kết quả của sự ăn may và sự chuẩn bị chu đáo của Đảng và nhân dân ta suốt 1930-1945?
-A. Đúng
-B. Sai (Cách mạng là kết quả của sự chuẩn bị lâu dài và chớp thời cơ, không phải "ăn may").
-Đáp án: B
-
-Câu 73: Trong giai đoạn từ năm 1939 đến năm 1945, Đảng ta đã đưa nhiệm vụ nào lên hàng đầu?
-A. Cải cách ruộng đất
-B. Dân sinh, dân chủ, cơm áo, hòa bình
-C. Giải phóng dân tộc
-D. Cách mạng xã hội chủ nghĩa
-Đáp án: C
-
-Câu 74: Sự kiện nào dưới đây đánh dấu Cách mạng tháng Tám 1945 đã thắng lợi hoàn toàn?
-A. Hai địa phương cuối cùng (Đồng Nai Thượng, Hà Tiên) giành được chính quyền.
-B. Ủy ban dân tộc giải phóng Việt Nam cải tổ thành Chính phủ lâm thời.
-C. Vua Bảo Đại tuyên bố thoái vị, trao ấn tín. Chế độ phong kiến sụp đổ.
-D. Chủ tịch Hồ Chí Minh đọc “Tuyên ngôn Độc lập”.
-Đáp án: C
-
-Câu 75: Mặt trận Việt Nam Độc lập Đồng minh hội (Mặt trận Việt Minh) ra đời vào ngày/tháng/năm nào?
-A. 19/05/1941
-B. 15/8/1941
-C. 19/08/1945
-D. 02/09/1945
-Đáp án: A
-
-Câu 76: Trong năm 1939, tình hình thế giới có biến động nào to lớn, tác động trực tiếp đến Việt Nam?
-A. Chiến tranh thế giới II bùng nổ
-B. Nạn đói
-C. Nhật vào Đông Dương
-D. Tất cả các đáp án đều đúng
-Đáp án: A
-
-Câu 77: “Giờ quyết định cho vận mệnh dân tộc ta đã đến... toàn quốc đồng bào hãy đứng dậy đem sức ta mà tự giải phóng cho ta...” Đó là lời kêu gọi của:
-A. Hội nghị toàn quốc của Đảng họp ở Tân Trào (14/8/1945)
-B. Đại hội Quốc dân ở Tân Trào (16/8/1945)
-C. Quân lệnh số 1
-D. Thư Hồ Chí Minh gửi đồng bào cả nước
+Câu 17: Trong Biến đổi Wavelet rời rạc 2D (2D-DWT), hình ảnh được lọc thông cao (chi tiết) sẽ nắm bắt thông tin theo các hướng nào?
+A. Chỉ hướng ngang
+B. Chỉ hướng dọc
+C. Chỉ hướng chéo
+D. Hướng ngang, dọc và chéo
 Đáp án: D
 
-Câu 78: Bài học kinh nghiệm quan trọng nhất trong chỉ đạo Tổng khởi nghĩa Cách mạng tháng Tám năm 1945 của Đảng là?
-A. Đấu tranh công khai, hợp pháp phù hợp với tình hình thực tế.
-B. Xây dựng khối liên minh công nông và mặt trận dân tộc thống nhất.
-C. Có biện pháp đấu tranh phù hợp, kịp thời nắm bắt thời cơ chín muồi.
-D. Kết hợp đấu tranh chính trị với vũ trang, khởi nghĩa từng phần tiến lên tổng khởi nghĩa.
+
+Câu 18: Kỹ thuật biến đổi hình học "Phép tịnh tiến" thực hiện điều gì trên hình ảnh?
+A. Xoay hình ảnh quanh một điểm cố định
+B. Di chuyển toàn bộ hình ảnh theo một vectơ cho trước
+C. Phóng to hoặc thu nhỏ hình ảnh
+D. Thay đổi hình dạng của ảnh theo các hướng khác nhau
+Đáp án: B
+
+
+Câu 19: Để bao gồm cả phép tịnh tiến và các phép biến đổi khác, ma trận tịnh tiến thường được biểu diễn dưới dạng nào?
+A. Ma trận đường chéo
+B. Ma trận đồng nhất (homogeneous matrix)
+C. Ma trận lượng giác
+D. Ma trận Hessian
+Đáp án: B
+
+
+Câu 20: Ma trận biến đổi hình học nào được xây dựng dựa trên các hàm lượng giác sin và cos?
+A. Ma trận tỉ lệ
+B. Ma trận tịnh tiến
+C. Ma trận quay
+D. Ma trận phân ngưỡng
+Đáp án: C
+
+
+Câu 21: Tại sao cần sử dụng phương pháp "Nội suy" (Interpolation) khi thực hiện biến đổi hình học?
+A. Để tìm ngưỡng nhị phân cho ảnh
+B. Vì các điểm ảnh mới thường không trùng khớp với các điểm ảnh gốc nên cần tính toán giá trị màu
+C. Để nén dung lượng hình ảnh
+D. Để trích xuất đặc trưng SIFT
+Đáp án: B
+
+
+Câu 22: Phương pháp nội suy "Nearest Neighbor" hoạt động như thế nào?
+A. Nội suy tuyến tính dựa trên giá trị của bốn điểm ảnh xung quanh
+B. Gán cho điểm ảnh mới giá trị của điểm ảnh gần nhất trong ảnh gốc
+C. Nội suy bậc ba cho kết quả mịn hơn
+D. Tính trung bình cộng của toàn bộ ảnh
+Đáp án: B
+
+
+Câu 23: Hàm cv2.warpAffine() trong thư viện OpenCV được sử dụng để làm gì?
+A. Biến đổi phối cảnh 3D thành 2D
+B. Tính toán histogram
+C. Thực hiện các phép biến đổi cơ bản như tịnh tiến, xoay, tỉ lệ
+D. Làm mờ ảnh bằng Gaussian
+Đáp án: C
+
+
+Câu 24: Xử lý hình thái học (Morphology) thường được sử dụng chủ yếu trên loại ảnh nào?
+A. Ảnh màu HSV
+B. Ảnh panorama toàn cảnh
+C. Ảnh nhị phân hoặc ảnh xám
+D. Ảnh ảnh quang phổ vệ tinh
+Đáp án: C
+
+
+Câu 25: Trong xử lý hình thái học, "Phần tử cấu trúc" (Structuring element) là gì?
+A. Một thuật toán học sâu để nhận diện khuôn mặt
+B. Một ma trận nhị phân nhỏ quyết định hình dạng và kích thước của các phép toán
+C. Cấu trúc cây wavelet 2D
+D. Một bộ lọc Fourier
+Đáp án: B
+
+
+Câu 26: Phép toán hình thái học nào có tác dụng "Thu nhỏ đối tượng, loại bỏ các điểm lẻ tẻ, làm mịn đường viền bên trong"?
+A. Phép giãn nở (Dilation)
+B. Phép xói mòn (Erosion)
+C. Phép mở (Opening)
+D. Phép đóng (Closing)
+Đáp án: B
+
+
+Câu 27: Phép toán hình thái học nào có tác dụng "Phóng to đối tượng, lấp đầy các lỗ hổng nhỏ, làm dày đường viền"?
+A. Phép giãn nở (Dilation)
+B. Phép xói mòn (Erosion)
+C. Phép Top-hat
+D. Phép Black-hat
+Đáp án: A
+
+
+Câu 28: Phép "Mở" (Opening) trong hình thái học là sự kết hợp của hai phép toán nào theo thứ tự?
+A. Giãn nở sau đó Xói mòn
+B. Xói mòn sau đó Giãn nở
+C. Giãn nở sau đó làm mờ Gaussian
+D. Xói mòn sau đó Top-hat
+Đáp án: B
+
+
+Câu 29: Phép "Đóng" (Closing) thường được ứng dụng để làm gì?
+A. Loại bỏ các điểm nhiễu nhỏ ngoài nền
+B. Tìm các đối tượng sáng nhỏ trên nền tối
+C. Lấp đầy các lỗ hổng nhỏ bên trong các đối tượng và kết nối các đối tượng gần nhau
+D. Phóng to toàn bộ bức ảnh
+Đáp án: C
+
+
+Câu 30: "Gradient hình thái học" có tác dụng chính là gì?
+A. Lấp lỗ hổng trong ảnh
+B. Tạo ảnh âm bản
+C. Tính toán độ dốc của hình dạng, tìm các biên (cạnh)
+D. Loại bỏ đối tượng nhiễu
+Đáp án: C
+
+
+Câu 31: Để tìm các đối tượng sáng nhỏ trên nền sáng (hoặc nền tối, tùy định nghĩa vùng tương phản), ta dùng phép toán hình thái học nào?
+A. Xói mòn
+B. Black-hat
+C. Giãn nở
+D. Top-hat
 Đáp án: D
 
-Câu 79: Phong trào cách mạng giai đoạn nào được xác định là một bước chuẩn bị trực tiếp cho giành chính quyền Cách mạng Tháng Tám năm 1945?
-A. Giai đoạn 1929-1933
-B. Giai đoạn 1930-1935
-C. Giai đoạn 1930-1931
-D. Giai đoạn 1939-1945
+
+Câu 32: Để tìm các lỗ hổng nhỏ trên nền tối, ta dùng phép toán hình thái học nào?
+A. Top-hat
+B. Black-hat
+C. Gradient hình thái
+D. Phép Mở
+Đáp án: B
+
+
+Câu 33: Trong Python OpenCV, hàm nào kết hợp thực hiện các phép hình thái học phức tạp như Mở, Đóng, Top-hat?
+A. cv2.morphologyEx()
+B. cv2.erode()
+C. cv2.dilate()
+D. cv2.warpAffine()
+Đáp án: A
+
+
+Câu 34: Nếu giá trị Gốc (Origin) của phần tử cấu trúc mang giá trị C, điều đó có ý nghĩa gì?
+A. Gốc mang giá trị 1
+B. Gốc mang giá trị 0
+C. Phần tử cấu trúc không có gốc
+D. Gốc được tính bằng trung bình cộng
+Đáp án: C
+
+
+Câu 35: Thuật toán phát hiện cạnh "Canny" (Canny Edge Detector) gồm những bước nào?
+A. Tịnh tiến, Phân ngưỡng, Xoay
+B. Biến đổi Fourier, Lọc thông thấp, Biến đổi ngược
+C. Lọc Gaussian giảm nhiễu, Tính toán gradient, Non-maximum suppression, Ngưỡng kép, Theo dõi cạnh
+D. K-means, Otsu, Region growing
+Đáp án: C
+
+
+Câu 36: Bước "Non-maximum suppression" (Triệt tiêu phi cực đại) trong thuật toán Canny dùng để làm gì?
+A. Lấp đầy các lỗ hổng trên cạnh
+B. Loại bỏ nhiễu màu
+C. Làm mỏng các cạnh, chỉ giữ lại các điểm có gradient cực đại cục bộ
+D. Chuyển ảnh xám thành ảnh RGB
+Đáp án: C
+
+
+Câu 37: Tham số "Sigma" trong bộ lọc Gaussian của thuật toán Canny có tác dụng gì?
+A. Kiểm soát mức độ làm mờ để giảm nhiễu trước khi tìm cạnh
+B. Xác định hướng của cạnh
+C. Quyết định ngưỡng cao và ngưỡng thấp
+D. Xoay hình ảnh
+Đáp án: A
+
+
+Câu 38: Cơ chế "Ngưỡng kép" (Double thresholding) trong thuật toán Canny hoạt động như thế nào?
+A. Dùng một ngưỡng duy nhất cắt đôi hình ảnh
+B. Dùng một ngưỡng cao để tìm cạnh mạnh và một ngưỡng thấp để tìm cạnh yếu có liên kết với cạnh mạnh
+C. Tính ngưỡng thích ứng cho từng pixel
+D. Áp dụng ngưỡng Otsu hai lần
+Đáp án: B
+
+
+Câu 39: Ưu điểm nổi bật nhất của thuật toán Canny so với các toán tử như Sobel, Laplacian là gì?
+A. Tính toán nhanh nhất
+B. Phát hiện cạnh với độ chính xác cao, tạo ra các đường cạnh mỏng và liên tục
+C. Dễ dàng triển khai mà không cần tham số
+D. Chỉ phát hiện cạnh ngang
+Đáp án: B
+
+
+Câu 40: Trong OpenCV, hàm dùng để thực hiện thuật toán Canny là gì?
+A. cv2.findEdges()
+B. cv2.Canny()
+C. cv2.Sobel()
+D. cv2.edgeDetect()
+Đáp án: B
+
+
+Câu 41: Nhược điểm của việc ứng dụng Biến đổi Wavelet là gì?
+A. Tốc độ quá chậm không dùng được thực tế
+B. Tính toán phức tạp hơn, một số phương pháp có thể tốn kém bộ nhớ
+C. Chỉ áp dụng được cho tín hiệu âm thanh
+D. Không thể phân tích đa tỷ lệ
+Đáp án: B
+
+
+Câu 42: "Băm hình ảnh wavelet" (Hash wavelet) được sử dụng để làm gì?
+A. Nhận diện biển số xe
+B. Tạo ảnh 3D
+C. Tạo mã băm nhỏ gọn cho hình ảnh, dùng tìm kiếm sự tương đồng hoặc phát hiện vi phạm bản quyền
+D. Chuyển đổi ảnh màu sang ảnh nhị phân
+Đáp án: C
+
+
+Câu 43: Thư viện Python nào chuyên dùng để thực hiện biến đổi Wavelet như trong bài thực hành?
+A. Keras
+B. TensorFlow
+C. PyWavelets (pywt)
+D. Pandas
+Đáp án: C
+
+
+Câu 44: Khoảng cách nào thường được dùng để đánh giá mức độ tương thích giữa hai mã băm (hash code) trong thuật toán Hash wavelet?
+A. Khoảng cách Euclidean
+B. Khoảng cách Manhattan
+C. Khoảng cách Cosine
+D. Khoảng cách Hamming
 Đáp án: D
 
-Câu 80: Ở Việt Nam, "lá cờ đỏ sao vàng năm cánh" do ai vẽ và lần đầu tiên xuất hiện khi nào?
-A. Nguyễn Hữu Tiến; khởi nghĩa Nam Kì.
-B. Nguyễn Hữu Định; khởi nghĩa Bắc Sơn.
-C. Nguyễn Văn Tiến; khởi nghĩa Thái Nguyên.
-D. Nguyễn Hữu Đang; khởi nghĩa Đô Lương.
+
+Câu 45: Lượng tử hóa hệ số (Quantize coefficients) trong quá trình Hash wavelet có nghĩa là gì?
+A. Tăng cường độ phân giải của hệ số
+B. Giảm độ chính xác của các hệ số (ví dụ đưa về 0 và 1) để tạo mã băm
+C. Tính đạo hàm bậc hai
+D. Làm mờ hình ảnh
+Đáp án: B
+
+
+Câu 46: Cấu trúc phần tử hình chữ thập (Cross structuring element) trong morphology thường dùng để làm gì?
+A. Làm mịn các cạnh theo mọi hướng
+B. Loại bỏ các điểm đơn lẻ
+C. Làm mịn cạnh theo hướng ngang
+D. Phát hiện khuôn mặt
+Đáp án: B
+
+
+Câu 47: Để đánh giá chất lượng của các cạnh được phát hiện bởi thuật toán (như Canny), tiêu chí nào sau đây thường được sử dụng?
+A. Kích thước file ảnh xuất ra
+B. Số lượng pixel có màu trắng
+C. Tỷ lệ phát hiện đúng cạnh (không bỏ sót), không phát hiện nhầm nhiễu thành cạnh, và vị trí cạnh phải chính xác
+D. Thời gian chạy của thuật toán
+Đáp án: C
+
+
+Câu 48: Để tách hai đối tượng dính nhau nhẹ trong một ảnh nhị phân, quy trình hình thái học nào phù hợp nhất?
+A. Thực hiện phép Giãn nở nhiều lần
+B. Thực hiện phép Đóng (Closing)
+C. Thực hiện phép Xói mòn (Erosion) hoặc phép Mở (Opening)
+D. Thực hiện Black-hat
+Đáp án: C
+
+
+Câu 49: Phép biến đổi hình học "Biến đổi phối cảnh" (Perspective Transform) có công dụng gì?
+A. Di chuyển ảnh sang trái 10 pixel
+B. Tạo hiệu ứng chiếu một hình ảnh 3D lên một mặt phẳng 2D (chỉnh sửa góc nhìn)
+C. Phóng to ảnh gấp đôi
+D. Lật ngược ảnh từ trái sang phải
+Đáp án: B
+
+
+Câu 50: Theo định nghĩa, Láng giềng "4-kết nối" khác với "8-kết nối" ở điểm nào?
+A. 4-kết nối chỉ xét các pixel liền kề trên, dưới, trái, phải; 8-kết nối xét thêm 4 pixel ở các đường chéo.
+B. 4-kết nối dùng cho ảnh màu, 8-kết nối dùng cho ảnh xám.
+C. 4-kết nối tính toán nhanh gấp đôi 8-kết nối.
+D. 4-kết nối bao gồm các pixel trong bán kính 4, 8-kết nối trong bán kính 8.
 Đáp án: A
 
-Câu 81: Sau Hiệp định Giơnevơ năm 1954, nhân dân miền Bắc thực hiện nhiệm vụ cách mạng nào?
-A. Yêu cầu Pháp phải rút quân khỏi Việt Nam
-B. Đấu tranh chống Mỹ và tay sai
-C. Đấu tranh đòi thi hành hiệp định
-D. Tiến hành cách mạng xã hội chủ nghĩa
+
+Câu 1: "Đặc trưng" (Feature) trong hình ảnh được định nghĩa là gì?
+A. Kích thước chiều dài và chiều rộng của một hình ảnh
+B. Một phần thông tin có liên quan để giải quyết công việc tính toán liên quan đến một ứng dụng nhất định (như điểm, cạnh, đối tượng)
+C. Số lượng pixel có màu đen trong hình ảnh
+D. Định dạng nén của một file ảnh
+Đáp án: B
+
+
+Câu 2: Hai loại đặc trưng chính thường được sử dụng trong thị giác máy tính là gì?
+A. Đặc trưng RGB và đặc trưng HSV
+B. Đặc trưng âm bản và đặc trưng toàn cục
+C. Đặc trưng nằm ở vị trí cụ thể (keypoint/corners) và đặc trưng biên dạng cạnh (edges)
+D. Đặc trưng Gaussian và đặc trưng trung vị
+Đáp án: C
+
+
+Câu 3: Ba thành phần chính của quá trình phát hiện và đối sánh đặc trưng theo thứ tự là gì?
+A. Lọc nhiễu -> Đối sánh -> Phân đoạn
+B. Phát hiện (Detection) -> Mô tả (Description) -> Đối sánh (Matching)
+C. Phân ngưỡng -> Trích xuất -> Gom cụm
+D. Cắt xén -> Xoay -> Nội suy
+Đáp án: B
+
+
+Câu 4: Kết quả của bước "Mô tả" (Description) đối với mỗi điểm đặc trưng thường là gì?
+A. Một ma trận 3D
+B. Một biểu đồ Histogram
+C. Một giá trị pixel duy nhất
+D. Một vector mô tả đặc trưng (feature vector)
 Đáp án: D
 
-Câu 82: Vĩ tuyến 17, ranh giới quân sự tập kết lực lượng sau Hiệp định Giơnevơ (7-1954) ở cây cầu nào?
-A. Cầu Rồng
-B. Cầu Hiền Lương
-C. Cầu Thạch Hãn
-D. Cầu Nhật Lệ
-Đáp án: B
 
-Câu 83: Đại hội toàn quốc lần thứ III (1960) đã xác định nhiệm vụ của cách mạng ở miền Nam là gì?
-A. Tiến hành cách mạng dân tộc dân chủ nhân dân
-B. Bảo vệ miền Bắc, tiến lên xây dựng chủ nghĩa cộng sản
-C. Xây dựng lực lượng vũ trang và lực lượng chính trị
-D. Tiến hành cách mạng xã hội chủ nghĩa
+Câu 5: Ứng dụng nào sau đây KHÔNG phải là ứng dụng của phát hiện đặc trưng và đối sánh ảnh?
+A. Chuyển đổi định dạng file ảnh từ PNG sang JPG
+B. Tìm kiếm hình ảnh tương tự trong cơ sở dữ liệu lớn
+C. Lập bản đồ 3D từ nhiều hình ảnh
+D. Nhận dạng vật thể và theo dõi chuyển động
 Đáp án: A
 
-Câu 84: Đâu không phải là chiến lược chiến tranh Mỹ đã sử dụng ở Việt Nam?
-A. Chiến tranh đặc biệt
-B. Chiến tranh vũ trang
-C. Chiến tranh cục bộ
-D. Việt Nam hóa chiến tranh
+
+Câu 6: Các thuật toán phổ biến nhất dùng để phát hiện đặc trưng là gì?
+A. K-Means, Fuzzy C-Means
+B. SIFT, SURF, ORB
+C. YOLO, R-CNN
+D. Mean Shift, Watershed
 Đáp án: B
 
-Câu 85: Nội dung nào phản ánh đầy đủ nhất tình hình Việt Nam sau Hiệp định Giơnevơ năm 1954?
-A. Đất nước hoàn toàn độc lập, đi lên chủ nghĩa xã hội
-B. Mỹ trở thành kẻ thù trực tiếp, âm mưu biến Việt Nam thành thuộc địa kiểu mới
-C. Việt Nam kháng chiến chống Mỹ trên phạm vi cả nước
-D. Đất nước tạm thời bị chia cắt làm hai miền với hai chế độ chính trị khác nhau
+
+Câu 7: Điểm góc (Corner) trong hình ảnh có đặc điểm nhận dạng nào?
+A. Là những vùng có mẫu lặp đi lặp lại
+B. Là những đường phân cách giữa hai vùng cường độ
+C. Là những điểm có sự thay đổi đột ngột về cường độ ánh sáng theo nhiều hướng
+D. Là những điểm có màu sắc đồng nhất nhất
+Đáp án: C
+
+
+Câu 8: Trong quá trình đối sánh ảnh, bước "Ước lượng biến đổi" có tác dụng gì?
+A. Cân bằng ánh sáng cho hai ảnh
+B. Tính toán số lượng điểm ngoại lai
+C. Sử dụng các cặp điểm tương ứng để ước lượng phép tịnh tiến, xoay, tỉ lệ giữa hai hình ảnh
+D. Biến đổi ảnh màu thành ảnh xám
+Đáp án: C
+
+
+Câu 9: Quy trình hoạt động của thuật toán SIFT gồm bao nhiêu bước cơ bản?
+A. 2 bước
+B. 3 bước
+C. 4 bước
+D. 5 bước
+Đáp án: C
+
+
+Câu 10: SIFT tìm kiếm "Điểm cực trị" dựa vào yếu tố nào?
+A. Các điểm có giá trị gradient lớn nhất hoặc cực đại/cực tiểu so với các điểm lân cận
+B. Các điểm có màu sáng nhất
+C. Các điểm nằm ngay chính giữa bức ảnh
+D. Các điểm có giá trị pixel bằng 0
+Đáp án: A
+
+
+Câu 11: Mô tả đặc trưng (Descriptor) của một keypoint trong SIFT là một vector có bao nhiêu chiều?
+A. 64 chiều
+B. 128 chiều
+C. 256 chiều
+D. 512 chiều
+Đáp án: B
+
+
+Câu 12: Con số 128 chiều trong vector đặc trưng của SIFT được tạo ra từ đâu?
+A. 128 pixel lân cận
+B. Lưới 8x8 với 2 hướng
+C. Lưới 4x4 (16 ô), mỗi ô lấy mẫu histogram theo 8 hướng (16 x 8 = 128)
+D. Lưới 16x8 với 1 hướng
+Đáp án: C
+
+
+Câu 13: "DoG" trong thuật toán SIFT là viết tắt của từ gì?
+A. Direction of Gradients
+B. Detection of Geometry
+C. Difference of Gaussians (Hiệu của Gaussian)
+D. Descriptor of Group
+Đáp án: C
+
+
+Câu 14: Toán tử nào sau đây KHÔNG được liệt kê là hàm gradient thường sử dụng trong SIFT?
+A. Sobel
+B. Prewitt
+C. Scharr
+D. Median
 Đáp án: D
 
-Câu 86: Thắng lợi kháng chiến chống Mỹ kết thúc bao nhiêu năm chiến tranh giải phóng dân tộc?
-A. 100 năm
-B. 1 thế kỷ
-C. 30 năm (1945-1975)
-D. 21 năm
+
+Câu 15: Thuật toán SURF (Speeded Up Robust Features) được xem là phiên bản cải tiến của thuật toán nào?
+A. ORB
+B. SIFT
+C. FAST
+D. K-Means
+Đáp án: B
+
+
+Câu 16: Thay vì dùng DoG như SIFT, SURF sử dụng bộ lọc nào để tính toán ma trận Hessian một cách hiệu quả?
+A. Bộ lọc Laplacian
+B. Bộ lọc Box
+C. Bộ lọc Gabor
+D. Bộ lọc Sobel
+Đáp án: B
+
+
+Câu 17: Mô tả đặc trưng của thuật toán SURF dựa trên yếu tố toán học nào?
+A. Histogram của các hướng gradient
+B. Hessian matrix (Ma trận Hessian)
+C. Vector tần số Fourier
+D. Mã nhị phân LBP
+Đáp án: B
+
+
+Câu 18: Cấu trúc dữ liệu nào được SURF sử dụng để tăng tốc độ tìm kiếm các điểm cực trị?
+A. Interval
+B. Binary Tree
+C. Hash map
+D. Pyramid
+Đáp án: A
+
+
+Câu 19: Ưu điểm nổi bật về tốc độ của SURF so với SIFT là gì?
+A. Chậm hơn SIFT nhưng chính xác hơn
+B. Nhanh hơn đáng kể so với SIFT mà vẫn giữ độ chính xác cao
+C. Tốc độ tương đương nhưng tiết kiệm RAM hơn
+D. Chậm gấp đôi SIFT
+Đáp án: B
+
+
+Câu 20: Thuật toán ORB là sự kết hợp của hai kỹ thuật nào?
+A. SIFT và SURF
+B. FAST và Rotated BRIEF
+C. DoG và Hessian
+D. Haar và LBP
+Đáp án: B
+
+
+Câu 21: Trong thuật toán ORB, FAST có vai trò gì?
+A. Tạo mô tả đặc trưng nhị phân
+B. Phát hiện góc (xác định các điểm đặc trưng tiềm năng)
+C. Lọc nhiễu Gaussian
+D. Tính khoảng cách Hamming
+Đáp án: B
+
+
+Câu 22: Thành phần "Rotated BRIEF" trong ORB thực hiện chức năng gì?
+A. Xoay hình ảnh 90 độ
+B. Tìm kiếm vật thể theo mô hình 3D
+C. Tạo một mô tả nhị phân dựa trên các phép kiểm tra so sánh cường độ
+D. Tính đạo hàm bậc hai của ảnh
 Đáp án: C
 
-Câu 87: Phong trào Đồng Khởi (1959-1960) bùng nổ mạnh mẽ nhất ở đâu?
-A. Đồng Tháp
-B. Tiền Giang
-C. An Giang
-D. Bến Tre
+
+Câu 23: Tại sao ORB lại được sử dụng rộng rãi thay thế cho SIFT và SURF trong nhiều ứng dụng mã nguồn mở?
+A. Vì nó có độ chính xác cao nhất
+B. Vì nó tạo ra vector 512 chiều
+C. Vì tốc độ cực nhanh và không có bằng sáng chế (miễn phí)
+D. Vì nó chỉ hoạt động trên ảnh màu RGB
+Đáp án: C
+
+
+Câu 24: Đối sánh dựa trên đặc trưng cục bộ (Local feature-based matching) có ưu điểm gì?
+A. Dễ dàng tìm kiếm một khuôn mặt cụ thể trong đám đông
+B. Chỉ cần rất ít dung lượng RAM
+C. Khả năng xử lý các biến đổi hình học, ánh sáng và nhiễu tốt, áp dụng linh hoạt cho nhiều loại ảnh
+D. Tốc độ nhanh nhất trong mọi phương pháp
+Đáp án: C
+
+
+Câu 25: Đối sánh dựa trên mô hình (Model-based matching) phù hợp nhất với loại bài toán nào?
+A. Lập bản đồ toàn cảnh panorama
+B. Tìm kiếm các đối tượng cụ thể theo một khuôn mẫu đã biết (như nhận dạng khuôn mặt)
+C. Phát hiện cạnh của phong cảnh
+D. Nén ảnh
+Đáp án: B
+
+
+Câu 26: ASM (Active Shape Models) và AAM (Active Appearance Models) là các thuật toán thuộc nhóm đối sánh nào?
+A. Đối sánh đặc trưng cục bộ
+B. Đối sánh dựa trên mô hình
+C. Phân đoạn ngữ nghĩa
+D. Biến đổi Fourier
+Đáp án: B
+
+
+Câu 27: Nhược điểm của đối sánh dựa trên mô hình là gì?
+A. Không thể nhận dạng được khuôn mặt
+B. Cần một lượng lớn dữ liệu huấn luyện để xây dựng mô hình
+C. Bị nhiễu hoàn toàn bởi ánh sáng
+D. Chỉ phân tích được trên ảnh nhị phân
+Đáp án: B
+
+
+Câu 28: Kỹ thuật RANSAC trong đối sánh ảnh được sử dụng với mục đích chính là gì?
+A. Tăng độ sáng của hình ảnh
+B. Loại bỏ các điểm ngoại lai (outliers) để cải thiện độ chính xác
+C. Nén vector đặc trưng
+D. Thay đổi kích thước ảnh
+Đáp án: B
+
+
+Câu 29: KLT (Kanade-Lucas-Tomasi) tracker là thuật toán thường được sử dụng trong lĩnh vực nào?
+A. Nhận dạng khuôn mặt tĩnh
+B. Theo dõi vật thể, theo dõi điểm đặc trưng theo thời gian
+C. Phân đoạn hình ảnh y tế
+D. Ghép ảnh panorama
+Đáp án: B
+
+
+Câu 30: Mạng Siamese Network trong Photo Matching được thiết kế như thế nào?
+A. Gồm ba mạng CNN riêng biệt
+B. Gồm hai mạng CNN có chung trọng số để trích xuất đặc trưng của hai ảnh đầu vào
+C. Chỉ sử dụng các lớp Fully Connected
+D. Sử dụng mạng Transformer để xử lý chuỗi
+Đáp án: B
+
+
+Câu 31: Đầu ra của hai nhánh trong Siamese Network thường được so sánh bằng phương pháp nào?
+A. Khoảng cách Euclidean hoặc Cosine Similarity
+B. Ngưỡng Otsu
+C. Đạo hàm bậc 2
+D. Phép phân đoạn Watershed
+Đáp án: A
+
+
+Câu 32: Triplet Network yêu cầu ba ảnh đầu vào để huấn luyện, đó là những ảnh nào?
+A. Ảnh màu, ảnh xám, ảnh nhị phân
+B. Anchor (ảnh gốc), Positive (ảnh giống gốc), Negative (ảnh khác gốc)
+C. Ảnh gốc, ảnh làm mờ, ảnh thêm nhiễu
+D. Background, Foreground, Mask
+Đáp án: B
+
+
+Câu 33: Mục tiêu học của hàm mất mát trong Triplet Network là gì?
+A. Làm cho ảnh Anchor và Negative giống hệt nhau
+B. Làm mờ toàn bộ ảnh
+C. Khoảng cách giữa (Anchor, Positive) nhỏ hơn khoảng cách giữa (Anchor, Negative)
+D. Chuyển đặc trưng thành vector 1 chiều
+Đáp án: C
+
+
+Câu 34: Ưu điểm của Transformer (như ViT) trong Photo Matching so với CNN là gì?
+A. Tính toán siêu nhẹ, không cần GPU
+B. Hiệu quả với ảnh có khác biệt lớn, học được mối quan hệ không gian rộng hơn
+C. Chỉ cần vài chục ảnh để huấn luyện
+D. Tích hợp sẵn trong mọi camera
+Đáp án: B
+
+
+Câu 35: Self-Supervised Learning (SimCLR, BYOL) có lợi thế gì trong bài toán đối sánh ảnh?
+A. Phân đoạn pixel cực kỳ chi tiết
+B. Không cần bất kỳ dữ liệu hình ảnh nào
+C. Không cần nhiều dữ liệu có gán nhãn, học bằng cách tự so khớp với phiên bản biến đổi của chính nó
+D. Chỉ tạo ra ảnh trắng đen
+Đáp án: C
+
+
+Câu 36: GAN (Generative Adversarial Networks) như StyleGAN thường được ứng dụng để làm gì trong lĩnh vực này?
+A. Tính gradient xấp xỉ
+B. Tăng cường độ nét của đường viền
+C. Tạo ra ảnh giả mạo hoặc kiểm tra mức độ tương đồng phong cách
+D. Phát hiện biển số xe
+Đáp án: C
+
+
+Câu 37: Trong PyTorch, khi huấn luyện mạng Siamese để so khớp ảnh, hàm mất mát (Loss) nào thường được sử dụng?
+A. Cross-Entropy Loss
+B. Mean Squared Error (MSE)
+C. Contrastive Loss
+D. Dice Loss
+Đáp án: C
+
+
+Câu 38: Tác dụng của "Contrastive Loss" là gì?
+A. Xóa phông nền ảnh
+B. Giúp mô hình học cách đưa ảnh giống nhau lại gần và đẩy ảnh khác nhau ra xa trong không gian đặc trưng
+C. Lấy trung bình cộng của 2 ảnh
+D. Cân bằng màu RGB
+Đáp án: B
+
+
+Câu 39: FaceNet là mạng nơ-ron sâu chuyên dụng cho bài toán nào?
+A. Phân đoạn tế bào y tế
+B. Nén video
+C. Nhận diện khuôn mặt
+D. Xử lý ngôn ngữ tự nhiên
+Đáp án: C
+
+
+Câu 40: Mạng FaceNet do tập đoàn nào phát triển?
+A. Microsoft
+B. Facebook (Meta)
+C. OpenAI
+D. Google
 Đáp án: D
 
-Câu 88: Chiến dịch mở màn cho cuộc Tổng tiến công và nổi dậy mùa xuân năm 1975 diễn ra tại địa điểm nào?
-A. Sài Gòn
-B. Đà Nẵng
-C. Huế
-D. Tây Nguyên
+
+Câu 41: Đầu ra của mô hình FaceNet cho một khuôn mặt là gì?
+A. Một file văn bản
+B. Tọa độ (x,y,w,h) của khuôn mặt
+C. Một embedding (vector biểu diễn), trong đó khuôn mặt giống nhau sẽ có vector gần nhau
+D. Một hình khối 3D
+Đáp án: C
+
+
+Câu 42: Lệnh cài đặt thư viện Python chuyên cung cấp công cụ nhận diện khuôn mặt và tích hợp sẵn FaceNet là gì?
+A. pip install opencv-python
+B. pip install face_recognition
+C. pip install dlib
+D. pip install facenet-pytorch
+Đáp án: B
+
+
+Câu 43: MTCNN thường được tích hợp chung với FaceNet để thực hiện nhiệm vụ gì?
+A. Gán nhãn cho ảnh
+B. Phát hiện vị trí khuôn mặt trong ảnh trước khi trích xuất đặc trưng
+C. Thay đổi kích thước ảnh
+D. Lọc nhiễu Gaussian
+Đáp án: B
+
+
+Câu 44: Theo bài thực hành chương 3, nếu độ tương đồng (similarity) của khuôn mặt > 0.7 thì hệ thống sẽ hiển thị chữ gì?
+A. Unknown
+B. Error
+C. Matched
+D. Pending
+Đáp án: C
+
+
+Câu 45: Lựa chọn phương pháp tối ưu phần cứng để tăng tốc độ tính toán cho đối sánh ảnh thường là?
+A. Sử dụng thêm màn hình
+B. Tận dụng khả năng tính toán song song của GPU
+C. Sử dụng đĩa cứng HDD
+D. Hạ nhiệt độ phòng
+Đáp án: B
+
+
+Câu 46: Việc giảm kích thước của các vector đặc trưng trong đối sánh ảnh nhằm mục đích gì?
+A. Tăng độ phân giải cho màn hình
+B. Giảm thời gian tính toán và tăng tốc độ so sánh
+C. Khôi phục ảnh bị xước
+D. Giữ nguyên màu sắc ban đầu
+Đáp án: B
+
+
+Câu 47: Đặc trưng (feature) được định nghĩa là "Edges" biểu diễn điều gì?
+A. Đỉnh núi, góc tòa nhà
+B. Biên dạng cạnh, chỉ báo về ranh giới đối tượng
+C. Điểm cực đại của histogram
+D. Tâm của hình tròn
+Đáp án: B
+
+
+Câu 48: Quá trình tạo "Mã băm wavelet" (Hash wavelet) KHÔNG bao gồm bước nào sau đây?
+A. Biến đổi wavelet phân tích tần số
+B. Lượng tử hóa hệ số
+C. Huấn luyện mạng nơ-ron sâu (CNN)
+D. Tạo mã băm dựa trên các hệ số lượng tử
+Đáp án: C
+
+
+Câu 49: Việc so sánh các hàm băm wavelet thường sử dụng loại khoảng cách nào?
+A. Khoảng cách Euclidean
+B. Khoảng cách Manhattan
+C. Khoảng cách Hamming
+D. Khoảng cách Cosine
+Đáp án: C
+
+
+Câu 50: "Siamese Dataset" được chuẩn bị cho huấn luyện mạng nơ-ron có đặc điểm gì?
+A. Chỉ gồm toàn bộ ảnh lỗi
+B. Là các cặp ảnh, dán nhãn Positive nếu giống nhau, Negative nếu khác nhau
+C. Chỉ chứa file văn bản mô tả ảnh
+D. Gồm 10 triệu ảnh phong cảnh ngẫu nhiên
+Đáp án: B
+
+
+Câu 1: Việc lựa chọn phương pháp đối sánh hình ảnh phụ thuộc vào yếu tố nào sau đây?
+A. Chỉ phụ thuộc vào ngôn ngữ lập trình đang sử dụng.
+B. Tính chất của dữ liệu, yêu cầu về độ chính xác/tốc độ, và kiến thức trước về đối tượng.
+C. Chỉ phụ thuộc vào dung lượng RAM của máy tính.
+D. Độ phân giải của màn hình hiển thị.
+Đáp án: B
+
+
+Câu 2: Phương pháp đối sánh nào thích hợp cho các bài toán tổng quát, không yêu cầu kiến thức trước về đối tượng?
+A. Đối sánh dựa trên mô hình (Model-based matching).
+B. Đối sánh dựa trên học liên kết.
+C. Đối sánh dựa trên đặc trưng cục bộ (Local feature-based matching).
+D. Đối sánh bằng biến đổi Gamma.
+Đáp án: C
+
+
+Câu 3: Trong bài toán nhận dạng khuôn mặt trong video giám sát, phương pháp đối sánh nào thường được ưu tiên sử dụng?
+A. Đối sánh dựa trên đặc trưng cục bộ.
+B. Đối sánh dựa trên mô hình.
+C. Biến đổi Wavelet liên tục.
+D. Lọc Gaussian.
+Đáp án: B
+
+
+Câu 4: Để cải thiện chất lượng hình ảnh trước khi đối sánh, bước tiền xử lý nào thường được áp dụng?
+A. Thêm nhiễu muối tiêu vào ảnh.
+B. Xóa bỏ hoàn toàn màu sắc của ảnh.
+C. Khử nhiễu, tăng cường cạnh, cân bằng histogram.
+D. Nén ảnh xuống định dạng JPEG với chất lượng thấp nhất.
+Đáp án: C
+
+
+Câu 5: Trong lĩnh vực ghép ảnh (Image Stitching), thuật toán RANSAC được sử dụng kết hợp với SIFT/SURF nhằm mục đích gì?
+A. Tăng độ sáng cho ảnh.
+B. Loại bỏ các điểm ngoại lai (outliers) để tính toán ma trận biến đổi hình học chính xác hơn.
+C. Chuyển đổi ảnh màu sang ảnh xám.
+D. Phát hiện khuôn mặt trong ảnh.
+Đáp án: B
+
+
+Câu 6: Thuật toán KLT (Kanade-Lucas-Tomasi) tracker thường được áp dụng trong bài toán nào?
+A. Cân bằng Histogram.
+B. Lập bản đồ 3D tĩnh.
+C. Theo dõi các điểm đặc trưng theo thời gian để ước tính quỹ đạo của vật thể.
+D. Nén video giám sát.
+Đáp án: C
+
+
+Câu 7: Mạng Siamese Network trong Photo Matching có cấu trúc đặc trưng nào?
+A. Gồm ba mạng CNN hoàn toàn khác nhau.
+B. Sử dụng kiến trúc Transformer thay vì CNN.
+C. Gồm hai mạng CNN có chung trọng số để trích xuất đặc trưng của hai ảnh đầu vào.
+D. Chỉ sử dụng một lớp Fully Connected duy nhất.
+Đáp án: C
+
+
+Câu 8: Trong Siamese Network, độ giống nhau giữa đầu ra của hai nhánh thường được đánh giá bằng phương pháp nào?
+A. Khoảng cách Euclidean hoặc Cosine Similarity.
+B. Ngưỡng phân đoạn Otsu.
+C. Đạo hàm bậc 2 của ảnh.
+D. Thuật toán phân cụm K-Means.
+Đáp án: A
+
+
+Câu 9: Ưu điểm của việc sử dụng Siamese Network là gì?
+A. Không cần bất kỳ dữ liệu huấn luyện nào.
+B. Rất hiệu quả khi dữ liệu huấn luyện hạn chế, học được mối quan hệ giữa hai ảnh.
+C. Tốc độ nhanh hơn gấp 10 lần so với biến đổi Fourier.
+D. Chỉ cần xử lý trên CPU, không cần GPU.
+Đáp án: B
+
+
+Câu 10: Mô hình Triplet Network yêu cầu 3 ảnh đầu vào để huấn luyện là những ảnh nào?
+A. Ảnh màu, ảnh xám, ảnh nhị phân.
+B. Background, Foreground, Mask.
+C. Ảnh gốc, ảnh làm mờ, ảnh sắc nét.
+D. Anchor (ảnh gốc), Positive (ảnh giống gốc), Negative (ảnh khác gốc).
 Đáp án: D
 
-Câu 89: Ai là người Việt Nam đầu tiên được trao giải Nobel Hòa bình năm 1973 và đã từ chối giải thưởng này?
-A. Nguyễn Thị Bình.
-B. Xuân Thủy.
-C. Lê Đức Thọ.
-D. Nguyễn Duy Trinh.
+
+Câu 11: Mục tiêu học của Triplet Network là tối ưu hóa khoảng cách nào?
+A. Khoảng cách giữa (Anchor, Positive) lớn hơn khoảng cách giữa (Anchor, Negative).
+B. Khoảng cách giữa (Anchor, Positive) bằng khoảng cách giữa (Anchor, Negative).
+C. Khoảng cách giữa (Anchor, Positive) nhỏ hơn khoảng cách giữa (Anchor, Negative).
+D. Giảm tất cả khoảng cách về 0.
 Đáp án: C
 
-Câu 90: “Người Mỹ có thể lên Mặt trăng và trở về an toàn. Còn sang Việt Nam, thì chúng tôi không chắc!” là câu nói của ai?
-A. Lê Đức Thọ.
-B. Xuân Thủy.
-C. Nguyễn Thị Bình.
-D. Hồ Chí Minh.
-Đáp án: A
 
-Câu 91: “Máu đọng chưa khô lại đầy/Hỡi miền Nam trăm đắng ngàn cay”. Phản ánh chính sách gì của Mĩ - Diệm?
-A. Tổ chức hành quân tìm diệt
-B. Dùng người Việt, đánh người Việt
-C. Tố cộng, diệt cộng
-D. Dồn dân, lập ấp chiến lược
+Câu 12: Kỹ thuật Self-Supervised Learning (SSL) như SimCLR hoặc MoCo huấn luyện mô hình bằng cách nào?
+A. Sử dụng hàng triệu ảnh được dán nhãn thủ công bởi con người.
+B. So khớp một ảnh với phiên bản biến đổi của chính nó (augmentation).
+C. Chuyển đổi mọi ảnh thành định dạng 3D.
+D. Xóa bỏ hoàn toàn phông nền của hình ảnh.
+Đáp án: B
+
+
+Câu 13: Ưu điểm của các mô hình Transformer (như ViT) trong Photo Matching là gì?
+A. Rất nhẹ, phù hợp cho vi điều khiển.
+B. Không bao giờ cần dùng đến GPU.
+C. Hiệu quả với ảnh có sự khác biệt lớn về hình dạng, nội dung; học được mối quan hệ không gian rộng.
+D. Chỉ phân tích được ảnh đen trắng.
 Đáp án: C
 
-Câu 92: Đạo luật 10/59 do ai ban hành? Ra đời vào thời gian nào?
-A. Ngô Đình Diệm - 5/1959
-B. Ngô Đình Diệm - 11/1959
-C. Ngô Đình Diệm - 7/1957
-D. Nguyễn Văn Thiệu - 10/1967
-Đáp án: A
 
-Câu 93: Tên gọi khác của "đường Hồ Chí Minh trên biển" trong thời kỳ kháng chiến chống Mỹ?
-A. 559
-B. 579
-C. 759 (Đoàn 759)
-D. 955
+Câu 14: Các mô hình Generative Adversarial Networks (GAN) như StyleGAN thường được ứng dụng để làm gì trong Photo Matching?
+A. Trích xuất đặc trưng SIFT.
+B. Tạo ảnh giả mạo hoặc kiểm tra mức độ tương đồng phong cách giữa hai ảnh.
+C. Tính toán khoảng cách Hamming.
+D. Xóa các điểm ngoại lai (outliers).
+Đáp án: B
+
+
+Câu 15: "Siamese Dataset" được sử dụng trong bài thực hành PyTorch bao gồm dữ liệu dạng gì?
+A. Hàng triệu ảnh đơn lẻ không có nhãn.
+B. Mỗi lần huấn luyện lấy một cặp ảnh: dán nhãn positive nếu giống nhau, negative nếu khác nhau.
+C. Chỉ chứa file văn bản tọa độ pixel.
+D. Các video có độ dài 10 giây.
+Đáp án: B
+
+
+Câu 16: Trong mạng Siamese sử dụng PyTorch, hàm mất mát nào thường được áp dụng để tối ưu hóa khả năng so khớp?
+A. Mean Squared Error (MSE).
+B. Cross Entropy Loss.
+C. Contrastive Loss.
+D. L1 Loss.
 Đáp án: C
 
-Câu 94: Tại Đại hội lần thứ III (1960), Đảng ta xác định cách mạng miền Nam có vai trò như thế nào?
-A. Quyết định nhất
-B. Cơ bản nhất
-C. Quan trọng nhất
-D. Quyết định trực tiếp
+
+Câu 17: FaceNet là mạng nơ-ron sâu chuyên dụng do công ty nào phát triển?
+A. Facebook (Meta).
+B. Microsoft.
+C. OpenAI.
+D. Google.
 Đáp án: D
 
-Câu 95: Đại hội lần thứ mấy của Đảng là "Đại hội xây dựng chủ nghĩa xã hội ở miền Bắc và đấu tranh hòa bình thống nhất nước nhà"?
-A. Đại hội đại biểu toàn quốc lần thứ III
-B. Đại hội đại biểu toàn quốc lần thứ IV
-C. Đại hội đại biểu toàn quốc lần thứ VI
-D. Đại hội đại biểu toàn quốc lần thứ V
-Đáp án: A
 
-Câu 96: Vĩ tuyến 17 thuộc địa phận của tỉnh nào?
-A. Quảng Bình
-B. Quảng Trị
-C. Miền Bắc
-D. Quảng Ninh
+Câu 18: Đầu ra (output) của mô hình FaceNet cho một hình ảnh khuôn mặt là gì?
+A. Tọa độ bounding box (x, y, w, h).
+B. Một embedding (vector biểu diễn), trong đó các khuôn mặt giống nhau sẽ có vector gần nhau.
+C. Một nhãn văn bản chứa tên người đó.
+D. Một ảnh nhị phân phân đoạn khuôn mặt.
 Đáp án: B
 
-Câu 97: Tuyến đường vận tải chiến lược nối liền hậu phương miền Bắc với tiền tuyến miền Nam là?
-A. Đường mòn Hồ Chí Minh
-B. Đường Tây Nguyên
-C. Đường số 4
-D. Đường quốc lộ 1A
-Đáp án: A
 
-Câu 98: Nhân vật nào mệnh danh là: Nữ tướng Rừng dừa, "Linh hồn" của phong trào Đồng Khởi?
-A. Nguyễn Thị Minh Khai
-B. Nguyễn Thị Định
-C. Nguyễn Thị Bình
-D. Võ Thị Sáu
+Câu 19: Đặc điểm nổi bật của FaceNet là nó vẫn duy trì hiệu suất cao ngay cả trong điều kiện nào?
+A. Chỉ khi khuôn mặt nhìn thẳng và đủ sáng.
+B. Khuôn mặt bị che khuất, xoay, hoặc có thay đổi về ánh sáng.
+C. Chỉ hoạt động trên ảnh xám (grayscale).
+D. Khi hình ảnh bị nén dưới 10KB.
 Đáp án: B
 
-Câu 99: Tên người chiến sĩ đầu tiên đã cắm cờ trên nóc Dinh Độc lập ngày 30/04/1975?
-A. Bùi Quang Thận
-B. Anh hùng Đinh Núp
-C. Nguyễn Văn Trỗi
-D. Võ Nguyên Giáp
-Đáp án: A
 
-Câu 100: Điều khoản nào của Hiệp định Pari năm 1973 có ý nghĩa quyết định đối với sự phát triển của cuộc kháng chiến?
-A. Hoa Kỳ rút hết quân viễn chinh... không tiếp tục dính líu quân sự.
-B. Hai bên ngừng bắn, Mỹ tôn trọng độc lập chủ quyền.
-C. Nhân dân miền Nam tự quyết định tương lai chính trị thông qua tổng tuyển cử.
-D. Thừa nhận miền Nam có hai chính quyền.
-Đáp án: A
+Câu 20: Thư viện Python phổ biến nào cung cấp các công cụ làm việc với nhận diện khuôn mặt và đã tích hợp sẵn mô hình FaceNet?
+A. matplotlib
+B. pandas
+C. face_recognition
+D. scikit-learn
+Đáp án: C
 
-Câu 101: Chủ trương "Thần tốc, táo bạo, bất ngờ, chắc thắng", đó là tinh thần của Chiến dịch nào?
-A. Chiến dịch Sài Gòn - Gia Định (Chiến dịch Hồ Chí Minh)
-B. Chiến dịch Huế - Đà Nẵng
-C. Chiến dịch Điện Biên Phủ trên không
-D. Chiến dịch Tây Nguyên
-Đáp án: A
 
-Câu 102: Chiến lược "Chiến tranh cục bộ" của Mỹ ra đời trong hoàn cảnh nào?
-A. Sau phong trào “Đồng Khởi”
-B. Sau thất bại của “Chiến lược chiến tranh đặc biệt”
-C. Sau cuộc Tổng tiến công Tết Mậu Thân 1968
-D. Sau thất bại của “Chiến tranh đơn phương”
+Câu 21: Trong bài toán nhận diện khuôn mặt thời gian thực, MTCNN được tích hợp với mục đích gì?
+A. Cân bằng ánh sáng của camera.
+B. Trích xuất đặc trưng embedding.
+C. Phát hiện vị trí khuôn mặt trong hình ảnh/video.
+D. Hiển thị văn bản lên màn hình.
+Đáp án: C
+
+
+Câu 22: Thư viện nào thường được sử dụng để thao tác truy cập và thu thập hình ảnh từ Webcam?
+A. PyTorch
+B. TensorFlow
+C. OpenCV
+D. Numpy
+Đáp án: C
+
+
+Câu 23: Theo bài thực hành, hệ thống sẽ hiển thị trạng thái "Matched" (Khớp) khi giá trị độ tương đồng (similarity) thỏa mãn điều kiện nào?
+A. Similarity < 0.5
+B. Similarity = 0
+C. Similarity > 0.7
+D. Similarity < 0.7
+Đáp án: C
+
+
+Câu 24: Theo bài thực hành, hệ thống sẽ hiển thị trạng thái "Unknown" (Không xác định) khi giá trị độ tương đồng thỏa mãn điều kiện nào?
+A. Similarity > 0.9
+B. Similarity < 0.7
+C. Similarity = 1.0
+D. Similarity > 0.7
 Đáp án: B
 
-Câu 103: Việt Nam và Hoa Kỳ bình thường hóa quan hệ vào thời gian nào?
-A. 1992
-B. 1995
-C. 1994
-D. 1993
-Đáp án: B
 
-Câu 104: Hiệp định Paris về Việt Nam được kí kết vào thời gian nào?
-A. 1974
-B. 1972
-C. 1971
-D. 1973
+Câu 25: Kỹ thuật "Hash wavelet" (Băm hình ảnh wavelet) được sử dụng để làm gì?
+A. Nhận diện khuôn mặt người nổi tiếng.
+B. Tăng độ phân giải cho ảnh bị mờ.
+C. Tạo mã băm nhỏ gọn để tìm kiếm sự tương đồng của hình ảnh hoặc phát hiện vi phạm bản quyền.
+D. Chuyển đổi định dạng video.
+Đáp án: C
+
+
+Câu 26: Bước "Lượng tử hóa hệ số" trong quá trình băm hình ảnh wavelet có nghĩa là gì?
+A. Giảm độ chính xác của các hệ số wavelet để tạo ra dữ liệu rời rạc (nhị phân).
+B. Tăng gấp đôi độ phân giải của các hệ số.
+C. Thay thế các hệ số bằng giá trị trung bình cộng.
+D. Dùng mạng CNN để học các hệ số.
+Đáp án: A
+
+
+Câu 27: Để đánh giá mức độ tương thích giữa hai mã băm (hash code) trong thuật toán Hash wavelet, người ta dùng khoảng cách nào?
+A. Khoảng cách Mahalanobis.
+B. Khoảng cách Euclidean.
+C. Khoảng cách Cosine.
+D. Khoảng cách Hamming.
 Đáp án: D
 
-Câu 105: Nguyên nhân có tính chất quyết định nhất đưa tới thắng lợi của cuộc kháng chiến chống Mỹ là gì?
-A. Có hậu phương vững chắc miền Bắc.
-B. Sự lãnh đạo đúng đắn và sáng suốt của Đảng.
-C. Nhân dân ta có truyền thống yêu nước nồng nàn.
-D. Sự giúp đỡ của các nước XHCN và đoàn kết ba nước Đông Dương.
+
+Câu 28: Trong đánh giá thuật toán so sánh ảnh, "Độ nhạy" (Sensitivity) được định nghĩa là gì?
+A. Tỷ lệ tổng số cặp hình ảnh được phân loại đúng.
+B. Tỷ lệ các cặp hình ảnh tương thích (giống nhau) được phân loại đúng.
+C. Tỷ lệ các cặp hình ảnh không tương thích được phân loại đúng.
+D. Tốc độ xử lý của thuật toán trên GPU.
 Đáp án: B
 
-Câu 106: Tinh thần chiến đấu chống chiến tranh phá hoại lần thứ nhất của Mỹ được thể hiện qua khẩu hiệu nào?
-A. Không có gì quý hơn độc lập tự do
-B. Thóc không thiếu một cân, quân không thiếu một người
-C. Nhằm thẳng quân thù mà bắn
-D. Thanh niên “ba sẵn sàng”, phụ nữ “ba đảm đang”
-Đáp án: C
 
-Câu 107: Việc kí kết Hiệp định Pari năm 1973 đã phản ánh xu thế gì của thế giới trong những năm 70?
-A. Xu thế giải quyết tranh chấp bằng biện pháp hòa bình
-B. Xu thế hòa hoãn Đông - Tây
-C. Xu thế toàn cầu hóa
-D. Xu thế liên kết khu vực
-Đáp án: B
-
-Câu 108: Đường lối thể hiện sự sáng tạo, độc đáo của Đảng trong thời chống Mĩ cứu nước là?
-A. Tiến hành cách mạng XHCN ở cả hai miền.
-B. Tiến hành đồng thời cách mạng dân tộc dân chủ ở miền Nam và cách mạng xã hội chủ nghĩa ở miền Bắc.
-C. Tất cả các đáp án đều đúng.
-D. Tiến hành cách mạng dân tộc dân chủ nhân dân ở cả hai miền.
-Đáp án: B
-
-Câu 109: Số hiệu của chiếc xe tăng đầu tiên đã húc đổ cổng chính của Dinh Độc lập ngày 30/04/1975?
-A. 305
-B. 843 (Húc cổng phụ)
-C. 390 (Húc cổng chính)
-D. 109
-Đáp án: C
-
-Câu 110: Ý nghĩa quan trọng nhất của phong trào Đồng Khởi (1959-1960) là gì?
-A. Đánh dấu bước phát triển nhảy vọt của cách mạng miền Nam chuyển từ giữ gìn lực lượng sang tiến công
-B. Làm lung lay tận gốc chính quyền Ngô Đình Diệm
-C. Giáng đòn mạnh vào thực dân kiểu mới
-D. Chứng tỏ ta đủ sức giải phóng hoàn toàn miền Nam
+Câu 29: Trong đánh giá thuật toán so sánh ảnh, "Độ đặc hiệu" (Specificity) được định nghĩa là gì?
+A. Tỷ lệ các cặp hình ảnh không tương thích (khác nhau) được phân loại đúng.
+B. Thời gian thực thi của mã băm.
+C. Tỷ lệ các cặp hình ảnh tương thích được phân loại đúng.
+D. Diện tích dưới đường cong ROC.
 Đáp án: A
 
-Câu 111: Một trong những biểu hiện của vai trò quyết định nhất của cách mạng miền Bắc là gì?
-A. Xây dựng cơ sở vật chất kỹ thuật của chủ nghĩa xã hội
-B. Trực tiếp đánh thắng các chiến lược chiến tranh của Mỹ
-C. Bảo vệ vững chắc căn cứ địa chung của cách mạng cả nước
-D. Giành thắng lợi trong trận quyết chiến chiến lược
+
+Câu 30: Thư viện Python nào cung cấp công cụ chuyên dụng để thực hiện biến đổi Wavelet (như hàm pywt.wavedec2)?
+A. Scikit-learn
+B. Matplotlib
+C. PyWavelets (pywt)
+D. Pandas
 Đáp án: C
 
-Câu 112: Cuộc Tổng tiến công và nổi dậy mùa xuân năm 1975 trải qua các chiến dịch nào?
-A. Huế - Đà Nẵng, Tây Nguyên, Hồ Chí Minh, Nam Bộ
-B. Tây Nguyên, Nam Trung Bộ, Sài Gòn - Gia Định
-C. Chiến dịch Tây Nguyên, Huế - Đà Nẵng, Hồ Chí Minh
-D. Chiến dịch Sài Gòn - Gia Định
+
+Câu 31: Để tối ưu hóa thuật toán đối sánh ảnh, việc "Lựa chọn thuật toán phù hợp" phải cân nhắc đến yếu tố nào?
+A. Chỉ phụ thuộc vào giá tiền của thuật toán.
+B. Số lượng điểm đặc trưng, ngưỡng tương đồng cần điều chỉnh.
+C. Việc bắt buộc phải dùng ngôn ngữ C++.
+D. Camera phải là loại ảnh nhiệt.
+Đáp án: B
+
+
+Câu 32: Kỹ thuật "Cân bằng ánh sáng" thuộc nhóm phương pháp nào để cải thiện hiệu suất đối sánh ảnh?
+A. Sử dụng kỹ thuật học sâu.
+B. Tối ưu hóa phần cứng.
+C. Cải thiện chất lượng hình ảnh (tiền xử lý).
+D. Giảm chiều dữ liệu.
 Đáp án: C
 
-Câu 113: Đường Trường Sơn trong thời kỳ kháng chiến nằm trên địa phận của mấy quốc gia?
-A. 4
-B. 3 (Việt Nam, Lào, Campuchia)
-C. 1
-D. 2
+
+Câu 33: Kỹ thuật "Chỉnh sửa hình học" (sửa biến dạng xoay, phóng to, thu nhỏ) có tác dụng gì trong đối sánh ảnh?
+A. Giảm kích thước file ảnh.
+B. Đảm bảo các hình ảnh có cùng hệ quy chiếu, giúp đối sánh chính xác hơn.
+C. Tự động đổi màu ảnh từ RGB sang HSV.
+D. Loại bỏ hiện tượng bóng đổ.
 Đáp án: B
 
-Câu 114: Đâu là khẩu hiệu của thanh niên Việt Nam trong thời kỳ kháng chiến chống Mỹ?
-A. Tay cày, tay súng
-B. Ba sẵn sàng
-C. Tay búa, tay súng
-D. Ba đảm đang
+
+Câu 34: Tối ưu hóa phần cứng bằng cách tận dụng GPU sẽ mang lại lợi ích gì trong đối sánh ảnh?
+A. Giảm tiêu thụ điện năng.
+B. Tận dụng khả năng tính toán song song để tăng tốc độ tính toán đáng kể.
+C. Không cần phải cài đặt thư viện OpenCV.
+D. Nâng cao độ phân giải của hình ảnh gốc.
 Đáp án: B
 
-Câu 115: Trong cuộc chiến tranh ở Việt Nam, phương tiện chiến tranh nào được mệnh danh là "pháo đài bay"?
-A. AK-47
-B. B-52
-C. DSR-50
-D. SAM-2
+
+Câu 35: Xây dựng cơ sở dữ liệu đặc trưng (lưu trữ trước các đặc trưng đã tính toán) nhằm mục đích gì?
+A. Để bán dữ liệu cho bên thứ ba.
+B. Tăng tốc độ so sánh trong các ứng dụng thực tế bằng cách không phải tính lại từ đầu.
+C. Phục hồi ảnh bị mờ.
+D. Vẽ biểu đồ Histogram nhanh hơn.
 Đáp án: B
 
-Câu 116: Hội nghị nào nhận định: Chiến lược "Chiến tranh cục bộ" của Mỹ được đề ra trong thế thua, thế thất bại và bị động?
-A. Đại hội lần thứ III (1960)
-B. Đại hội lần thứ IV (1976)
-C. Hội nghị Trung ương 15 (1959)
-D. Hội nghị lần thứ 11 và 12 (1965)
+
+Câu 36: Tại sao các kiến trúc như ResNet, VGG, MobileNet (Pre-trained CNN) lại hữu ích trong bài toán Photo Matching?
+A. Chúng có thể được dùng trực tiếp làm mô hình trích xuất đặc trưng hình ảnh mạnh mẽ.
+B. Chúng tự động loại bỏ phông nền của mọi bức ảnh.
+C. Chúng có thể biến ảnh 2D thành mô hình 3D hoàn chỉnh.
+D. Chúng là các thuật toán nén ảnh chuẩn quốc tế.
+Đáp án: A
+
+
+Câu 37: Hạn chế của việc chỉ dùng CNN truyền thống (so sánh khoảng cách đặc trưng) cho bài toán Photo Matching là gì?
+A. Yêu cầu ảnh phải hoàn toàn đen trắng.
+B. Chỉ so sánh đặc trưng thuần túy, không học và tận dụng được các mối quan hệ phức tạp giữa hai ảnh.
+C. Không thể chạy trên GPU.
+D. Không thể áp dụng cho hình ảnh có kích thước vuông.
+Đáp án: B
+
+
+Câu 38: Nhược điểm của mạng Siamese Network trong quá trình huấn luyện là gì?
+A. Rất khó để lập trình trên Python.
+B. Không hỗ trợ tính toán khoảng cách Euclidean.
+C. Đòi hỏi dữ liệu huấn luyện phải có sẵn các cặp ảnh dương (giống nhau) và âm (khác nhau).
+D. Chỉ nhận diện được khuôn mặt phụ nữ.
+Đáp án: C
+
+
+Câu 39: Đồ thị "Đường cong ROC" được vẽ ra trong bài thực hành Hash Wavelet nhằm mục đích gì?
+A. Hiển thị phân bố màu sắc của ảnh.
+B. Đánh giá hiệu suất tổng thể của thuật toán phân loại (so sánh ảnh).
+C. Chỉnh sửa độ tương phản tự động.
+D. Lọc nhiễu Gaussian.
+Đáp án: B
+
+
+Câu 40: Trong thư viện face_recognition, để cài đặt thông qua terminal (hoặc command prompt), ta sử dụng lệnh nào?
+A. pip install opencv-python
+B. pip install dlib
+C. pip install face_recognition
+D. npm install face_recognition
+Đáp án: C
+
+
+Câu 41: Nhận định nào sau đây là ĐÚNG về khoảng cách giữa các vector embedding của FaceNet?
+A. Khoảng cách càng lớn thì hai khuôn mặt càng giống nhau.
+B. Khoảng cách càng nhỏ (gần nhau) thì khả năng hai khuôn mặt là của cùng một người càng cao.
+C. Khoảng cách luôn luôn bằng 0 đối với mọi khuôn mặt.
+D. Khoảng cách chỉ được tính bằng pixel vật lý trên ảnh.
+Đáp án: B
+
+
+Câu 42: Các phương pháp học SSL (Self-Supervised Learning) như SimCLR và BYOL giải quyết được nhược điểm lớn nào của các mô hình học sâu truyền thống?
+A. Yêu cầu phần cứng quá thấp.
+B. Phụ thuộc quá nhiều vào dữ liệu phải được dán nhãn thủ công (nhãn con người).
+C. Quá trình tính toán quá nhanh dẫn đến thiếu chính xác.
+D. Không thể lưu trữ dưới dạng file h5.
+Đáp án: B
+
+
+Câu 43: Việc kết hợp "Siamese Network + Transformer" (Hybrid Models) hướng tới lợi ích gì?
+A. Tiết kiệm dung lượng RAM tuyệt đối.
+B. Tạo ảnh giả mạo chất lượng cao.
+C. Học được mối quan hệ không gian rộng và so khớp ảnh hiệu quả hơn.
+D. Chạy tốt trên các vi xử lý đời cũ.
+Đáp án: C
+
+
+Câu 44: Quá trình thiết lập ngưỡng (Threshold) trong nhận diện khuôn mặt quyết định điều gì?
+A. Quyết định khuôn mặt có bị nhắm mắt hay không.
+B. Quyết định kích thước hiển thị của video.
+C. Quyết định giới hạn khoảng cách để hệ thống kết luận hai khuôn mặt có giống nhau (khớp) hay không.
+D. Quyết định màu sắc của bounding box.
+Đáp án: C
+
+
+Câu 45: Trong đoạn mã Python tạo Hash wavelet, sau khi lượng tử hóa hệ số, các hệ số được xử lý tiếp như thế nào để tạo thành chuỗi bit?
+A. Cộng tất cả lại thành một số duy nhất.
+B. Trải phẳng (Flatten) thành một mảng 1 chiều và chuyển thành danh sách các bit.
+C. Nhân với ma trận Gaussian.
+D. Đưa qua hàm softmax.
+Đáp án: B
+
+
+Câu 46: Việc sử dụng khoảng cách Cosine Similarity trong mạng CNN có ý nghĩa gì?
+A. Tính toán góc lệch giữa ảnh và camera.
+B. Đo lường sự giống nhau về góc/hướng giữa hai vector đặc trưng, độc lập với độ lớn của vector.
+C. Làm mờ các pixel xung quanh đặc trưng.
+D. Tách đối tượng ra khỏi phông nền.
+Đáp án: B
+
+
+Câu 47: Để triển khai bài toán Photo Matching bằng PyTorch, ta cần chuẩn bị tập dữ liệu như thế nào?
+A. Tập hợp các bức ảnh ngẫu nhiên tải từ Google.
+B. Tập dữ liệu "Siamese Dataset" gồm các cặp ảnh có xác định tính chất (positive hoặc negative).
+C. Chỉ cần một bức ảnh duy nhất để huấn luyện.
+D. Chỉ cần ảnh âm bản của khuôn mặt.
+Đáp án: B
+
+
+Câu 48: Phương pháp giảm chiều dữ liệu (Sử dụng các kỹ thuật giảm chiều đặc trưng) mang lại lợi ích gì trong Image Matching?
+A. Thay đổi kích thước hiển thị trên màn hình nhỏ hơn.
+B. Giảm kích thước của các vector đặc trưng để giảm thời gian tính toán và tăng tốc độ so sánh.
+C. Xóa bỏ các màu sắc thừa, chỉ giữ lại ảnh đen trắng.
+D. Cắt bỏ viền của bức ảnh gốc.
+Đáp án: B
+
+
+Câu 49: Mô hình nào sau đây thuộc nhóm "Đối sánh dựa trên mô hình" (Model-based matching)?
+A. SIFT
+B. ORB
+C. Active Appearance Models (AAM)
+D. Hàm băm Wavelet
+Đáp án: C
+
+
+Câu 50: Theo định nghĩa, "Đặc trưng" (feature) trong thị giác máy tính là gì?
+A. Số lượng màu sắc xuất hiện trong khung hình.
+B. Một phần thông tin có liên quan để giải quyết công việc tính toán nhất định (như các điểm, các cạnh, kết cấu).
+C. Dung lượng bộ nhớ mà bức ảnh chiếm dụng.
+D. Loại camera được sử dụng để chụp ảnh.
+Đáp án: B
+
+
+Câu 1: Phân đoạn ảnh (Image Segmentation) là kỹ thuật nhằm mục đích gì?
+A. Gộp nhiều bức ảnh lại thành một ảnh toàn cảnh.
+B. Chia một hình ảnh thành các vùng đồng nhất về màu sắc, kết cấu hoặc các đặc trưng khác.
+C. Thay đổi kích thước và độ phân giải của hình ảnh.
+D. Biến đổi ảnh màu thành ảnh đen trắng.
+Đáp án: B
+
+
+Câu 2: Các công trình nghiên cứu đầu tiên về lĩnh vực phân đoạn ảnh ra mắt vào khoảng thời gian nào?
+A. 1950-1952.
+B. 1970-1972.
+C. 1990-1992.
+D. 2010-2012.
+Đáp án: B
+
+
+Câu 3: Tại sao phân đoạn ảnh lại quan trọng trong thị giác máy tính?
+A. Giúp máy tính hiểu được các đối tượng có trong hình và mối quan hệ giữa chúng, từ đó truy xuất thông tin hiệu quả.
+B. Giúp giảm dung lượng lưu trữ của ổ cứng.
+C. Giúp biến đổi hình ảnh 2D thành 3D mà không cần dữ liệu phụ.
+D. Thay thế hoàn toàn con người trong việc chụp ảnh.
+Đáp án: A
+
+
+Câu 4: Trong lĩnh vực xe tự lái, phân đoạn ảnh được ứng dụng để làm gì?
+A. Tách nền để chụp ảnh chân dung.
+B. Nhận biết các đối tượng trên đường để điều khiển xe.
+C. Phát hiện các hoạt động bất thường trong camera an ninh.
+D. Tìm kiếm sản phẩm tương tự trên mạng.
+Đáp án: B
+
+
+Câu 5: Tác vụ gán nhãn cho mỗi pixel trong hình ảnh với một lớp ngữ nghĩa (ví dụ: người, xe, cây) được gọi là gì?
+A. Phân đoạn trường hợp (Instance Segmentation).
+B. Phân loại hình ảnh (Image Classification).
+C. Phân đoạn ngữ nghĩa (Semantic Segmentation).
+D. Phân đoạn Panoptic (Panoptic Segmentation).
+Đáp án: C
+
+
+Câu 6: Phân đoạn trường hợp (Instance Segmentation) có điểm gì khác biệt so với Phân đoạn ngữ nghĩa?
+A. Gán một nhãn duy nhất cho toàn bộ bức ảnh.
+B. Chỉ phân đoạn được ảnh đen trắng.
+C. Phân biệt được các đối tượng cùng loại (ví dụ: phân biệt nhiều người khác nhau trong một hình ảnh).
+D. Chỉ phân đoạn được phông nền.
+Đáp án: C
+
+
+Câu 7: Tác vụ "Phân đoạn Panoptic" là sự kết hợp của hai kỹ thuật nào?
+A. Phân loại ảnh và Phát hiện khuôn mặt.
+B. Phân đoạn ngữ nghĩa và Phân đoạn trường hợp.
+C. Lọc Gaussian và Toán tử Sobel.
+D. Nhận dạng vật thể và Theo dõi vật thể.
+Đáp án: B
+
+
+Câu 8: Ứng dụng "Tách nền, thay đổi màu sắc các vùng trong ảnh" thuộc lĩnh vực nào?
+A. Y tế.
+B. Tự lái xe.
+C. Giám sát an ninh.
+D. Biên tập ảnh.
 Đáp án: D
 
-Câu 117: Sự kiện nào buộc Mỹ phải chấm dứt chiến tranh phá hoại miền Bắc lần thứ hai, ký kết Hiệp định Pari?
-A. Chiến thắng Đồng Khởi
-B. Chiến thắng Tết Mậu Thân
-C. Chiến thắng Chiến dịch Hồ Chí Minh
-D. Chiến thắng Điện Biên Phủ trên không
+
+Câu 9: Mục tiêu chung của việc đánh giá hiệu suất phân đoạn ảnh là gì?
+A. Đo lường tốc độ chạy của thuật toán trên GPU.
+B. Đo lường mức độ trùng khớp giữa kết quả phân đoạn của thuật toán với nhãn ground truth (nhãn đánh dấu thủ công).
+C. Đếm số lượng pixel có màu trắng trong ảnh.
+D. Đo lường dung lượng RAM mà thuật toán sử dụng.
+Đáp án: B
+
+
+Câu 10: Chỉ số IoU (Intersection over Union) còn được gọi bằng tên nào khác?
+A. Pixel Accuracy.
+B. Dice Coefficient.
+C. Jaccard Index.
+D. Boundary F1-score.
+Đáp án: C
+
+
+Câu 11: Chỉ số IoU được tính toán dựa trên cơ sở nào?
+A. Tỷ lệ số lượng pixel phân loại đúng trên tổng số pixel.
+B. Đo lường tỷ lệ phần giao giữa vùng dự đoán và vùng ground truth so với phần hợp của chúng.
+C. Giá trị trung bình của tất cả các lớp.
+D. Độ chính xác của đường biên.
+Đáp án: B
+
+
+Câu 12: "Tỷ lệ số lượng pixel được phân loại đúng trên tổng số pixel" là định nghĩa của chỉ số nào?
+A. Pixel Accuracy.
+B. Mean IoU.
+C. Dice Coefficient.
+D. Jaccard Index.
+Đáp án: A
+
+
+Câu 13: Chỉ số nào tương tự như IoU nhưng có cách tính hơi khác, và thường được sử dụng trong các bài toán y tế?
+A. Boundary F1-score.
+B. Mean IoU.
+C. Dice Coefficient.
+D. Pixel Accuracy.
+Đáp án: C
+
+
+Câu 14: Để đánh giá độ chính xác của "đường biên" phân đoạn, ta sử dụng chỉ số nào?
+A. IoU.
+B. Boundary F1-score.
+C. Pixel Accuracy.
+D. Jaccard Index.
+Đáp án: B
+
+
+Câu 15: Một trong những thách thức khi đánh giá hiệu suất phân đoạn ảnh là "Đánh giá chủ quan", điều này có nghĩa là gì?
+A. Thuật toán chạy quá chậm.
+B. Dữ liệu quá đa dạng.
+C. Việc đánh giá trực quan có thể bị ảnh hưởng bởi yếu tố chủ quan của người đánh giá.
+D. Ground truth bị sai lệch.
+Đáp án: C
+
+
+Câu 16: Pascal VOC và COCO là gì trong bối cảnh đánh giá phân đoạn ảnh?
+A. Các phần mềm chỉnh sửa ảnh.
+B. Các tập dữ liệu tiêu chuẩn dùng để đánh giá và so sánh các thuật toán.
+C. Các thuật toán học sâu mới nhất.
+D. Các hàm mất mát (loss function).
+Đáp án: B
+
+
+Câu 17: U-Net và DeepLabv3+ thuộc nhóm phương pháp phân đoạn ảnh nào?
+A. Phương pháp truyền thống (Phân ngưỡng).
+B. Phương pháp truyền thống (Dựa trên vùng).
+C. Phương pháp dựa trên học sâu (Mạng nơ-ron tích chập).
+D. Phương pháp dựa trên Transformer.
+Đáp án: C
+
+
+Câu 18: Phương pháp phân ngưỡng (Thresholding) chia pixel thành hai lớp bằng cách nào?
+A. Gán nhãn thủ công cho từng pixel.
+B. So sánh giá trị pixel với một ngưỡng; lớn hơn ngưỡng gán bằng 1, nhỏ hơn gán bằng 0 (nhị phân hóa).
+C. Tìm đường đi ngắn nhất trên đồ thị.
+D. Sử dụng mạng CNN.
+Đáp án: B
+
+
+Câu 19: Otsu's method là thuật toán thuộc nhóm nào và có đặc điểm gì?
+A. Phân ngưỡng toàn cục tự động; tìm ngưỡng tối ưu hóa sự phân tách giữa foreground và background.
+B. Phân ngưỡng cục bộ; tính ngưỡng cho từng pixel.
+C. Phân vùng dựa trên biên; tìm cạnh Canny.
+D. Phân cụm; sử dụng K-Means.
+Đáp án: A
+
+
+Câu 20: Kỹ thuật phân ngưỡng cục bộ (Adaptive thresholding) hoạt động dựa trên nguyên tắc nào?
+A. Dùng một ngưỡng duy nhất cho toàn bộ ảnh.
+B. Sử dụng thuật toán học sâu để dự đoán ngưỡng.
+C. Tính toán ngưỡng dựa trên thông tin cục bộ của mỗi pixel (sử dụng các ngưỡng khác nhau cho các vùng khác nhau).
+D. Lấy trung bình cộng của tất cả pixel làm ngưỡng.
+Đáp án: C
+
+
+Câu 21: Thuật toán "Region Growing" (Phát triển vùng) bắt đầu quá trình từ đâu?
+A. Từ toàn bộ bức ảnh.
+B. Từ một pixel hạt nhân (seed pixel).
+C. Từ các cạnh của hình ảnh.
+D. Từ biểu đồ histogram.
+Đáp án: B
+
+
+Câu 22: Thuật toán "Split and Merge" (Chia và Hợp nhất) sẽ chia tiếp một vùng nếu điều kiện nào xảy ra?
+A. Nếu vùng đó quá tối.
+B. Nếu hai vùng lân cận giống nhau.
+C. Nếu một vùng không đồng nhất.
+D. Nếu vùng đó chạm vào biên ảnh.
+Đáp án: C
+
+
+Câu 23: Thuật toán Watershed (Đường phân thủy) coi các điểm cực tiểu trong hàm gradient là gì?
+A. Các điểm nhiễu cần xóa.
+B. Các điểm bắt đầu (được coi là một nguồn nước).
+C. Các đỉnh núi.
+D. Các đường biên giới.
+Đáp án: B
+
+
+Câu 24: Trong thuật toán Watershed, các vùng (nước) gặp nhau tại đâu để tạo thành ranh giới phân đoạn?
+A. Tại hạt nhân (seed pixel).
+B. Tại các điểm cực tiểu.
+C. Tại các điểm đỉnh (watershed lines).
+D. Tại điểm ảnh tối nhất.
+Đáp án: C
+
+
+Câu 25: Phân vùng dựa trên biên (Edge segmentation) tập trung vào việc phát hiện đối tượng nào?
+A. Các vùng có màu sắc đồng nhất.
+B. Các cạnh (sự thay đổi đột ngột về cường độ pixel, màu sắc hoặc kết cấu).
+C. Các điểm cực tiểu.
+D. Biểu đồ Histogram.
+Đáp án: B
+
+
+Câu 26: Đâu là một nhược điểm của phương pháp phân vùng dựa trên biên?
+A. Quá trình tính toán quá nhanh.
+B. Không phù hợp với ảnh đen trắng.
+C. Khó xử lý các ảnh có nhiễu nhiều, cạnh không liên tục hoặc vùng có kết cấu đồng nhất.
+D. Không cần bước tiền xử lý.
+Đáp án: C
+
+
+Câu 27: Các toán tử vi phân như Sobel, Canny, Laplacian được sử dụng trong bước nào của phân vùng dựa trên biên?
+A. Bước tiền xử lý (loại bỏ nhiễu).
+B. Bước phát hiện cạnh.
+C. Bước kết nối cạnh bằng Graph-based.
+D. Bước phân vùng bên trong.
+Đáp án: B
+
+
+Câu 28: Kỹ thuật Hough transform thường được sử dụng với mục đích gì trong phân vùng ảnh?
+A. Cân bằng Histogram.
+B. Phát hiện các đường thẳng và đường cong để kết nối các cạnh.
+C. Tìm kiếm đường đi ngắn nhất.
+D. Lọc nhiễu Gaussian.
+Đáp án: B
+
+
+Câu 29: Thuật toán K-Means thuộc loại thuật toán học máy nào?
+A. Học có giám sát.
+B. Học tăng cường.
+C. Học máy không giám sát.
+D. Học bán giám sát.
+Đáp án: C
+
+
+Câu 30: Trong thuật toán K-Means phân vùng ảnh, mỗi pixel trong ảnh được coi là gì?
+A. Một lớp ngữ nghĩa.
+B. Một hạt nhân (seed).
+C. Một điểm dữ liệu trong không gian đặc trưng (như RGB, HSV).
+D. Một tâm cụm (centroid).
+Đáp án: C
+
+
+Câu 31: Ở bước "Gán nhãn cho các điểm dữ liệu" trong K-Means, hệ thống sẽ thực hiện việc gì?
+A. Lấy trung bình cộng của tất cả pixel.
+B. Tính khoảng cách từ mỗi điểm dữ liệu đến các tâm cụm và gán vào cụm có tâm gần nhất.
+C. Xóa các điểm dữ liệu nằm xa tâm.
+D. Chuyển đổi ảnh sang ảnh xám.
+Đáp án: B
+
+
+Câu 32: Thuật toán K-Means sẽ lặp lại quá trình gán nhãn và cập nhật tâm cụm cho đến khi nào?
+A. Cho đến khi các tâm cụm không thay đổi đáng kể hoặc đạt số lần lặp tối đa.
+B. Cho đến khi chỉ còn lại 1 cụm duy nhất.
+C. Cho đến khi toàn bộ bức ảnh chuyển thành màu đen.
+D. Lặp vô hạn không bao giờ dừng.
+Đáp án: A
+
+
+Câu 33: Nhược điểm lớn nhất của thuật toán K-Means trong phân đoạn ảnh là gì?
+A. Quá phức tạp và khó hiểu.
+B. Tính toán rất chậm chạp.
+C. Kết quả phụ thuộc nhiều vào việc chọn số lượng cụm K và cách khởi tạo tâm cụm ban đầu.
+D. Không thể xử lý ảnh màu.
+Đáp án: C
+
+
+Câu 34: Kỹ thuật K-Means++ được sinh ra để cải thiện vấn đề gì của K-Means truyền thống?
+A. Cải thiện cách khởi tạo tâm cụm ban đầu.
+B. Tăng tốc độ vẽ biểu đồ.
+C. Loại bỏ bước tính khoảng cách.
+D. Chuyển đổi từ không gian RGB sang Lab.
+Đáp án: A
+
+
+Câu 35: Phương pháp Elbow Method hoặc Silhouette Coefficient thường được dùng để làm gì trong K-Means?
+A. Lọc nhiễu cho ảnh.
+B. Chọn số lượng cụm K tối ưu.
+C. Cập nhật tâm cụm.
+D. Tính đạo hàm bậc hai.
+Đáp án: B
+
+
+Câu 36: Trong mạng nơ-ron học sâu (DNN), mô hình FCN (Fully Convolutional Networks) thực hiện phân đoạn pixel-level bằng cách nào?
+A. Sử dụng mạng Transformer thay thế CNN.
+B. Thay thế các lớp fully connected cuối cùng bằng các lớp convolutional.
+C. Sử dụng thuật toán K-means ở lớp cuối cùng.
+D. Thêm vào module Pyramid Pooling.
+Đáp án: B
+
+
+Câu 37: Kiến trúc mạng nào được thiết kế đặc biệt nhẹ và hiệu quả cho các thiết bị di động?
+A. U-Net.
+B. DeepLab.
+C. ENet.
+D. PSPNet.
+Đáp án: C
+
+
+Câu 38: Để huấn luyện một mô hình phân đoạn ngữ nghĩa, hàm mất mát (loss function) nào thường được sử dụng phổ biến?
+A. Contrastive loss.
+B. Cross-entropy loss.
+C. Mean Squared Error.
+D. Triplet loss.
+Đáp án: B
+
+
+Câu 39: Trong kiến trúc U-Net và SegNet, phần "Encoder" có chức năng chính là gì?
+A. Khôi phục lại kích thước ban đầu của ảnh.
+B. Tạo ra bản đồ phân đoạn cuối cùng.
+C. Trích xuất đặc trưng của hình ảnh.
+D. Tính toán hàm loss.
+Đáp án: C
+
+
+Câu 40: Phần "Decoder" trong mạng U-Net thực hiện nhiệm vụ gì?
+A. Trích xuất đặc trưng.
+B. Tính toán IoU.
+C. Tách ảnh màu thành ảnh xám.
+D. Khôi phục lại kích thước ban đầu của ảnh và tạo ra bản đồ phân đoạn.
 Đáp án: D
 
-Câu 118: Từ năm 1965, Mỹ trực tiếp đưa lực lượng nào vào Việt Nam?
-A. Quân chư hầu, lính đánh thuê
-B. Người Việt đánh người Việt
-C. Quân viễn chinh và quân chư hầu
-D. Đồng minh
+
+Câu 41: SegNet có đặc điểm nổi bật là yêu cầu bộ nhớ nhỏ gọn, điều này đạt được nhờ cơ chế nào?
+A. Sử dụng Transformer thay vì CNN.
+B. Chỉ sử dụng ảnh đầu vào kích thước 32x32.
+C. Sử dụng cơ chế đơn giản để lưu trữ các chỉ số của các vùng pooling (pooling indices) trong phần encoder để upsample trong phần decoder.
+D. Bỏ qua hoàn toàn phần decoder.
 Đáp án: C
 
-Câu 119: Đặc điểm cơ bản của tình hình miền Nam Việt Nam sau tháng 07/1954?
-A. Mỹ lập nên chính quyền tay sai Ngô Đình Diệm
-B. Đất nước tạm thời bị chia cắt làm hai miền với hai nhiệm vụ chính trị khác nhau
-C. Miền Bắc đi lên xây dựng chủ nghĩa xã hội
-D. Pháp phải rút quân về nước, đất nước thống nhất
+
+Câu 42: Mạng U-Net có hình dạng kiến trúc đặc trưng giống chữ cái nào?
+A. Chữ V.
+B. Chữ U.
+C. Chữ W.
+D. Chữ X.
 Đáp án: B
 
-Câu 120: Nhiệm vụ cơ bản của cách mạng Việt Nam cuối thế kỉ XIX, đầu thế kỉ XX bao gồm mấy nhiệm vụ?
-A. 4 nhiệm vụ (đế quốc, phong kiến, độc lập, ruộng đất)
-B. 2 nhiệm vụ (Độc lập dân tộc và ruộng đất dân cày)
-C. 1 nhiệm vụ (Nạn đói)
-D. 3 nhiệm vụ (Đói, dốt, ngoại xâm)
+
+Câu 43: U-Net khôi phục lại các chi tiết nhỏ trong hình ảnh cực kỳ tốt nhờ sử dụng cơ chế gì?
+A. Atrous convolution.
+B. Pyramid Pooling Module.
+C. Các kết nối skip (skip connections) để kết hợp đặc trưng từ encoder với decoder tương ứng.
+D. Thuật toán Watershed.
+Đáp án: C
+
+
+Câu 44: Về mặt tốc độ tính toán, SegNet so với U-Net như thế nào?
+A. SegNet chậm hơn U-Net.
+B. SegNet nhanh hơn U-Net.
+C. Cả hai có tốc độ bằng nhau tuyệt đối.
+D. SegNet không thể chạy được nếu không có U-Net.
 Đáp án: B
 
-Câu 121: Chọn đáp án SAI: Tình hình quốc tế cuối thế kỷ XIX, đầu thế kỷ XX?
-A. Chiến tranh thế giới thứ II bùng nổ (Sai vì năm 1939 mới bùng nổ)
-B. Chủ nghĩa đế quốc đẩy mạnh xâm chiếm thuộc địa
-C. Cách mạng Tháng Mười Nga
-D. Phong trào giải phóng dân tộc diễn ra mạnh mẽ
+
+Câu 45: Mô hình DeepLab do tổ chức nào phát triển?
+A. Facebook AI.
+B. OpenAI.
+C. Google Research.
+D. Microsoft.
+Đáp án: C
+
+
+Câu 46: Kỹ thuật "Atrous convolution" trong DeepLab giúp giải quyết vấn đề gì?
+A. Tăng dung lượng lưu trữ của ảnh.
+B. Biến ảnh màu thành ảnh đen trắng nhanh hơn.
+C. Giữ nguyên kích thước của feature map bằng cách chèn các số 0 vào giữa kernel, giúp nắm bắt thông tin ở nhiều tỷ lệ mà không giảm kích thước.
+D. Giảm số lượng lớp mạng đi một nửa.
+Đáp án: C
+
+
+Câu 47: Khối "Spatial pyramid pooling" (SPP) trong DeepLab hoạt động như thế nào?
+A. Chia ảnh thành các điểm pixel đơn lẻ rồi xoá.
+B. Chia feature map thành các vùng có kích thước khác nhau, thực hiện pooling, sau đó kết hợp lại để tạo biểu diễn ngữ cảnh phong phú hơn.
+C. Sử dụng skip connection giống hệt U-Net.
+D. Áp dụng thuật toán K-means lên các pooling layer.
+Đáp án: B
+
+
+Câu 48: Phiên bản DeepLabv3+ được nâng cấp bằng cách thêm thành phần nào để cải thiện khả năng khôi phục chi tiết?
+A. Thêm một mạng Transformer.
+B. Thêm một module ASPP.
+C. Thêm một phần decoder.
+D. Thêm thuật toán Watershed.
+Đáp án: C
+
+
+Câu 49: Mô hình PSPNet (Pyramid Scene Parsing Network) tập trung vào việc giải quyết điều gì?
+A. Nắm bắt thông tin ngữ cảnh toàn cục để cải thiện phân đoạn các đối tượng kích thước khác nhau và vùng có kết cấu phức tạp.
+B. Làm cho mạng nhẹ nhất có thể để chạy trên điện thoại.
+C. Phát hiện các điểm góc (corners) bằng FAST.
+D. Chuyển đổi hình ảnh sang đồ thị 3D.
 Đáp án: A
 
-Câu 122: Hội nghị thành lập Đảng (tháng 02/1930) đã thông qua văn kiện nào?
-A. Tất cả các văn bản trên đều đúng (Chánh cương, Sách lược, Điều lệ vắn tắt)
-B. Chánh cương vắn tắt
-C. Sách lược vắn tắt
-D. Điều lệ và chương trình vắn tắt
-Đáp án: A
 
-Câu 123: Nhiệm vụ chiến lược hàng đầu của cách mạng Việt Nam cuối thế kỉ XIX, đầu thế kỉ XX?
-A. Độc lập dân tộc
-B. Giành chính quyền và thống nhất Tổ quốc
-C. Giải phóng miền Nam
-D. Ruộng đất dân cày
-Đáp án: A
+Câu 50: Nhược điểm của PSPNet so với các mô hình đơn giản khác là gì?
+A. Khả năng khôi phục chi tiết cực kỳ kém.
+B. Không hỗ trợ phân đoạn ngữ nghĩa.
+C. Tính toán có thể tốn kém hơn do kiến trúc phức tạp.
+D. Chỉ phân tích được ảnh y tế.
+Đáp án: C
 
-Câu 124: Nhà cách mạng nào nổi tiếng với câu nói "Không thành công cũng thành nhân"?
-A. Nguyễn Ái Quốc
-B. Nguyễn Trung Trực
-C. Phan Bội Châu
-D. Nguyễn Thái Học
+
+Câu 1: Kỹ thuật thị giác máy tính dùng để định vị (localize) và phân loại (classify) các đối tượng trong hình ảnh hoặc video được gọi là gì?
+A. Image Segmentation
+B. Object Detection (Nhận dạng/Phát hiện đối tượng)
+C. Image Classification
+D. Object Tracking
+Đáp án: B
+
+
+Câu 2: Theo tài liệu, Object detection có nhiệm vụ chính nào?
+A. Chỉ phân loại đối tượng trong ảnh.
+B. Định vị và phân loại các đối tượng trong một hình ảnh hoặc video.
+C. Xóa nền của video giám sát.
+D. Làm mờ các đối tượng chuyển động.
+Đáp án: B
+
+
+Câu 3: Mô hình phát hiện đối tượng dựa trên học sâu (DL-based Object Detection) bao gồm bao nhiêu thành phần chính?
+A. 2 thành phần
+B. 3 thành phần
+C. 4 thành phần
+D. 5 thành phần
+Đáp án: C
+
+
+Câu 4: Thành phần nào sau đây KHÔNG thuộc 4 thành phần cơ bản của hệ thống DL-based Object Detection?
+A. Object detection model (Mô hình phát hiện đối tượng)
+B. Ground truth encoding (Mã hóa nhãn gốc)
+C. Loss function (Hàm mất mát)
+D. Image morphing (Biến hình ảnh)
 Đáp án: D
 
-Câu 125: Mâu thuẫn chủ yếu nhất của xã hội Việt Nam dưới ách Pháp là gì?
-A. Tất cả đều đúng.
-B. Mâu thuẫn giữa toàn thể nhân dân Việt Nam với Pháp
-C. Mâu thuẫn giữa nông dân với giai cấp địa chủ
-D. Mâu thuẫn giữa vô sản và tư sản
+
+Câu 5: Trong 4 thành phần của DL-based Object Detection, thành phần cuối cùng làm nhiệm vụ giải mã các dự đoán là gì?
+A. Feature Extractor
+B. Model prediction decoding
+C. Regression Head
+D. RPN
 Đáp án: B
 
-Câu 126: Hội nghị thành lập Đảng (tháng 02/1930) đã quyết định tên gọi của Đảng là gì?
-A. Đảng Lao động Việt Nam
-B. Đảng Cộng sản Việt Nam
-C. Đông Dương Cộng sản Đảng
-D. Đảng Cộng sản Đông Dương
+
+Câu 6: Trong sơ đồ Pipeline huấn luyện/suy luận, "Feature Extractor" (Bộ trích xuất đặc trưng) nhận đầu vào từ đâu?
+A. Ground Truth
+B. Input Image (Hình ảnh đầu vào)
+C. Loss function
+D. Gradient
 Đáp án: B
 
-Câu 127: Trong những năm 1919-1930, lực lượng xã hội nào ở Việt Nam câu kết chặt chẽ với thực dân Pháp?
-A. Tư sản mại bản
-B. Vô sản
-C. Địa chủ
-D. Tư sản dân tộc
+
+Câu 7: Sau khi đi qua khối Feature Extractor, luồng dữ liệu của mô hình phát hiện đối tượng được chia thành hai nhánh (head) chính nào?
+A. Regression Head và Classification Head
+B. Encoding Head và Decoding Head
+C. Spatial Head và Temporal Head
+D. Positive Head và Negative Head
 Đáp án: A
 
-Câu 128: Điền vào chỗ trống: Sự kiện ngày 1/9/1858 của thực dân Pháp đã....
-A. Mở đầu khai thác thuộc địa lần 2
-B. Mở đầu cuộc xâm lược Việt Nam lần thứ 1
-C. Mở đầu cuộc xâm lược Việt Nam lần thứ 2
-D. Mở đầu khai thác thuộc địa lần 1
+
+Câu 8: Trong pipeline của Object Detection, "Regression Head" cung cấp dữ liệu đầu ra để tính toán hàm mất mát nào?
+A. Classification Loss
+B. Regression Loss
+C. Cross-Entropy Loss
+D. Triplet Loss
 Đáp án: B
 
-Câu 129: Mục đích các cuộc khai thác thuộc địa của Pháp tại Việt Nam là?
-A. Biến Việt Nam thành thuộc địa kiểu mới
-B. Khai hóa văn minh phương Tây
-C. Biến Việt Nam trở thành thị trường tiêu thụ và nguồn cung nguyên liệu
-D. Phát triển hệ thống giao thông thành trung tâm hàng hải
-Đáp án: C
 
-Câu 130: Luận điểm của V.I.Lênin về lý luận cách mệnh được Bác trích dẫn trong tác phẩm nào?
-A. Tuyên ngôn độc lập
-B. Đường Kách mệnh
-C. Cương lĩnh chính trị đầu tiên
-D. Bản án chế độ thực dân Pháp
-Đáp án: B
-
-Câu 131: Phong trào Cần Vương do ai khởi xướng?
-A. Vua Hàm Nghi
-B. Vua Duy Tân
-C. Vua Thành Thái
-D. Vua Gia Long
+Câu 9: Trong pipeline của Object Detection, "Classification Head" cung cấp dữ liệu đầu ra để tính toán hàm mất mát nào?
+A. Classification Loss
+B. Regression Loss
+C. Smoothing Loss
+D. Generator Loss
 Đáp án: A
 
-Câu 132: Trong Cương lĩnh đầu tiên, phương hướng của cách mạng Việt Nam là “............. và thổ địa cách mạng để đi tới xã hội cộng sản”?
-A. Dân tộc dân chủ
-B. Tư sản dân quyền cách mạng
-C. Vô sản
-D. Tư sản nhân dân cách mạng
-Đáp án: B
 
-Câu 133: Giai cấp tầng lớp nào có khả năng tham gia cách mạng?
-A. Trung và tiểu địa chủ, tư sản dân tộc, công nhân
-B. Tư sản, Đại địa chủ, Công nhân, Nông dân
-C. Nông dân, Công nhân, Tiểu tư sản trí thức
-D. Tiểu tư sản, Tư sản dân tộc, Trung và tiểu địa chủ
+Câu 10: Dữ liệu từ nhãn gốc (Ground Truth) sẽ được đưa qua bộ phận nào trước khi tham gia vào quá trình tính toán Loss?
+A. Decoder
+B. Feature Extractor
+C. Encoder
+D. Classification Head
 Đáp án: C
 
-Câu 134: Tổ chức cộng sản đầu tiên ra đời ở Bắc Kì năm 1929 với tên gọi gì?
-A. Đảng Cộng sản Việt Nam
-B. Đông Dương Cộng sản Liên đoàn
-C. Đông Dương Cộng sản Đảng
-D. An Nam Cộng sản Đảng
-Đáp án: C
 
-Câu 135: Đâu là chính sách Pháp đã áp dụng ở Việt Nam ngay từ cuộc khai thác lần thứ nhất?
-A. "Chia để trị"
-B. "Dùng người Pháp trị người Việt"
-C. "Khủng bố trắng"
-D. "Đồng hóa" dân tộc
-Đáp án: A
-
-Câu 136: Nền tảng tư tưởng, kim chỉ nam cho hành động của Đảng Cộng sản Việt Nam là....?
-A. Chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh, chủ nghĩa yêu nước.
-B. Chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh.
-C. Chủ nghĩa Mác - Lênin
-D. Tư tưởng Hồ Chí Minh
+Câu 11: Khối tính toán tổng "Loss" trong mô hình Object Detection là sự kết hợp (+) của những thành phần nào?
+A. Encoder Loss và Decoder Loss
+B. Regression Loss và Classification Loss
+C. Gradient Loss và Prediction Loss
+D. Feature Loss và Background Loss
 Đáp án: B
 
-Câu 137: Trong những năm 1919-1930, lực lượng xã hội nào ở Việt Nam chắc chắn tham gia cách mạng?
-A. Tiểu tư sản trí thức
-B. Địa chủ, công nhân, nông dân, trí thức
-C. Công nhân, nông dân, Tư sản dân tộc
-D. Công nhân, nông dân
+
+Câu 12: Bộ phận "Decoder" trong pipeline suy luận nhận dữ liệu từ đâu để tạo ra Dự đoán cuối cùng (Pred)?
+A. Ground Truth và Encoder
+B. Trực tiếp từ Input Image
+C. Regression Head và Classification Head
+D. Từ Gradient
+Đáp án: C
+
+
+Câu 13: Trong sơ đồ Pipeline, mũi tên tính toán "Gradient" lấy thông tin từ khối nào để truyền ngược lại cập nhật cho "Object Detection Model"?
+A. Lấy trực tiếp từ Input Image
+B. Lấy từ khối Decoder
+C. Lấy từ Ground Truth
+D. Lấy từ khối Loss (hàm mất mát)
 Đáp án: D
 
-Câu 138: Tên gọi "Nguyễn Ái Quốc" của Người bắt đầu xuất hiện từ khi nào?
-A. 1919
-B. 1920
-C. 1917
-D. 1918
-Đáp án: A
 
-Câu 139: Đảng Cộng sản Việt Nam ra đời vào ngày/tháng/năm nào?
-A. 02/09/1945
-B. 3/2/1930
-C. 22/12/1944
-D. 09/03/1945
+Câu 14: Ở bước cuối cùng của pipeline Object Detection, để hệ thống đưa ra kết quả dự đoán hình tròn (Pred), dữ liệu phải đi qua khối hình chữ nhật nào?
+A. Encoder
+B. Decoder
+C. Gradient
+D. Ground Truth
 Đáp án: B
 
-Câu 140: Hồ Chí Minh đã dùng hình tượng nào để so sánh với chủ nghĩa tư bản?
-A. Con đại bàng
-B. Con đỉa
-C. Con hổ
-D. Con rắn
+
+Câu 15: Thành phần "Object detection model" trong pipeline bao bọc trọn gói những khối nào bên trong nó?
+A. Feature Extractor, Regression Head, và Classification Head
+B. Feature Extractor và Decoder
+C. Encoder, Loss, và Gradient
+D. Ground truth và Pred
+Đáp án: A
+
+
+Câu 16: Trong lịch sử phát triển của Object Detection, thuật toán nào xuất hiện sớm nhất theo biểu đồ thời gian của tài liệu?
+A. HOG detector
+B. VJ detector
+C. DPM
+D. AlexNet
 Đáp án: B
 
-Câu 141: Giai cấp mới nào được hình thành trong quá trình khai thác thuộc địa của Pháp?
-A. Công nhân
-B. Nông dân
-C. Đại địa chủ
-D. Vô sản và sĩ phu
-Đáp án: A
 
-Câu 142: Đông Dương Cộng sản Đảng và An Nam Cộng sản Đảng được ra đời từ tiền thân nào?
-A. Hội Việt Nam Cách mạng Thanh niên
-B. Việt Minh
-C. Đông Dương Cộng sản Liên đoàn
-D. Tân Việt Cách mạng Đảng
-Đáp án: A
+Câu 17: Ai là tác giả của thuật toán VJ detector (2001)?
+A. N. Dalal
+B. P. Viola
+C. P. Felzenszwalb
+D. LeCun
+Đáp án: B
 
-Câu 143: Chủ trương đánh đuổi Pháp giành độc lập bằng bạo động, đại diện cho xu hướng này là ai?
-A. Phan Bội Châu
-B. Hoàng Hoa Thám
-C. Nguyễn Ái Quốc
-D. Phan Châu Trinh
-Đáp án: A
 
-Câu 144: Theo Hồ Chí Minh, "muốn cứu nước và...... không có con đường nào khác con đường...."
-A. đấu tranh giải phóng/ cách mạng XHCN
-B. giải phóng nhân dân/ cách mạng vô sản
-C. giải phóng dân tộc/ cách mạng vô sản
-D. giành độc lập dân tộc/ cách mạng vô sản
+Câu 18: Thuật toán HOG detector được giới thiệu vào năm 2005 bởi tác giả nào?
+A. P. Viola
+B. P. Felzenszwalb
+C. N. Dalal
+D. Ross Girshick
 Đáp án: C
 
-Câu 145: Dưới tác động của Pháp, Việt Nam từ xã hội phong kiến trở thành xã hội.......
-A. Nửa tư bản nửa phong kiến
-B. Nửa phong kiến nửa thuần nông
-C. Thuộc địa nửa phong kiến
-D. Thuộc địa phụ thuộc hoàn toàn
+
+Câu 19: Thuật toán DPM (Deformable Part Model) ra đời vào năm nào và do ai đề xuất?
+A. 2005, N. Dalal
+B. 2008, P. Felzenszwalb
+C. 2012, LeCun
+D. 2015, Kaiming He
+Đáp án: B
+
+
+Câu 20: Theo sơ đồ lịch sử trong tài liệu, kiến trúc mạng AlexNet được gắn với năm nào và tác giả nào?
+A. 2001, P. Viola
+B. 2012, LeCun
+C. 2014, Ross Girshick
+D. 2015, Joseph Redmon
+Đáp án: B
+
+
+Câu 21: Nhóm thuật toán "Two stage algorithms" (Hai giai đoạn) bao gồm những thuật toán tiêu biểu nào?
+A. YOLO, SSD, RetinaNet, CenterNet
+B. SPP-Net, R-CNN, Fast R-CNN, Faster R-CNN
+C. ViT, DETR, Swin Transformer
+D. VJ detector, HOG, DPM
+Đáp án: B
+
+
+Câu 22: Thuật toán R-CNN (2014) thuộc nhóm thuật toán nào?
+A. One stage algorithms
+B. Transformer algorithms
+C. Two stage algorithms
+D. Traditional ML algorithms
 Đáp án: C
 
-Câu 146: Những giai cấp cơ bản dưới chế độ phong kiến ở Việt Nam?
-A. Địa chủ, tiểu tư sản, công nhân
-B. Địa chủ, nông dân
-C. Công nhân, nông dân
-D. Địa chủ, nông nô, tư sản
+
+Câu 23: Ai là tác giả của các thuật toán R-CNN (2014) và Fast R-CNN (2015)?
+A. Kaiming He
+B. Ross Girshick
+C. Tsung-Yi Lin
+D. Wei Liu
 Đáp án: B
 
-Câu 147: Trong Cương lĩnh đầu tiên (2/1930), giai cấp nào nắm quyền lãnh đạo cách mạng?
-A. Vô sản
-B. Tiểu tư sản trí thức
-C. Tư sản yêu nước
-D. Nông dân
-Đáp án: A
 
-Câu 148: Những tư tưởng của Hồ Chí Minh về cách mạng Việt Nam được hình thành cơ bản vào thời gian nào?
-A. 1945
-B. 1930
-C. 1920
-D. 1911
+Câu 24: Tác giả Kaiming He đã đề xuất thuật toán nào vào năm 2015 thuộc nhóm "Two stage algorithms"?
+A. SPP-Net
+B. Faster R-CNN
+C. R-CNN
+D. YOLO
 Đáp án: B
 
-Câu 149: Trong Cương lĩnh đầu tiên, phương pháp giành lấy chính quyền là gì?
-A. Bạo lực cách mạng
-B. Thương lượng thỏa hiệp
-C. Đàm phán
-D. Kết hợp bạo lực và thỏa hiệp
-Đáp án: A
 
-Câu 150: Vào năm 1929, tổ chức cộng sản ra đời ở Trung Kì với tên gọi gì?
-A. An Nam Cộng sản Đảng
-B. Đông Dương Cộng sản liên đoàn
-C. Đông Dương Cộng sản Đảng
-D. Đảng Thanh niên cao vọng
+Câu 25: Thuật toán SPP-Net (2014) do tác giả nào giới thiệu?
+A. Ross Girshick
+B. Kaiming He
+C. Joseph Redmon
+D. Wei Liu
 Đáp án: B
 
-Câu 151: Ai là người đứng đầu Liên bang Đông Dương thời Pháp thuộc?
-A. Toàn quyền người Pháp
-B. Thống sứ người Pháp
-C. Thống đốc người Pháp
-D. Khâm sứ người Pháp
+
+Câu 26: Nhóm thuật toán "One stage algorithms" (Một giai đoạn) bao gồm những thuật toán tiêu biểu nào?
+A. SPP-Net, R-CNN, Faster R-CNN
+B. YOLO, SSD, RetinaNet, CenterNet
+C. Transformer, DETR, ViT
+D. VJ detector, HOG, DPM
+Đáp án: B
+
+
+Câu 27: Thuật toán YOLO (2015) được giới thiệu bởi tác giả nào?
+A. Ross Girshick
+B. Joseph Redmon
+C. Wei Liu
+D. Tsung-Yi Lin
+Đáp án: B
+
+
+Câu 28: Tác giả Wei Liu đã giới thiệu thuật toán nào thuộc nhóm "One stage algorithms" vào năm 2016?
+A. SSD
+B. RetinaNet
+C. CenterNet
+D. YOLO
 Đáp án: A
 
-Câu 152: Hạn chế lớn nhất của 3 tổ chức cộng sản năm 1929 là gì?
-A. Mâu thuẫn về lợi ích
-B. Đối lập về ý thức hệ
-C. Thiếu đường lối đúng đắn
-D. Hoạt động riêng rẽ, tranh giành ảnh hưởng với nhau
+
+Câu 29: Thuật toán RetinaNet (2017) là nghiên cứu của tác giả nào?
+A. Tsung-Yi Lin
+B. Xingyi Zhou
+C. Joseph Redmon
+D. Dosovitskiy
+Đáp án: A
+
+
+Câu 30: Thuật toán CenterNet thuộc nhóm "One stage algorithms" ra mắt vào năm nào và bởi ai?
+A. 2015, Joseph Redmon
+B. 2017, Tsung-Yi Lin
+C. 2019, Xingyi Zhou
+D. 2021, Ze Liu
+Đáp án: C
+
+
+Câu 31: Nhóm thuật toán "Transformer" trong Object Detection bao gồm các mô hình tiêu biểu nào?
+A. R-CNN, Fast R-CNN, Faster R-CNN
+B. YOLO, SSD, RetinaNet
+C. Transformer, DETR, ViT, Swin Transformer
+D. HOG, DPM, AlexNet
+Đáp án: C
+
+
+Câu 32: Mô hình Transformer gốc (2017) cho Object Detection được phát triển bởi đơn vị/tác giả nào?
+A. Facebook
+B. Google
+C. Microsoft
+D. OpenAI
+Đáp án: B
+
+
+Câu 33: Tác giả Dosovitskiy gắn liền với sự ra mắt của mô hình nào vào năm 2020?
+A. DETR
+B. ViT (Vision Transformer)
+C. Swin Transformer
+D. CenterNet
+Đáp án: B
+
+
+Câu 34: Thuật toán nào sau đây KHÔNG phải là một One-stage detector?
+A. CenterNet
+B. SSD
+C. YOLO
+D. SPP-Net
 Đáp án: D
 
-Câu 153: Đánh giá đúng nhất về chế độ cai trị của Pháp cuối thế kỉ XIX, đầu thế kỉ XX?
-A. Áp bức kinh tế, bóc lột văn hóa, nô dịch chính trị
-B. Áp bức về chính trị, bóc lột về kinh tế, nô dịch về văn hóa
-C. Áp bức về văn hóa, bóc lột kinh tế, nô dịch chính trị
-D. Chế độ chính quyền thuộc địa độc tài
-Đáp án: B
 
-Câu 154: Chọn đáp án SAI về vai trò của Nguyễn Ái Quốc trong hội nghị hợp nhất?
-A. Soạn thảo luận cương chính trị (Ngài soạn Chánh cương/Sách lược vắn tắt)
-B. Triệu tập và chủ trì hội nghị
-C. Thông qua danh sách ban chấp hành trung ương Đảng chính thức (Ban chấp hành chính thức được bầu vào 10/1930)
-D. Thống nhất các tổ chức cộng sản
-Đáp án: C
-
-Câu 155: Chọn đáp án SAI: Nguyên nhân thất bại của các phong trào yêu nước cũ?
-A. Chưa tập hợp toàn dân tộc
-B. Chưa có tổ chức vững mạnh
-C. Chưa xác định đúng kẻ thù của cách mạng (Họ đều xác định kẻ thù là Pháp)
-D. Chưa xác định phương pháp đấu tranh thích hợp
-Đáp án: C
-
-Câu 156: Đoạn thơ "Luận cương đến với Bác Hồ..." diễn ra vào thời gian nào?
-A. Tháng 10 năm 1917
-B. Tháng 07 năm 1920
-C. Tháng 12 năm 1920
-D. Tháng 06 năm 1911
-Đáp án: B
-
-Câu 157: Vào đầu thế kỷ XX, các cuộc vận động yêu nước do sĩ phu khởi xướng đi theo khuynh hướng:
-A. Dân chủ tư sản.
-B. Phong kiến.
-C. Xã hội chủ nghĩa.
-D. Vô sản.
+Câu 35: Mô hình DETR được giới thiệu vào năm 2020 bởi tác giả nào?
+A. Carion
+B. Dosovitskiy
+C. Ze Liu
+D. Kaiming He
 Đáp án: A
 
-Câu 158: Đại hội nào của Đảng đã mở đầu công cuộc Đổi mới toàn diện đất nước?
-A. Đại hội V (1982)
-B. Đại hội VI (12/1986)
-C. Đại hội VII (1991)
-D. Đại hội VIII (1996)
-Đáp án: B
 
-Câu 159: Trước Đổi mới (1986), nền kinh tế nước ta vận hành theo cơ chế nào?
-A. Kinh tế thị trường định hướng XHCN
-B. Kinh tế hàng hóa nhiều thành phần
-C. Kế hoạch hóa tập trung, quan liêu, bao cấp
-D. Kinh tế tự cung tự cấp
-Đáp án: C
-
-Câu 160: Đặc điểm nổi bật nhất của đổi mới tư duy được đề ra tại Đại hội VI là gì?
-A. Đổi mới tư duy về văn hóa
-B. Đổi mới tư duy về giáo dục
-C. Đổi mới tư duy về kinh tế
-D. Đổi mới tư duy về ngoại giao
-Đáp án: C
-
-Câu 161: Đại hội VI (1986) xác định nhiệm vụ trọng tâm là thực hiện 3 chương trình mục tiêu nào?
-A. Công nghiệp hóa, hiện đại hóa, đô thị hóa
-B. Lương thực - thực phẩm, hàng tiêu dùng và hàng xuất khẩu
-C. Xóa đói, giảm nghèo, giải quyết việc làm
-D. Phát triển giáo dục, y tế, văn hóa
-Đáp án: B
-
-Câu 162: Việt Nam chính thức gia nhập ASEAN vào thời gian nào và là thành viên thứ mấy?
-A. Tháng 7/1994, thành viên thứ 6
-B. Tháng 7/1995, thành viên thứ 7
-C. Tháng 7/1995, thành viên thứ 8
-D. Tháng 12/1996, thành viên thứ 7
-Đáp án: B
-
-Câu 163: Việt Nam chính thức bình thường hóa quan hệ ngoại giao với Hoa Kỳ vào năm nào?
-A. 1994
-B. 1995
-C. 1996
-D. 2000
-Đáp án: B
-
-Câu 164: Đại hội VIII (1996) đưa ra nhận định quan trọng nào về tình hình đất nước?
-A. Đất nước bắt đầu thời kỳ quá độ
-B. Nước ta đã ra khỏi khủng hoảng kinh tế - xã hội
-C. Việt Nam cơ bản trở thành nước công nghiệp hiện đại
-D. Đất nước đang trong tình trạng khủng hoảng trầm trọng
-Đáp án: B
-
-Câu 165: Đại hội VIII (1996) xác định nước ta chuyển sang thời kỳ phát triển mới là thời kỳ nào?
-A. Thời kỳ quá độ lên chủ nghĩa xã hội
-B. Đẩy mạnh công nghiệp hóa, hiện đại hóa đất nước
-C. Phát triển kinh tế tri thức
-D. Hội nhập kinh tế quốc tế sâu rộng
-Đáp án: B
-
-Câu 166: Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên CNXH (Cương lĩnh năm 1991) được thông qua tại Đại hội mấy?
-A. Đại hội VI
-B. Đại hội VII
-C. Đại hội VIII
-D. Đại hội IX
-Đáp án: B
-
-Câu 167: Việt Nam chính thức trở thành thành viên thứ 150 của WTO vào thời gian nào?
-A. Tháng 7/1995
-B. Tháng 11/1998
-C. Tháng 1/2007
-D. Tháng 1/2008
-Đáp án: C
-
-Câu 168: Đại hội IX (2001) xác định mô hình kinh tế tổng quát của nước ta trong thời kỳ quá độ là gì?
-A. Kinh tế hàng hóa nhiều thành phần
-B. Kinh tế thị trường tự do
-C. Kinh tế thị trường định hướng xã hội chủ nghĩa
-D. Kinh tế tư bản nhà nước
-Đáp án: C
-
-Câu 169: Đại hội XI (2011) đã thông qua văn kiện quan trọng nào về lý luận?
-A. Chiến lược phát triển kinh tế 10 năm
-B. Điều lệ Đảng sửa đổi
-C. Cương lĩnh xây dựng đất nước (bổ sung, phát triển năm 2011)
-D. Báo cáo chính trị về đổi mới
-Đáp án: C
-
-Câu 170: Hội nghị Trung ương 4 khóa XII (2016) tập trung ban hành nghị quyết về vấn đề cấp bách nào?
-A. Phát triển kinh tế tư nhân
-B. Cải cách tiền lương
-C. Tăng cường xây dựng, chỉnh đốn Đảng; ngăn chặn suy thoái tư tưởng, đạo đức
-D. Hội nhập kinh tế quốc tế
-Đáp án: C
-
-Câu 171: Mục tiêu tổng quát đến năm 2020 được Đại hội XII (2016) xác định là gì?
-A. Trở thành nước phát triển có thu nhập cao
-B. Sớm đưa nước ta cơ bản trở thành nước công nghiệp theo hướng hiện đại
-C. Hoàn thành mục tiêu công nghiệp hóa
-D. Trở thành cường quốc kinh tế khu vực
-Đáp án: B
-
-Câu 172: Thành phần kinh tế nào được Đảng xác định giữ vai trò chủ đạo trong nền kinh tế thị trường định hướng XHCN?
-A. Kinh tế Nhà nước
-B. Kinh tế tập thể
-C. Kinh tế tư nhân
-D. Kinh tế có vốn đầu tư nước ngoài
+Câu 36: Swin Transformer (2021) do tác giả nào phát triển?
+A. Ze Liu
+B. Dosovitskiy
+C. Carion
+D. Xingyi Zhou
 Đáp án: A
 
-Câu 173: "Đổi mới không phải là thay đổi mục tiêu chủ nghĩa xã hội, mà là làm cho chủ nghĩa xã hội được nhận thức đúng đắn hơn và xây dựng có hiệu quả hơn". Nhận định này xuất hiện từ đại hội nào?
-A. Đại hội VI
-B. Đại hội VII
-C. Đại hội VIII
-D. Đại hội IX
+
+Câu 37: Kiến trúc xương sống (Backbone Architecture) duy nhất được liệt kê bằng văn bản nổi bật ở phần cuối sơ đồ các detector là gì?
+A. ResNet
+B. VGG16
+C. AlexNet
+D. MobileNet
+Đáp án: C
+
+
+Câu 38: Trong kiến trúc của "One-stage detector", khối Feature Extractor sẽ trực tiếp tạo ra đầu ra là gì?
+A. Feature map (Bản đồ đặc trưng)
+B. Region proposals
+C. Ground truth
+D. Final Prediction
 Đáp án: A
 
-Câu 174: Việt Nam gia nhập Diễn đàn Hợp tác Kinh tế châu Á - Thái Bình Dương (APEC) vào năm nào?
-A. 1995
-B. 1996
-C. 1998
-D. 2006
-Đáp án: C
 
-Câu 175: Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương (CPTPP) mà Việt Nam tham gia được ký kết vào năm nào?
-A. 2016
-B. 2017
-C. 2018
-D. 2019
-Đáp án: C
-
-Câu 176: Thủ tướng Chính phủ nào là người đại diện Việt Nam ký kết gia nhập WTO tại Thụy Sĩ?
-A. Phan Văn Khải
-B. Nguyễn Tấn Dũng
-C. Võ Văn Kiệt
-D. Nguyễn Xuân Phúc
+Câu 39: Trong "One-stage detector", khối Detection cuối cùng sẽ thực hiện đồng thời hai nhiệm vụ gì dựa trên Feature map?
+A. Object True/False và Box refinement
+B. Classification (Phân loại) và Box regression (Hồi quy hộp)
+C. Feature extraction và Decoding
+D. Encoding và Loss calculation
 Đáp án: B
 
-Câu 177: Trong công cuộc đổi mới, Đảng xác định lĩnh vực nào là "quốc sách hàng đầu"?
-A. Kinh tế và Quốc phòng
-B. Nông nghiệp và Công nghiệp
-C. Giáo dục - đào tạo và Khoa học - công nghệ
-D. Văn hóa và Du lịch
+
+Câu 40: Điểm khác biệt lớn nhất về mặt cấu trúc của "Two-stage detector" so với "One-stage detector" là sự xuất hiện của khối nào?
+A. Feature Extractor
+B. Classification block
+C. Region Proposal Network (RPN)
+D. Feature map
 Đáp án: C
 
-Câu 178: Hội nghị Trung ương nào của khóa VIII đã ra Nghị quyết về "Xây dựng và phát triển nền văn hóa Việt Nam tiên tiến, đậm đà bản sắc dân tộc"?
-A. Hội nghị TW 4
-B. Hội nghị TW 5
-C. Hội nghị TW 6
-D. Hội nghị TW 8
-Đáp án: B
 
-Câu 179: Đặc điểm của nền kinh tế nước ta sau Đổi mới là phát triển nền kinh tế hàng hóa nhiều thành phần, vận hành theo:
-A. Sự chỉ đạo tuyệt đối của Nhà nước
-B. Cơ chế thị trường có sự quản lý của Nhà nước
-C. Quy luật cung cầu tự do
-D. Mệnh lệnh hành chính
-Đáp án: B
-
-Câu 180: Đại hội X (2006) lần đầu tiên cho phép đối tượng nào được làm kinh tế tư nhân?
-A. Nông dân
-B. Trí thức
-C. Đẳng viên
-D. Công nhân
+Câu 41: Trong "Two-stage detector", Region Proposal Network (RPN) thực hiện nhiệm vụ gì?
+A. Trích xuất đặc trưng từ ảnh gốc
+B. Tính toán Classification Loss
+C. Đánh giá xem vùng đó có đối tượng hay không (Object True/False?) và Box regression
+D. Phân loại đối tượng thành các lớp cụ thể (chó, mèo, xe...)
 Đáp án: C
 
-Câu 181: Khâu đột phá chiến lược đầu tiên được xác định tại Đại hội XI là gì?
-A. Phát triển kinh tế biển
-B. Hoàn thiện thể chế kinh tế thị trường định hướng XHCN
-C. Cải cách tư pháp
-D. Chống tham nhũng
+
+Câu 42: Ở giai đoạn 2 của "Two-stage detector" (khối Classifier), mạng sẽ thực hiện những chức năng chi tiết nào?
+A. Object True/False? và Feature extraction
+B. Ground truth encoding và Loss function
+C. Classification (Phân loại) và Box Refinement (Tinh chỉnh hộp)
+D. DPM và HOG detection
+Đáp án: C
+
+
+Câu 43: Nhiệm vụ "Box regression" (Hồi quy hộp bao) xuất hiện ở vị trí nào trong cấu trúc của các mô hình phát hiện đối tượng?
+A. Chỉ có ở One-stage detector
+B. Chỉ có ở RPN của Two-stage detector
+C. Xuất hiện ở cả khối Detection của One-stage và khối RPN của Two-stage detector
+D. Nằm trong thành phần Ground truth encoding
+Đáp án: C
+
+
+Câu 44: "Label assignment" (Gán nhãn) trong quá trình huấn luyện Object Detection được định nghĩa là thao tác gì?
+A. Viết tên của đối tượng lên bức ảnh
+B. Phân chia các mẫu thành các mẫu tích cực (positives) và tiêu cực (negatives)
+C. Chọn ra kiến trúc mạng Backbone tốt nhất
+D. Chuyển đổi định dạng file ảnh
 Đáp án: B
 
-Câu 182: Sự kiện ngoại giao nào năm 1995 giúp Việt Nam phá vỡ hoàn toàn thế bị bao vây, cô lập?
-A. Gia nhập ASEAN và bình thường hóa quan hệ với Mỹ
-B. Ký hiệp định với EU
-C. Tham gia APEC
-D. Đón tổng thống Mỹ sang thăm
+
+Câu 45: Tầm quan trọng của "Label assignment" đối với các mô hình phát hiện đối tượng (object detection) là gì?
+A. Nó chỉ là một bước phụ trợ không quan trọng
+B. Nó thiết yếu (essential) đối với sự thành công của các mô hình
+C. Nó chỉ có tác dụng nén mô hình để chạy trên điện thoại
+D. Nó giúp tăng độ sáng cho ảnh đầu vào
+Đáp án: B
+
+
+Câu 46: Trong quá trình huấn luyện (training process), chiến lược gán nhãn (label assignment strategy) đóng vai trò quan trọng trong việc gì?
+A. Tính toán Gradient để cập nhật trọng số
+B. Giảm nhiễu của ảnh đầu vào
+C. Tái tạo bản đồ 3D từ ảnh 2D
+D. Phân tách (separating) các mẫu tích cực (positive) và tiêu cực (negative)
+Đáp án: D
+
+
+Câu 47: Theo tài liệu, chiến lược gán nhãn thông thường (conventional label assignment) trong các bộ phát hiện "one-stage" hiện tại có bao nhiêu nhược điểm (defects) chính?
+A. 1 nhược điểm
+B. 2 nhược điểm
+C. 3 nhược điểm
+D. 4 nhược điểm
+Đáp án: B
+
+
+Câu 48: Nhược điểm đầu tiên của chiến lược gán nhãn thông thường trong các bộ phát hiện "one-stage" là sự không đồng bộ (Misalignment) giữa hai quá trình nào?
+A. Giữa Feature Extractor và Decoder
+B. Giữa Regression Loss và Classification Loss
+C. Giữa chiến lược gán nhãn (assignment strategy) và thủ tục NMS (NMS procedure)
+D. Giữa One-stage và Two-stage
+Đáp án: C
+
+
+Câu 49: Nhược điểm thứ hai của chiến lược gán nhãn thông thường trong các bộ phát hiện "one-stage" là gì?
+A. Gán mẫu cứng nhắc (Rigid sample assignment) trong quá trình huấn luyện
+B. Gán mẫu ngẫu nhiên không thể kiểm soát
+C. Bỏ qua hoàn toàn các mẫu tiêu cực (negative samples)
+D. Tốc độ gán nhãn quá chậm do thiếu GPU
 Đáp án: A
 
-Câu 183: Đại hội VII (1991) đề ra phương châm đối ngoại như thế nào?
-A. Việt Nam muốn làm bạn với các nước xã hội chủ nghĩa
-B. Việt Nam muốn làm bạn với tất cả các nước trong cộng đồng thế giới
-C. Việt Nam sẵn sàng đối đầu với các thế lực thù địch
-D. Việt Nam ưu tiên quan hệ với các nước láng giềng
-Đáp án: B
 
-Câu 184: Trước đổi mới, lạm phát ở Việt Nam năm 1986 đã lên tới con số kỷ lục là bao nhiêu?
-A. 100%
-B. 300%
-C. 774,7%
-D. 500%
+Câu 50: Theo sơ đồ bộ phát hiện hai giai đoạn (Two-stage detector), luồng dữ liệu sau khi đi qua khối RPN sẽ tác động đến khối nào trước khi đi vào Classifier?
+A. Quay ngược lại Input Image
+B. Trở lại Feature Extractor
+C. Được ánh xạ lên các Feature map để trích xuất các vùng đặc trưng tương ứng
+D. Đi thẳng ra kết quả cuối cùng mà không cần phân loại
 Đáp án: C
-
-Câu 185: Thành tựu đầu tiên và quan trọng nhất của công cuộc đổi mới giai đoạn 1986 - 1990 là gì?
-A. Xuất khẩu dầu thô đứng đầu thế giới
-B. Giải quyết được vấn đề lương thực, từ thiếu ăn sang xuất khẩu gạo
-C. Công nghiệp nặng phát triển vượt bậc
-D. Xóa hết nợ nước ngoài
-Đáp án: B
-
-Câu 186: Ai là Tổng Bí thư của Đảng tại Đại hội VI - người được coi là "Tổng công trình sư" của công cuộc đổi mới?
-A. Lê Duẩn
-B. Nguyễn Văn Linh
-C. Đỗ Mười
-D. Lê Khả Phiêu
-Đáp án: B
-
-Câu 187: Đại hội lần thứ mấy của Đảng khẳng định: "Kinh tế tư nhân là một động lực quan trọng của nền kinh tế"?
-A. Đại hội X
-B. Đại hội XI
-C. Đại hội XII
-D. Đại hội VI
-Đáp án: C
-
